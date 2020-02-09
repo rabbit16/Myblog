@@ -1,0 +1,63 @@
+{% extends 'base_star/base.html' %}
+{% load static %}
+{% block title %}
+文章展示
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="../../static/css/news/news-detail.css">
+{% endblock %}
+{% block portfolio %}
+
+<div class="main-contain">
+      <!-- content start -->
+      <div class="content">
+        <!-- recommend-news start -->
+          <ul class="recommend-news">
+              {% for i in hot_news %}
+                  <li>
+                      <a href="{% url 'news:news_detail' i.news.id %}" target="_blank">
+                          <div class="recommend-thumbnail">
+                              <img src="{{ i.news.image_url }}" alt="title">
+                          </div>
+                          <p class="info">{{ i.news.title }}</p>
+                      </a>
+                  </li>
+
+              {% endfor %}
+
+
+
+          </ul>
+        <!-- recommend-news end -->
+
+        <!--  news-nav start-->
+          <nav class="news-nav">
+              <ul class="clearfix">
+                    {% for t in tags %}
+                  <li><a href="javascript:void(0)" data-id="{{ t.id }}">{{ t.name }}</a></li>
+                {% endfor %}
+              </ul>
+          </nav>
+        <!--  news-nav end -->
+
+        <!-- news-contain start -->
+          <div class="news-contain">
+              <ul class="news-list">
+              </ul>
+          </div>
+        <!-- news-contain end -->
+      </div>
+      <!-- content end -->
+    </div>
+
+{% endblock %}
+
+{% block script %}
+<script src="../../static/css/js/index.js">
+    var func = document.getElementsByClassName('reg')[0];
+    func.onclick = function () {
+
+
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html style="background-image: url('../../static/images/bg.jpg');background-size:100%">
+	<head>
+		<title>Home</title>
+		<link href="../../static/css/stylee.css" rel="stylesheet" type="text/css"  media="all" />
+	</head>
+	<body >
+		<!---start-wrap--->
+		<div class="wrap" style="background-color: transparent;">
+			<!---start-header--->
+			<div class="header">
+				<!---start-logo--->
+			</div>
+			<!---End-header--->
+			<!---start-main---->
+			<div class="main">
+				<!---start-Content---->
+{#                一页只显示四条#}
+				<div class="content">
+					<div class="image-slider">
+						  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+						  <script src="../../static/css/js/jquery.slides.min.js"></script>
+					</div>
+					<div class="clear"> </div>
+                    <a href="{% url 'user:enter' %}" style="font-size: 30px; display: block;position:relative;left: 65%">HOME</a>
+                    <hr style="position: relative;left: 145px">
+                    {% for c in content %}
+                        <div class="Latest-news">
+						<div class="Latest-news-title">
+							<div class="clear"> </div>
+						</div>
+						<div class="blog-articals">
+							<div class="artical"  style="position:relative; left: 150px">
+
+								<div class="artical-box" >
+									<div class="artical-img">
+										<a href="#" style="position: relative;top: 23px;"><img src="{{ c.img_url }}" title="imag-name" /></a>
+									</div>
+									<div class="artical-info">
+                                        <p style="color: white;font-size: 15.7px;text-indent:25px">{{ c.article }}</p>
+                                            <a href="#" style="color: #a8ffbb">Read more...</a>
+									</div>
+									<div class="clear"> </div>
+								</div>
+							</div>
+						</div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+
+					</div>
+                    {% endfor %}
+                    <div class="Latest-news">
+						<div class="Latest-news-title">
+							<h5> </h5>
+							<div class="clear"> </div>
+						</div>
+						<div class="blog-articals">
+							<div class="artical"  style="position:relative; left: 150px">
+								<div class="artical-heading">
+
+								</div>
+								<div class="artical-box" >
+									<div class="artical-img">
+										<a href="#" style="position: relative;top: 23px;"><img src="../../static/images/jichujiaochen.jpeg" title="imag-name" /></a>
+									</div>
+									<div class="artical-info">
+										<p style="color: white;font-size: 15.7px;text-indent:25px">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                            <a href="#" style="color: #a8ffbb">Read more...</a></p>
+									</div>
+									<div class="clear"> </div>
+								</div>
+							</div>
+						</div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+
+					</div>
+                    <div class="Latest-news">
+						<div class="Latest-news-title">
+							<h5> </h5>
+							<div class="clear"> </div>
+						</div>
+						<div class="blog-articals">
+							<div class="artical"  style="position:relative; left: 150px">
+								<div class="artical-heading">
+
+								</div>
+								<div class="artical-box" >
+									<div class="artical-img">
+										<a href="#" style="position: relative;top: 23px;"><img src="../../static/images/jichujiaochen.jpeg" title="imag-name" /></a>
+									</div>
+									<div class="artical-info">
+										<p style="color: white;font-size: 15.7px;text-indent:25px">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                            <a href="#" style="color: #a8ffbb">Read more...</a></p>
+									</div>
+									<div class="clear"> </div>
+								</div>
+							</div>
+						</div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+
+					</div>
+                    <div class="Latest-news">
+						<div class="Latest-news-title">
+							<h5> </h5>
+							<div class="clear"> </div>
+						</div>
+						<div class="blog-articals">
+							<div class="artical"  style="position:relative; left: 150px">
+								<div class="artical-heading">
+
+								</div>
+								<div class="artical-box" >
+									<div class="artical-img">
+										<a href="#" style="position: relative;top: 23px;"><img src="../../static/images/jichujiaochen.jpeg" title="imag-name" /></a>
+									</div>
+									<div class="artical-info">
+										<p style="color: white;font-size: 15.7px;text-indent:25px">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                            <a href="#" style="color: #a8ffbb">Read more...</a></p>
+									</div>
+									<div class="clear"> </div>
+								</div>
+							</div>
+						</div><div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+
+					</div>
+
+                    <a class="button" href="#" style="position: relative;left: 150px;">返回</a>
+
+				</div>
+				<!---End-Content---->
+				<!---start-sidebar---->
+
+			</div>
+			<!---End-main---->
+			</div>
+
+		
+		<!---End-wrap--->
+	
+</body>
+</html>
+

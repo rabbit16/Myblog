@@ -9333,3 +9333,74 @@ INFO 2021-12-07 23:53:25,628 autoreload 251 /Users/jianghaoliang/Desktop/jiangpe
 INFO 2021-12-07 23:53:26,077 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-07 23:53:32,385 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
 INFO 2021-12-07 23:53:32,737 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:04:02,868 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/manage.py changed, reloading.
+INFO 2021-12-08 00:04:03,464 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:04:07,679 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-08 00:04:07,991 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:04:10,596 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:04:11,112 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/manage.py changed, reloading.
+INFO 2021-12-08 00:04:11,420 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:04:39,288 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:05:00,182 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:05:01,581 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-08 00:05:01,608 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-08 00:05:01,611 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-08 00:05:01,614 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-08 00:05:01,615 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-08 00:05:01,623 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-08 00:05:01,625 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+INFO 2021-12-08 00:05:01,630 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-08 00:05:01,631 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-08 00:05:01,631 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+WARNING 2021-12-08 00:05:01,655 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-08 00:05:01,675 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-08 00:05:01,680 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-08 00:05:03,688 basehttp 161 "GET /article/ HTTP/1.1" 200 7388
+INFO 2021-12-08 00:05:03,717 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3470
+INFO 2021-12-08 00:05:03,721 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-08 00:05:03,721 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 31033
+INFO 2021-12-08 00:05:03,745 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-08 00:05:03,748 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 200 1327
+INFO 2021-12-08 00:05:03,750 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-08 00:05:03,751 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-08 00:05:03,751 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-08 00:05:03,755 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-08 00:05:03,755 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-08 00:05:03,755 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-08 00:05:03,756 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-08 00:05:03,758 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-08 00:05:03,758 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-08 00:05:03,758 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-08 00:05:03,759 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-08 00:05:03,759 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-08 00:05:03,776 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 200 10327
+INFO 2021-12-08 00:05:05,298 basehttp 161 "GET /article/detail/11 HTTP/1.1" 200 5232
+INFO 2021-12-08 00:05:05,323 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 6869
+INFO 2021-12-08 00:05:05,326 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-08 00:05:05,329 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-08 00:05:05,345 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-08 00:05:05,354 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-08 00:05:08,027 basehttp 161 "GET /resources/ HTTP/1.1" 200 5481
+INFO 2021-12-08 00:05:16,838 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:05:25,524 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:06:47,802 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:09:14,413 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:13:50,859 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:13:52,469 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-08 00:13:52,540 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-08 00:13:52,546 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-08 00:13:52,552 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-08 00:20:28,541 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-08 00:20:28,890 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:20:35,158 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-08 00:20:35,459 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:20:57,482 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:21:19,752 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:21:23,966 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-08 00:21:25,230 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-08 00:21:25,307 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-08 00:21:25,323 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-08 00:21:25,329 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-08 00:21:29,756 basehttp 161 "GET /article/ HTTP/1.1" 200 7388
+INFO 2021-12-08 00:25:30,555 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-08 00:25:30,856 autoreload 637 Watching for file changes with StatReloader

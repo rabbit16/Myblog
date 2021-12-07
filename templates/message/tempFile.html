@@ -1,0 +1,18 @@
+        <div id="content"></div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+      Function.prototype.getMultiLine = function() {
+    var lines = this.toString();
+    lines = lines.substring(lines.indexOf("/*") + 2, lines.lastIndexOf("*/"));
+    return lines;
+}
+      var ffff = function() {
+    /*
+    {{ article.content }}
+    */
+}
+    var line = ffff.getMultiLine();  {# `{{ article.content }}`
+    document.getElementById('content').innerHTML =
+      marked.parse(ffff.getMultiLine());
+
+  </script>

@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../static/assets/css/main.css" />
+{#		<noscript><link rel="stylesheet" href="../../static/assets/css/noscript.css" /></noscript>#}
+        {% block link %}
+
+        {% endblock %}
+	</head>
+	<body class="is-preload">
+    {% block wrapper %}
+    <!-- Wrapper -->
+			<div id="wrapper">
+            {% block header %}
+            <!-- Header -->
+					<header id="header">
+						<div class="logo">
+                            <a href="/admin/" target="_blank">
+                                <p class="icon fa-gem"></p>
+                            </a>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>兔子</h1>
+								<p>建造者-姜昊良<a href="#">关于我</a> <br />
+                                    <img src="../../static/images/jinwu.png" style="width: 200px;height: 200px" alt="图片丢失">
+								 <a href="#"></a> </p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="{% url 'blog:blog' %}">博客</a></li>
+                                <li><a href="#about">网站建造经历</a></li>
+								<li><a href="#">注册</a></li>
+								<li><a href="#">登录</a></li>
+{#								<li><a href="#elements">Elements</a></li>#}
+							</ul>
+						</nav>
+					</header>
+            {% endblock %}
+
+                {% block main %}
+                <!-- Main -->
+					<div id="main">
+                    {% block intro %}
+                    <!-- Intro -->
+                    {% endblock %}
+
+                    {% block work %}
+                    <!-- Work -->
+                    {% endblock %}
+
+
+                    <!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="../../static/images/pic03.jpg" alt="" /></span>
+								<span>
+                                    f法规规定规范的时光发大发水电费水电费水电费地方dfadf
+                                </span>
+							</article>
+
+                    {% block contact %}
+                    <!-- Contact -->
+                    {% endblock %}
+
+                    {% block elements %}
+                    <!-- Elements -->
+
+                    {% endblock %}
+                    </div>
+
+                {% endblock %}
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; <a href="#" target="_self" title="try">陆工大</a>  <a href="http://www.cssmoban.com/" title="block" target="_blank"></a></p>
+					</footer>
+
+
+			</div>
+    {% endblock %}
+
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+                    <script src="../../static/assets/js/jquery.min.js"></script>
+                    <script src="../../static/assets/js/browser.min.js"></script>
+                    <script src="../../static/assets/js/breakpoints.min.js"></script>
+                    <script src="../../static/assets/js/util.js"></script>
+                    <script src="../../static/assets/js/main.js"></script>
+
+
+	</body>
+</html>

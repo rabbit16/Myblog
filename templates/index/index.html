@@ -1,0 +1,51 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+首页面
+{% endblock %}
+{% block link %}
+
+{% endblock %}
+    <!-- Main -->
+	{% block main %}
+
+	    <div id="main">
+
+                    {% block about %}
+                    <!-- About -->
+							<article id="about">
+								<h2 class="major">About this website</h2>
+								<span class="image main"><img src="../../media/img/lgd.png" alt="" style="height: 150px;width: 150px; position: relative;left: 200px" /></span>
+								<p>&nbsp&nbsp在我学了Django之后，很想实践一下，于是有了自己做一个博客的想法。
+                                    这个网站就是这么来的。
+                                    我拖了很久，之前被js吓到了，后面突然发现，作为主要干后端的事的我来说，完全不要虚js。
+                                    一开始我认为要用一门语言一定要把它学精了，但是现在我发现，其实，我只需要会用这门语言就行。
+                                    精这个东西本来就说不清楚，但语言只是个工具，我只需要能够用它达到我的目的就可以了。
+                                </p>
+							</article>
+                    {% endblock %}
+
+                    {% block contact %}
+                    {% endblock %}
+
+                    {% block elements %}
+                    <!-- Elements -->
+
+                    {% endblock %}
+					</div>
+	{% endblock %}
+
+
+<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy;姜昊良<a href="http://www.cssmoban.com/" target="_blank" title=""></a>  <a href="#" title="block">坚持</a></p>
+					</footer>
+
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+        {% block script %}
+
+        {% endblock %}

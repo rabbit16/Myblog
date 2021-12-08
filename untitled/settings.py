@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'index',
     'blog',
     'resourcesDownload',
-    'notification'
+    'notification',
+    'taggit',
 ]
 
 MIDDLEWARE = [

@@ -17,7 +17,7 @@ class ContextShow(View):
         try:
             articles = articles[0:5]  # 首页就展示前10个文章
         except:
-            pass
+            articles = articles[0:]
         return render(request,'message/article_first.html', context={
             'articles': articles
         })

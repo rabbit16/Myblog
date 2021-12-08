@@ -1,13 +1,16 @@
 from django.db import models
 from django.utils import timezone
+from taggit.managers import TaggableManager
 
 from utils.ModelBases import ModelBase
 from mdeditor.fields import MDTextField
+from taggit.serializers import (TagListSerializerField,
+                                TaggitSerializer)
 # Create your models here.
 
 
 
-class Article(ModelBase):
+class Article(ModelBase, ):
     id = models.IntegerField(verbose_name='文章ID', help_text="文章ID", primary_key=True, auto_created=True)
     title = models.CharField(verbose_name='文章标题',help_text='文章标题',max_length=150)
     content = MDTextField(verbose_name='文章内容',help_text='文章标题')
@@ -20,8 +23,9 @@ class Article(ModelBase):
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
     # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
+    tags = TaggableManager(blank=True)
     class Meta:
-        ordering=['-update_time','-id']
+        ordering = ['-update_time', '-id']
         db_table = 'tb_article'
         verbose_name = '文章'
         verbose_name_plural = verbose_name

@@ -1,13 +1,9 @@
 from django.db import models
 from django.utils import timezone
 from taggit.managers import TaggableManager
-
 from utils.ModelBases import ModelBase
 from mdeditor.fields import MDTextField
-from taggit.serializers import (TagListSerializerField,
-                                TaggitSerializer)
 # Create your models here.
-
 
 
 class Article(ModelBase, ):
@@ -34,7 +30,7 @@ class Article(ModelBase, ):
         return self.title
 
 class Tag(models.Model):
-    tag_name = models.CharField(verbose_name='标签',help_text='输入标签',max_length=64)
+    tag_name = models.CharField(verbose_name='标签', help_text='输入标签',max_length=64)
     tag_id = models.IntegerField(verbose_name='标签ID', help_text="标签ID", primary_key=True, auto_created=True)
     a_id = models.ManyToManyField('Article', through='AuthorAndTag')
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)

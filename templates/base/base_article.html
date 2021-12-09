@@ -1,7 +1,6 @@
 {% load static %}
 <!doctype html>
 <html>
-<meta name="description" content="XXX个人博客，本站会给大家不定时更新关于web前端的一些小技巧。如大家有不懂得问题，也可以与我们联系，我们会尽力帮助您。">
 <head>
     {% block link %}
         <link rel="shortcut icon" href="../../static/images/logo.png">
@@ -15,14 +14,6 @@
         <script type="text/javascript" src="../../static/js/jquery.js"></script>
     {% endblock %}
 <meta charset="utf-8">
-<meta name="author" content="order by dede58.com/" />
-
-<meta name="keywords" content="个人博客" />
-<meta name="keywords" content="博客搭建" />
-<meta name="keywords" content="博客网站" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="baidu-site-verification" content="CtYt4injW1" />
-<meta name="360-site-verification" content="a75dcb147688915b4cc7cfaa71e996a2" />
 <title>兔子🐰</title>
 <meta name="keywords" content="兔子🐰个人博客" />
 
@@ -59,9 +50,10 @@
                 </li>
                 <li><a href="{% url 'notification:noti' %}">网站公告</a>
                 </li>
+                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
                 <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
                 <li><a href="404.html">给我留言</a> </li>
-                <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
+
               {% endblock %}
 
           </ul>
@@ -159,8 +151,8 @@
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 </style>
 <div class="copyrights" id="links20210126">
-	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
-	<a href="https://www.chazidian.com/"  title="查字典">查字典</a>
+	Collect from <a href="http://www.cssmoban.com/"  title="">xxxx</a>
+	<a href="https://www.chazidian.com/"  title="xxx">xxxx</a>
 </div>
 </body>
 </html>

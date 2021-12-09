@@ -1,6 +1,7 @@
 import json
 import math
 
+from django.core import serializers
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
@@ -8,7 +9,7 @@ from django.views import View
 from blog import models
 import markdown
 # Create your views here.
-page_show_num = 2
+page_show_num = 4
 tag_show_num = 8
 class ContextShow(View):
     def get(self, request):
@@ -92,6 +93,7 @@ class ArticleListDetailByTag(View):
         except:
             articles = models.Article.objects.filter(tags__name__in=[tag_name])[(page_num - 1) * page_show_num:]
         articles = self.convert_to_dicts(articles)
+        # json_data = serializers.serialize("json", MyModel.objects.all())
         articles_dict = {
             'articles': articles,
             'page_num': page_all,
@@ -99,8 +101,6 @@ class ArticleListDetailByTag(View):
             'page_now': page_num,
             'tag_id': tag_id,
             'page_tag_list': 1,
-            'final_page': [1,1],
-            'first_page': [1,1],
             'every_page_show': page_show_num
         }
         # return render(request, 'message/article_list.html', context=articles_dict)
@@ -114,7 +114,11 @@ class ArticleListDetailByTag(View):
             # 把Object对象转换成Dict
             dict = {}
             dict.update(o.__dict__)
+            # dict['create_time']
             dict.pop("_state", None)  # 去除掉多余的字段
+            time = dict['create_time'].timetuple()
+
+            dict['create_time'] = str(time[0])+'年' + str(time[1])+"月"+str(time[2])+"日" + " " + dict['create_time'].strftime("%H:%M")
             obj_arr.append(dict)
 
         return obj_arr

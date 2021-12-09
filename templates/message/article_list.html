@@ -229,7 +229,7 @@
         <p> ${res.articles[i].abstract}</p>
         <a id ="${res.articles[i].id}" title="${res.articles[i].title}" href="/article/detail/${res.articles[i].id}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
       </ul>
-      <p class="dateview"><span>${res.articles[i].create_time}</span><span>作者：${res.articles[i].author_name}</span></p>
+      <p class="dateview"><span>${res.articles[i].create_time.replace('T', '年')}</span><span>作者：${res.articles[i].author_name}</span></p>
 
     `
             }

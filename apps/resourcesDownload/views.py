@@ -3,15 +3,11 @@ import math
 from django.shortcuts import render
 from django.views import View
 from resourcesDownload.models import *
-import logging
 
 # Create your views here.
 class Resource(View):
+
     def get(self, request):
-        # try:
-        #     tag = Tag.objects.all()[(page_num-1)*8: page_num*8]
-        # except:
-        #     tag = Tag.objects.all()[(page_num-1)*8:]
         tag = Tag.objects.all()[:8]
         all_obj = Tag.objects.count()
         pag_num = math.ceil(Tag.objects.count()/8)

@@ -5,7 +5,7 @@ from utils.ModelBases import ModelBase
 from mdeditor.fields import MDTextField
 # Create your tests here.
 
-class Resource(ModelBase, ):
+class Resource(ModelBase):
     id = models.IntegerField(verbose_name='资源ID', help_text="资源ID", primary_key=True, auto_created=True)
     title = models.CharField(verbose_name='资源标题', help_text='资源标题', max_length=150)
     abstract = models.TextField(verbose_name='摘要', help_text='资源标签', default=None)

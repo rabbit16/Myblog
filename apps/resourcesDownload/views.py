@@ -2,7 +2,7 @@ import math
 
 from django.shortcuts import render
 from django.views import View
-from blog.models import *
+from resourcesDownload.models import *
 import logging
 
 # Create your views here.

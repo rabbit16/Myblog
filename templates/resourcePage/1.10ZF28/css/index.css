@@ -1,4 +1,4 @@
-/*dede58.com ×ö×îºÃµÄÖ¯ÃÎÕûÕ¾Ä£°åÏÂÔØÍøÕ¾*/
+/*dede58.com ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ö¯ï¿½ï¿½ï¿½ï¿½Õ¾Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¾*/
 @charset "gb2312";
 .container {
 	background: #e5e5e5;
@@ -16,7 +16,7 @@ input{
 color:#000;
 }
 
-/* çƒ­é—¨è¯„è®º/æœ€æ–°è¯„è®?- ä¸‹è¾¹çº?*/
+/* çƒ­é—¨è¯„è®º/æœ€æ–°è¯„ï¿½?- ä¸‹è¾¹ï¿½?*/
 #SOHUCS #SOHU_MAIN #SOHU-comment-main .section-list-w .block-title-gw ul{
 border-bottom:2px solid #88abc3;
 background-color:transparent;
@@ -255,4 +255,10 @@ color:#000;
 #SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-gw a,
 #SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a{
 color:#000;
+}
+.next_page {
+	position: absolute;
+	height: auto;
+	margin: auto;
+	width: 1000px;
 }

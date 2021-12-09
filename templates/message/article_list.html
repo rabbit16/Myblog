@@ -1,0 +1,255 @@
+{% extends 'base/base_article.html' %}
+
+{% load static %}
+{% block link %}
+    <link rel="stylesheet" href="../../static/css/main.css">
+    <link href="../../static/css/base.css" rel="stylesheet">
+        <link href="../../static/css/index.css" rel="stylesheet">
+
+{% endblock %}
+
+{% block next_page %}
+    <div class="pagelist">页次：<span id="now">1</span>/{{ page_num }} 每页{{ every_page_show }}条 总数{{ all_num }}<a href="javascript:void(0)" id="first_page">首页</a><a href="javascript:void(0)" target="_self" id="back_page">上一页</a><a href="javascript:void(0)" id="next_page">下一页</a>
+        <a href="javascript:void(0)" id="final_page">尾页</a></div>
+
+{% endblock %}
+
+{% block comment %}
+    <div class="comment" style="position: relative; height: 166px;">
+
+    </div>
+{% endblock %}
+{% block script_next %}
+    <script type="text/javascript">
+        {#let button_click = $("#next_page");#}
+        let next_page = $("#next_page")
+        let back_page = $("#back_page")
+        let first_page = $("#first_page")
+        let final_page = $("#final_page")
+        let now_page = $("#now").text()
+        let head_go = 0;
+        console.log(now_page)
+        console.log(now_page)
+        SdataParams = {
+            "page_num": now_page,
+            "tag_id" : {{ tag_id }}
+        }
+        next_page.click(function () {
+        // 向后端发送请求
+
+        $.ajax({
+          // 请求地址
+          url: "{{ tag_id }}",
+          // 请求方式
+          type: "POST",
+          data: JSON.stringify(SdataParams),
+          // 请求内容的数据类型（前端发给后端的格式）
+          contentType: "application/json; charset=utf-8",
+          // 响应数据的格式（后端返回给前端的格式）
+          dataType: "json",
+        }).done(function (res) {
+            console.log(res.articles);
+            {#$(".bloglist, .fl").html('')#}
+            let items = ''
+            for (let i = 0; i < res.articles.length; i++) {
+                console.log(res.articles[i])
+                items += `
+      <h3><a href="/article/detail/${res.articles[i].id}" target="_self">${res.articles[i].title}</a></h3>
+      <figure><img src="${res.articles[i].img_url}" alt=""></figure>
+      <ul>
+        <p> ${res.articles[i].abstract}</p>
+        <a id ="${res.articles[i].id}" title="${res.articles[i].title}" href="/article/detail/${res.articles[i].id}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>${res.articles[i].create_time}</span><span>作者：${res.articles[i].author_name}</span></p>
+
+    `
+            }
+            $(".bloglist, .fl").html(items)
+            $('#now').html(`<span id="now">${res.page_now}</span>`)
+            let now_page = $("#now").text()
+            console.log(now_page)
+            console.log(now_page)
+            SdataParams = {
+                "page_num": now_page,
+                "tag_id" : {{ tag_id }}
+            }
+            {#page_now++;#}
+
+        })
+            .fail(function (res){
+                console.log('wokso')
+                console.log(res.articles)
+            })
+      });
+        back_page.click(function () {
+        // 向后端发送请求
+            let now_page = $("#now").text()
+            SdataParams = {
+            "page_num": now_page-2,
+            "tag_id" : {{ tag_id }}
+        }
+            if (1>=Number(now_page))
+            {
+                console.log("在首页")
+                return null
+            }
+        $.ajax({
+          // 请求地址
+          url: "{{ tag_id }}",
+          // 请求方式
+          type: "POST",
+          data: JSON.stringify(SdataParams),
+          // 请求内容的数据类型（前端发给后端的格式）
+          contentType: "application/json; charset=utf-8",
+          // 响应数据的格式（后端返回给前端的格式）
+          dataType: "json",
+        }).done(function (res) {
+            console.log(res.articles);
+            {#$(".bloglist, .fl").html('')#}
+            let items = ''
+            for (let i = 0; i < res.articles.length; i++) {
+                console.log(res.articles[i])
+                items += `
+      <h3><a href="/article/detail/${res.articles[i].id}" target="_self">${res.articles[i].title}</a></h3>
+      <figure><img src="${res.articles[i].img_url}" alt=""></figure>
+      <ul>
+        <p> ${res.articles[i].abstract}</p>
+        <a id ="${res.articles[i].id}" title="${res.articles[i].title}" href="/article/detail/${res.articles[i].id}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>${res.articles[i].create_time}</span><span>作者：${res.articles[i].author_name}</span></p>
+
+    `
+            }
+            $(".bloglist, .fl").html(items)
+            $('#now').html(`<span id="now">${res.page_now}</span>`)
+            let now_page = $("#now").text()
+            console.log(now_page)
+            console.log(now_page)
+            SdataParams = {
+                "page_num": now_page,
+                "tag_id" : {{ tag_id }}
+            }
+            {#page_now++;#}
+
+        })
+            .fail(function (res){
+                console.log('wokso')
+                console.log(res.articles)
+            })
+      });
+        first_page.click(function () {
+        // 向后端发送请求
+            {#let now_page = $("#now").text()#}
+            head_go = 1
+            SdataParams = {
+            "page_num": 0,
+            "tag_id" : {{ tag_id }}
+        }
+            if (1>=Number(now_page) && head_go!==1)
+            {
+                console.log("在首页")
+                return null
+            }
+        $.ajax({
+          // 请求地址
+          url: "{{ tag_id }}",
+          // 请求方式
+          type: "POST",
+          data: JSON.stringify(SdataParams),
+          // 请求内容的数据类型（前端发给后端的格式）
+          contentType: "application/json; charset=utf-8",
+          // 响应数据的格式（后端返回给前端的格式）
+          dataType: "json",
+        }).done(function (res) {
+            console.log(res.articles);
+            {#$(".bloglist, .fl").html('')#}
+            let items = ''
+            for (let i = 0; i < res.articles.length; i++) {
+                console.log(res.articles[i])
+                items += `
+      <h3><a href="/article/detail/${res.articles[i].id}" target="_self">${res.articles[i].title}</a></h3>
+      <figure><img src="${res.articles[i].img_url}" alt=""></figure>
+      <ul>
+        <p> ${res.articles[i].abstract}</p>
+        <a id ="${res.articles[i].id}" title="${res.articles[i].title}" href="/article/detail/${res.articles[i].id}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>${res.articles[i].create_time}</span><span>作者：${res.articles[i].author_name}</span></p>
+
+    `
+            }
+            $(".bloglist, .fl").html(items)
+            $('#now').html(`<span id="now">${res.page_now}</span>`)
+            let now_page = $("#now").text()
+            console.log(now_page)
+            console.log(now_page)
+            SdataParams = {
+                "page_num": now_page,
+                "tag_id" : {{ tag_id }}
+            }
+            head_go=0;
+            {#page_now++;#}
+
+        })
+            .fail(function (res){
+                console.log('wokso')
+                console.log(res.articles)
+            })
+      });
+        final_page.click(function () {
+        // 向后端发送请求
+            {#let now_page = $("#now").text()#}
+            console.log({{ page_num}})
+            {#let final_page = $()#}
+            SdataParams = {
+            "page_num": {{page_num}},
+            "tag_id" : {{ tag_id }},
+            "final":1
+        }
+
+        $.ajax({
+          // 请求地址
+          url: "{{ tag_id }}",
+          // 请求方式
+          type: "POST",
+          data: JSON.stringify(SdataParams),
+          // 请求内容的数据类型（前端发给后端的格式）
+          contentType: "application/json; charset=utf-8",
+          // 响应数据的格式（后端返回给前端的格式）
+          dataType: "json",
+        }).done(function (res) {
+            console.log(res.articles);
+            {#$(".bloglist, .fl").html('')#}
+            let items = ''
+            for (let i = 0; i < res.articles.length; i++) {
+                console.log(res.articles[i])
+                items += `
+      <h3><a href="/article/detail/${res.articles[i].id}" target="_self">${res.articles[i].title}</a></h3>
+      <figure><img src="${res.articles[i].img_url}" alt=""></figure>
+      <ul>
+        <p> ${res.articles[i].abstract}</p>
+        <a id ="${res.articles[i].id}" title="${res.articles[i].title}" href="/article/detail/${res.articles[i].id}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>${res.articles[i].create_time}</span><span>作者：${res.articles[i].author_name}</span></p>
+
+    `
+            }
+            $(".bloglist, .fl").html(items)
+            $('#now').html(`<span id="now">{{ page_num }}</span>`)
+            let now_page = $("#now").text()
+            console.log(now_page)
+            console.log(now_page)
+            SdataParams = {
+                "page_num": now_page,
+                "tag_id" : {{ tag_id }}
+            }
+            {#page_now++;#}
+
+        })
+            .fail(function (res){
+                console.log('wokso')
+                console.log(res.articles)
+            })
+      });
+
+    </script>
+{% endblock %}

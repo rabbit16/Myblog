@@ -87,8 +87,6 @@ window.Modernizr = (function( window, document, undefined ) {
 
     },
 
-
-
     isEventSupported = (function() {
 
       var TAGNAMES = {

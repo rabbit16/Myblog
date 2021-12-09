@@ -1,5 +1,16 @@
 {% extends 'base/base_article.html' %}
 
+{% load static %}
+{% block link %}
+{#    <link rel="stylesheet" href="../../static/css/main.css">#}
+    <link href="../../static/css/base.css" rel="stylesheet">
+        <link href="../../static/css/index.css" rel="stylesheet">
+
+{% endblock %}
+
+{#{% block next_page %}#}
+{#    <div class="pagelist_article">页次：{{ now_page }}/{{ page_num }} 每页8条 总数{{ all_num }}<a href="#">首页</a><a href="#" target="_self">上一页</a><a href="#">下一页</a><a href="#">尾页</a></div>#}
+{#{% endblock %}#}
 
 {% block comment %}
     <div class="comment" style="position: relative; height: 166px;">

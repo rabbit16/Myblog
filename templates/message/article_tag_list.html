@@ -72,9 +72,14 @@
       <div class="lispic">
         <ul>
             {% for tag in tags %}
-                <li><a href="{% url 'blog:article_list' tag.tag_id%}"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
+                <li data-tag-id="{{ tag.tag_id }}" class="show_tag"><a href="{% url 'blog:article_list' tag.tag_id%}" target="_blank"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
             {% endfor %}
 
+        {% block script_tag %}
+            <script type="text/javascript">
+                console.log(window.document.getElementsByClassName('show_tag').getAttribute('data-tag-id'))
+            </script>
+        {% endblock %}
 
         </ul>
       </div>

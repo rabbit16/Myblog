@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="../../static/css/main.css">
     <link href="../../static/css/base.css" rel="stylesheet">
         <link href="../../static/css/index.css" rel="stylesheet">
+        <link href="../../static/css/article_next_button.css" rel="stylesheet">
 
 {% endblock %}
 
 {% block next_page %}
-    <div class="pagelist">页次：<span id="now">1</span>/{{ page_num }} 每页{{ every_page_show }}条 总数{{ all_num }}<a href="javascript:void(0)" id="first_page">首页</a><a href="javascript:void(0)" target="_self" id="back_page">上一页</a><a href="javascript:void(0)" id="next_page">下一页</a>
-        <a href="javascript:void(0)" id="final_page">尾页</a></div>
+    <div class="pagelist">页次：<span id="now">1</span>/{{ page_num }} 每页{{ every_page_show }}条 总数{{ all_num }}<a href="#" id="first_page">首页</a><a href="#" target="_self" id="back_page">上一页</a><a href="#" id="next_page">下一页</a>
+        <a href="#" id="final_page">尾页</a></div>
 
 {% endblock %}
 

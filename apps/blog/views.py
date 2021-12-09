@@ -9,7 +9,7 @@ from django.views import View
 from blog import models
 import markdown
 # Create your views here.
-page_show_num = 4
+page_show_num = 2
 tag_show_num = 8
 class ContextShow(View):
     def get(self, request):

@@ -87,12 +87,14 @@
       <figure><img src="{{ article.img_url }}" alt=""></figure>
       <ul>
         <p> {{ article.abstract }}</p>
-        <a id ="{{ article.id }}" title="{{ article.title }}" href="{% url 'blog:article' a_id=article.id%}" target="_self" class="readmore">阅读全文&gt;&gt;</a>
+        <a id ="{{ article.id }}" title="{{ article.title }}" href="{% url 'blog:article' a_id=article.id%}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
       </ul>
       <p class="dateview"><span>{{ article.create_time }}</span><span>作者：{{ article.author_name }}</span></p>
 
     {% endfor %}
-
+    {% block script_tag %}
+    
+    {% endblock %}
 
 
     </div>

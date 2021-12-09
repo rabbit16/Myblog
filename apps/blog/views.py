@@ -10,13 +10,6 @@ import markdown
 # Create your views here.
 page_show_num = 2
 tag_show_num = 8
-class Article(View):
-    def get(self, request):
-        news = models.Article.objects.filter(is_delete=False)[0]
-        return render(request, 'message/../../templates/废了/articles.html', context={
-            'news': news
-        })
-
 class ContextShow(View):
     def get(self, request):
         articles = models.Article.objects.filter(is_delete=False)

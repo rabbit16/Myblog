@@ -15,7 +15,7 @@ class ContextShow(View):
     def get(self, request):
         articles = models.Article.objects.filter(is_delete=False)
         try:
-            articles = articles[0:5]  # 首页就展示前5个文章
+            articles = articles[0:page_show_num]  # 首页就展示前page_show_num个文章
         except:
             articles = articles[0:]
         return render(request,'message/article_first.html', context={
@@ -24,7 +24,7 @@ class ContextShow(View):
 
 class ArticleContentShow(View):
     def get(self, request, a_id):
-        news = models.Article.objects.filter(is_delete=False)[a_id-1]
+        news = models.Article.objects.filter(is_delete=False).reverse()[a_id-1]
         news.content = markdown.markdown(news.content, extensions=[
             'markdown.extensions.extra',
             'markdown.extensions.codehilite',  # 语法高亮拓展

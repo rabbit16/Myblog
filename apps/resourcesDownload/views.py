@@ -5,12 +5,13 @@ from django.views import View
 from resourcesDownload.models import *
 
 # Create your views here.
+page_show_every_page = 4
 class Resource(View):
 
     def get(self, request):
-        tag = Tag.objects.all()[:8]
+        tag = Tag.objects.all()[:page_show_every_page]
         all_obj = Tag.objects.count()
-        pag_num = math.ceil(Tag.objects.count()/8)
+        pag_num = math.ceil(Tag.objects.count()/page_show_every_page)
         now_page = 1
         tag_dict = {
             'tags': tag,
@@ -23,13 +24,13 @@ class Resource(View):
 class ResourcePageShow(View):
     def get(self, request, page_num):
         all_obj = Tag.objects.count()
-        page_all = math.ceil(Tag.objects.count() / 8)
+        page_all = math.ceil(Tag.objects.count() / page_show_every_page)
         if page_num <= 0 or page_num > page_all:
             page_num = 1
         try:
-            tag = Tag.objects.all()[(page_num-1)*8: page_num*8]
+            tag = Tag.objects.all()[(page_num-1)*page_show_every_page: page_num*page_show_every_page]
         except:
-            tag = Tag.objects.all()[(page_num-1)*8:]
+            tag = Tag.objects.all()[(page_num-1)*page_show_every_page:]
         tag_dict = {
             'tags': tag,
             'page_num': page_all,
@@ -41,11 +42,11 @@ class ResourcePageShow(View):
 # class ResourcePageJianShow(View):
 #     def get(self, request, page_num=1):
 #         try:
-#             tag = Tag.objects.all()[(page_num-1)*8: page_num*8]
+#             tag = Tag.objects.all()[(page_num-1)*page_show_every_page: page_num*page_show_every_page]
 #         except:
-#             tag = Tag.objects.all()[(page_num-1)*8:]
+#             tag = Tag.objects.all()[(page_num-1)*page_show_every_page:]
 #         all_obj = Tag.objects.count()
-#         pag_num = math.ceil(Tag.objects.count() / 8)
+#         pag_num = math.ceil(Tag.objects.count() / page_show_every_page)
 #         tag_dict = {
 #             'tags': tag,
 #             'page_num': pag_num-1,

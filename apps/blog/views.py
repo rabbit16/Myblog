@@ -3,6 +3,7 @@ import math
 import logging
 from django.core import serializers
 from django.http import JsonResponse, HttpResponse
+from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
@@ -38,17 +39,24 @@ class ArticleContentShow(View):
 
 class ArticleListByTag(View):
     def get(self, request):
-        tag = models.Tag.objects.all()[:tag_show_num]
-        all_obj = models.Tag.objects.count()
-        pag_num = math.ceil(models.Tag.objects.count() / tag_show_num)
         now_page = 1
+        next_page = request.GET.get("page_num")
+        if next_page:
+            now_page = next_page
+        tag = models.Tag.objects.all()
+        all_show_project = Paginator(tag, tag_show_num)
+        all_obj = models.Tag.objects.count()
+        pag_num = all_show_project.num_pages
+
         tag_dict = {
-            'tags': tag,
+            'tags': all_show_project.get_page(now_page),
             'page_num': pag_num,
             'all_num': all_obj,
-            'now_page': now_page
+            'now_page': now_page,
+            "page_every_show": page_show_num
         }
         return render(request, 'message/article_tag_list.html', context=tag_dict)
+
 
 class ArticleListDetailByTag(View):
     @csrf_exempt
@@ -77,6 +85,7 @@ class ArticleListDetailByTag(View):
     @csrf_exempt
     def post(self, request, tag_id):
         final_page_flag = 0
+        to_page_flag = 0
         tag_name = models.Tag.objects.all()[tag_id-1].tag_name
         all_num = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_all = math.ceil(all_num / page_show_num)
@@ -86,6 +95,13 @@ class ArticleListDetailByTag(View):
             final_page_flag = json.loads(request.body)['final']
         except:
             pass
+        try:
+            to_page_flag = json.loads(request.body)['toPage']
+        except:
+            pass
+        if to_page_flag:
+            page_num = to_page_flag
+
         if (page_num <= 0 or page_num > page_all) and final_page_flag != 1:
             page_num = 1
         if final_page_flag:

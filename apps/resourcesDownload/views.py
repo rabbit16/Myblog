@@ -51,6 +51,8 @@ class SpecificResource(View):
         resource = Resource.objects.filter(tags__name__in=[tag_name])
         page_obj_all = Paginator(resource, page_show_every_page)
         page_go = 0
+        if request.GET.get('page_to'):
+            page_go = int(request.GET.get('page_to'))
         if request.GET.get('page_up'):
             page_go = int(request.GET.get('page_up')) + 1
         elif request.GET.get('page_down'):

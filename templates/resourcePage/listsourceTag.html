@@ -41,7 +41,7 @@
                 </li>
                 <li><a href="{% url 'notification:noti' %}">网站公告</a>
                 </li>
-                   <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
+                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
                 <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
                 <li><a href="404.html">给我留言</a> </li>
 
@@ -72,26 +72,21 @@
       <div class="lispic">
         <ul>
             {% for tag in tags %}
-                <li data-tag-id="{{ tag.tag_id }}" class="show_tag"><a href="{% url 'blog:article_list' tag.tag_id%}" target="_blank"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
+                <li><a href="{% url 'resource:resource_list' tag_name=tag.tag_name %}"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
             {% endfor %}
 
-        {% block script_tag %}
-            <script type="text/javascript">
-                console.log(window.document.getElementsByClassName('show_tag').getAttribute('data-tag-id'))
-            </script>
-        {% endblock %}
 
         </ul>
       </div>
-    {% if now_page > page_num %}
-        <div class="pagelist">页次：{{ now_page }}/{{ page_num }} 每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="#" target="_self">上一页</a><a href="{% url 'resource:page_change' page_num=1%}">下一页</a><a href="{% url 'resource:page_change' page_num=1%}">尾页</a></div>
-      <p>由于本站功能正在开发，相册暂时只有一张图片</p>
-    {% endif %}
+{#    {{ page_next }} = {{ page_num }} + 1#}
       <div class="pagelist">页次：{{ now_page }}/{{ page_num }} 每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="{% url 'resource:page_change' page_num=now_page|add:-1%}">上一页</a><a href="{% url 'resource:page_change' page_num=now_page|add:1%}">下一页</a><a href="{% url 'resource:page_change' page_num=page_num%}">尾页</a></div>
     </div>
   </div>
 
 </div>
+    {% endblock %}
+    {% block comment %}
+        <div class="comment" style="position: relative; height: 180px;"></div>
     {% endblock %}
 </div>
 <!--百度推送代码-->

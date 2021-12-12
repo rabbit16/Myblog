@@ -1,0 +1,55 @@
+{% extends 'base/base_article.html' %}
+{% load static %}
+
+{% block link %}
+    <link href="../../static/css/base.css" rel="stylesheet">
+    <link href="../../static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
+    <!--[if lt IE 9]>
+
+{% endblock %}
+{% block script %}
+     <script src="../../static/js/modernizr.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../static/js/jquery.js"></script>
+    <script src="../../static/js/shang.js"></script>
+{% endblock %}
+{% block container %}
+
+    <div class="container">
+    <div class="con_content">
+      <div class="about_box">
+        <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">文章展示</a>>><a href="#" target="_blank">{{ article.title }}</a></span><b>{{ article.title }}</b></h2>
+        <div class="f_box">
+          <p class="a_title"></p>
+          <p class="p_title"></p>
+            <p class="box_p"><span>发布时间：{{ article.create_time }}</span><span>作者：{{ article.author_name }}</span><span>来源：<a
+                    href="{{ article.source }}">点击前往</a></span><span>点击数量：{{ article.click }}</span></p>
+          <!-- 可用于内容模板 -->
+        </div>
+        <ul class="about_content">
+            <div class="blog-context">{{ article.content | safe }}</div>
+
+        </ul>
+          <a href="#" target="_top">返回顶部</a>
+
+
+
+        <!-- container代码 结束 -->
+
+          <div class="shang_a">
+              <div class="one"></div>
+              <div class="two"><img src="../../static/images/wexin.jpeg" alt="" width="200" height="200"></div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="blank"></div>
+  </div>
+{% endblock %}
+{% block comment %}
+    <div class="comment" style="position: relative; height: 180px;">
+
+</div>
+{% endblock %}

@@ -15729,3 +15729,1465 @@ INFO 2021-12-10 06:29:48,311 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/
 INFO 2021-12-10 06:29:48,312 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
 INFO 2021-12-10 06:29:48,314 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
 INFO 2021-12-10 06:29:51,931 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4368
+INFO 2021-12-10 06:46:27,662 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 06:46:33,796 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-10 06:46:33,809 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-10 06:46:33,811 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-10 06:46:33,818 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-10 06:46:33,831 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-10 06:46:33,832 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-10 06:46:33,832 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-10 06:46:33,833 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-10 06:46:33,835 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-10 06:46:34,288 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-10 06:46:34,290 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-10 06:46:34,316 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 06:46:34,326 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 06:46:34,334 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 06:46:39,904 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 06:46:39,959 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 06:46:39,994 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 06:46:40,006 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+WARNING 2021-12-10 06:46:40,070 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 06:46:40,076 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 06:46:40,085 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 06:46:46,266 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 06:46:46,285 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-10 06:46:46,309 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-10 06:46:46,309 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 200 1327
+INFO 2021-12-10 06:46:46,312 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-10 06:46:46,313 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-10 06:46:46,313 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-10 06:46:46,315 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-10 06:46:46,315 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-10 06:46:46,316 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-10 06:46:52,069 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-10 06:46:56,313 basehttp 161 "GET /resources/ HTTP/1.1" 200 4368
+INFO 2021-12-10 07:01:46,485 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:01:46,780 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:02:00,229 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:02:00,531 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:02:07,766 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:02:08,052 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:08:18,102 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:08:18,395 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:09:17,047 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:09:17,356 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:09:19,373 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 07:09:19,462 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 07:09:19,473 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 07:09:19,484 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 07:09:21,015 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 07:09:22,480 basehttp 161 "GET /resources/ HTTP/1.1" 200 4368
+INFO 2021-12-10 07:09:30,962 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4377
+INFO 2021-12-10 07:09:31,857 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4368
+INFO 2021-12-10 07:09:45,651 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:09:45,946 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:09:46,563 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4368
+INFO 2021-12-10 07:09:48,340 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4377
+INFO 2021-12-10 07:09:48,824 basehttp 161 "GET /resources/page/3 HTTP/1.1" 200 4368
+INFO 2021-12-10 07:09:49,256 basehttp 161 "GET /resources/page/4 HTTP/1.1" 200 4377
+INFO 2021-12-10 07:09:49,761 basehttp 161 "GET /resources/page/5 HTTP/1.1" 200 4248
+INFO 2021-12-10 07:46:21,451 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/urls.py changed, reloading.
+INFO 2021-12-10 07:46:21,756 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:46:21,942 basehttp 161 "GET /resources/page/5 HTTP/1.1" 200 4314
+INFO 2021-12-10 07:46:23,188 basehttp 161 "GET /resources/ HTTP/1.1" 200 4456
+ERROR 2021-12-10 07:46:24,878 log 230 Internal Server Error: /resources/page/测试
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 45, in get
+    resource = Resource.objects.filter(tags__name__in=tag_name, is_delete=False)
+AttributeError: type object 'Resource' has no attribute 'objects'
+ERROR 2021-12-10 07:46:24,878 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 500 73957
+INFO 2021-12-10 07:47:24,768 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/urls.py changed, reloading.
+INFO 2021-12-10 07:47:25,064 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-10 07:47:26,346 log 230 Internal Server Error: /resources/page/测试
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 49, in get
+    return render(request, 'resourcePage/listsource.html', context=resource_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'page_change' with keyword arguments '{'page_num': ''}' not found. 1 pattern(s) tried: ['resources\\/page\\/(?P<page_num>[0-9]+)$']
+ERROR 2021-12-10 07:47:26,347 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 500 206840
+INFO 2021-12-10 07:47:50,606 basehttp 161 "GET /resources/ HTTP/1.1" 200 4456
+ERROR 2021-12-10 07:47:53,290 log 230 Internal Server Error: /resources/page/测试
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 49, in get
+    return render(request, 'resourcePage/listsource.html', context=resource_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'page_change' with keyword arguments '{'page_num': ''}' not found. 1 pattern(s) tried: ['resources\\/page\\/(?P<page_num>[0-9]+)$']
+ERROR 2021-12-10 07:47:53,291 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 500 206703
+INFO 2021-12-10 07:49:01,375 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 07:49:01,761 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-12-10 07:49:02,740 log 230 Not Found: /resources/page/测试
+WARNING 2021-12-10 07:49:02,740 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 404 3389
+ERROR 2021-12-10 07:49:16,637 log 230 Internal Server Error: /resources/page/测试/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 49, in get
+    return render(request, 'resourcePage/listsource.html', context=resource_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'page_change' with keyword arguments '{'page_num': ''}' not found. 1 pattern(s) tried: ['resources\\/page\\/(?P<page_num>[0-9]+)$']
+ERROR 2021-12-10 07:49:16,638 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95/1 HTTP/1.1" 500 206975
+ERROR 2021-12-10 07:50:26,092 log 230 Internal Server Error: /resources/page/测试/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 49, in get
+    return render(request, 'resourcePage/listsource.html', context=resource_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'page_change' with keyword arguments '{'page_num': ''}' not found. 1 pattern(s) tried: ['resources\\/page\\/(?P<page_num>[0-9]+)$']
+ERROR 2021-12-10 07:50:26,093 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95/1 HTTP/1.1" 500 205561
+INFO 2021-12-10 07:51:35,004 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95/1 HTTP/1.1" 200 3820
+WARNING 2021-12-10 07:51:35,051 log 230 Not Found: /resources/static/css/base.css
+WARNING 2021-12-10 07:51:35,053 log 230 Not Found: /resources/static/css/main.css
+WARNING 2021-12-10 07:51:35,053 basehttp 161 "GET /resources/static/css/main.css HTTP/1.1" 404 3401
+WARNING 2021-12-10 07:51:35,054 basehttp 161 "GET /resources/static/css/base.css HTTP/1.1" 404 3401
+WARNING 2021-12-10 07:51:35,061 log 230 Not Found: /resources/static/js/jquery.js
+WARNING 2021-12-10 07:51:35,062 log 230 Not Found: /resources/static/js/shang.js
+WARNING 2021-12-10 07:51:35,063 basehttp 161 "GET /resources/static/js/jquery.js HTTP/1.1" 404 3401
+WARNING 2021-12-10 07:51:35,063 basehttp 161 "GET /resources/static/js/shang.js HTTP/1.1" 404 3398
+INFO 2021-12-10 07:54:18,619 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/urls.py changed, reloading.
+INFO 2021-12-10 07:54:18,907 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:56:10,567 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3820
+INFO 2021-12-10 07:58:36,606 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 07:58:38,644 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:02:08,456 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:02:09,198 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:02:09,276 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:02:09,288 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:02:09,301 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:02:10,824 basehttp 161 "GET /admin/ HTTP/1.1" 200 7539
+INFO 2021-12-10 08:02:10,838 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-12-10 08:02:10,838 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-12-10 08:02:10,839 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-12-10 08:02:10,839 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-12-10 08:02:10,843 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-12-10 08:02:10,849 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-12-10 08:02:10,859 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-12-10 08:02:10,859 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-12-10 08:02:10,883 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-12-10 08:02:10,884 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-12-10 08:02:10,884 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-12-10 08:02:38,608 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/admin.py changed, reloading.
+INFO 2021-12-10 08:02:38,913 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:02:39,531 basehttp 161 "GET /admin/ HTTP/1.1" 200 8277
+INFO 2021-12-10 08:02:41,620 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7230
+INFO 2021-12-10 08:02:41,652 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-12-10 08:02:41,674 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:02:41,674 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-12-10 08:02:41,674 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-12-10 08:02:41,676 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-12-10 08:02:41,679 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-12-10 08:02:41,679 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-12-10 08:02:41,680 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+INFO 2021-12-10 08:02:41,682 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-12-10 08:02:41,682 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-12-10 08:02:41,699 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-12-10 08:02:43,353 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13142
+INFO 2021-12-10 08:02:43,376 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-12-10 08:02:43,377 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-12-10 08:02:43,378 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-12-10 08:02:43,384 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:02:43,385 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-12-10 08:02:43,386 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-12-10 08:02:43,397 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-12-10 08:02:43,420 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-12-10 08:02:43,420 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-12-10 08:02:54,027 basehttp 161 "POST /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-10 08:02:54,097 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13394
+INFO 2021-12-10 08:02:54,129 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:02:54,180 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-12-10 08:03:05,756 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:03:05,818 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:03:05,828 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:03:05,836 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:03:07,257 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 08:03:09,100 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:03:14,570 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:03:16,913 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:03:25,983 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:03:26,073 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:03:26,080 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:03:26,106 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:03:27,562 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 08:03:28,547 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13157
+INFO 2021-12-10 08:03:28,592 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:03:29,056 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:03:57,121 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:03:57,804 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:04:09,536 basehttp 161 "POST /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-10 08:04:09,639 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7431
+INFO 2021-12-10 08:04:09,674 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:06:29,639 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:06:32,350 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13157
+INFO 2021-12-10 08:06:32,382 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:06:32,539 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13157
+INFO 2021-12-10 08:06:32,561 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:06:37,942 basehttp 161 "POST /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-10 08:06:38,005 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7431
+INFO 2021-12-10 08:06:38,039 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:08:52,502 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13155
+INFO 2021-12-10 08:08:52,555 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:09:01,254 basehttp 161 "POST /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-10 08:09:01,324 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7431
+INFO 2021-12-10 08:09:01,358 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:09:19,116 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:09:19,416 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:09:44,485 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:09:49,073 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:09:49,150 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:09:49,160 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:09:49,179 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:09:49,289 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7230
+INFO 2021-12-10 08:09:49,337 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:09:53,227 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 08:09:56,162 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3820
+INFO 2021-12-10 08:10:10,337 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:10:10,339 basehttp 75 - Broken pipe from ('127.0.0.1', 53712)
+
+INFO 2021-12-10 08:10:14,115 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:10:14,183 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:10:14,213 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+INFO 2021-12-10 08:10:14,218 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7230
+WARNING 2021-12-10 08:10:14,223 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:10:14,288 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-10 08:10:15,803 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:10:20,915 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 08:10:22,187 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:11:18,836 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:11:20,217 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:11:20,289 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:11:20,303 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:11:20,312 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:11:23,369 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 08:11:24,626 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 08:11:36,896 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3820
+INFO 2021-12-10 08:12:29,194 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3820
+INFO 2021-12-10 08:13:03,104 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3850
+INFO 2021-12-10 08:16:11,368 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:16:12,113 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:16:17,305 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3954
+WARNING 2021-12-10 08:16:17,455 log 230 Not Found: /resources/media/download/1.png
+WARNING 2021-12-10 08:16:17,456 basehttp 161 "GET /resources/media/download/1.png HTTP/1.1" 404 3388
+WARNING 2021-12-10 08:16:21,824 log 230 Not Found: /media/download/1.png
+WARNING 2021-12-10 08:16:21,826 basehttp 161 "GET /media/download/1.png HTTP/1.1" 404 2887
+INFO 2021-12-10 08:17:23,240 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3957
+WARNING 2021-12-10 08:17:23,356 log 230 Not Found: /media/download/1.png
+WARNING 2021-12-10 08:17:23,357 basehttp 161 "GET /media/download/1.png HTTP/1.1" 404 2887
+INFO 2021-12-10 08:18:49,551 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-10 08:18:49,606 basehttp 161 "GET /static/images/img_1.jpg HTTP/1.1" 200 11574
+INFO 2021-12-10 08:19:40,192 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-10 08:19:41,621 basehttp 161 "GET /media/download/1.png HTTP/1.1" 200 141421
+INFO 2021-12-10 08:25:14,179 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:25:15,066 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:25:29,775 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:25:31,707 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 08:25:31,776 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 08:25:31,791 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 08:25:31,799 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 08:27:56,410 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:27:56,816 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:11,440 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:11,710 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:15,925 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:16,249 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:20,544 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:20,821 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:23,962 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:24,246 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:33,671 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:33,973 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:40,263 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:40,533 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:28:44,788 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:28:45,075 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:29:46,001 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:29:46,297 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 08:30:08,076 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-10 08:30:08,438 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 10:36:12,600 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-10 10:36:14,063 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 10:36:14,143 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 10:36:14,156 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 10:36:14,164 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 10:37:44,940 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 10:37:45,010 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2021-12-10 10:37:54,146 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4629
+INFO 2021-12-10 10:37:54,160 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-10 10:37:54,168 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-10 10:37:54,204 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-10 10:38:02,071 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 10:38:04,475 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:08,522 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-10 10:38:20,626 basehttp 161 "GET /notification HTTP/1.1" 200 5069
+INFO 2021-12-10 10:38:20,657 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-10 10:38:26,147 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-10 10:38:28,940 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4487
+INFO 2021-12-10 10:38:30,394 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:31,328 basehttp 161 "GET /resources/page/0 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:31,833 basehttp 161 "GET /resources/page/0 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:32,036 basehttp 161 "GET /resources/page/0 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:32,196 basehttp 161 "GET /resources/page/0 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:32,364 basehttp 161 "GET /resources/page/0 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:34,048 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4487
+INFO 2021-12-10 10:38:34,354 basehttp 161 "GET /resources/page/3 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:34,495 basehttp 161 "GET /resources/page/4 HTTP/1.1" 200 4487
+INFO 2021-12-10 10:38:34,642 basehttp 161 "GET /resources/page/5 HTTP/1.1" 200 4309
+INFO 2021-12-10 10:38:34,871 basehttp 161 "GET /resources/page/6 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:37,787 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4451
+INFO 2021-12-10 10:38:39,120 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-10 10:38:42,207 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-10 10:38:43,081 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13615
+INFO 2021-12-10 10:38:43,095 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+INFO 2021-12-10 10:38:47,868 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 873
+INFO 2021-12-10 10:38:50,011 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 915
+INFO 2021-12-10 10:47:02,026 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 10:47:02,097 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 10:47:02,111 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 10:47:02,118 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 10:47:10,339 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 10:47:12,385 basehttp 161 "GET /article/detail/11 HTTP/1.1" 200 4618
+INFO 2021-12-10 10:47:16,740 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-10 10:47:16,810 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-10 10:47:16,820 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-10 10:47:16,830 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-10 10:47:18,432 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-10 10:47:19,957 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-10 10:47:22,839 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-11 21:38:37,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 21:39:05,286 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-11 21:39:05,386 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,391 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-11 21:39:05,395 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-11 21:39:05,401 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,409 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,412 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,425 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,480 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:05,506 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 304 0
+WARNING 2021-12-11 21:39:05,529 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 21:39:05,538 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 21:39:05,557 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 21:39:07,304 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 21:39:07,339 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:07,340 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:07,340 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:07,364 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-11 21:39:08,246 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 21:39:08,269 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:08,269 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-11 21:39:10,007 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 3960
+INFO 2021-12-11 21:43:04,166 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 21:43:04,862 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 21:43:10,102 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 21:43:10,435 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 21:46:14,760 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 21:46:15,320 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 21:46:22,698 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 21:46:22,782 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 21:46:22,812 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 21:46:22,823 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 21:46:24,175 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 21:46:26,048 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 21:46:26,696 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4082
+INFO 2021-12-11 21:46:27,285 basehttp 161 "GET /media/download/1.png HTTP/1.1" 200 141421
+INFO 2021-12-11 21:46:43,621 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 21:46:43,688 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 21:46:43,710 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 21:46:43,718 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 21:46:45,315 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 21:46:46,491 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 21:46:47,247 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4082
+INFO 2021-12-11 21:50:15,258 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4240
+INFO 2021-12-11 21:50:33,094 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4217
+INFO 2021-12-11 21:50:46,236 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4222
+INFO 2021-12-11 21:50:54,181 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4220
+INFO 2021-12-11 21:52:03,389 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 21:52:05,193 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 21:52:05,308 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 21:52:05,329 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 21:52:05,346 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 21:52:07,574 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 21:52:08,919 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 21:52:21,257 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4220
+INFO 2021-12-11 21:53:24,797 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4222
+INFO 2021-12-11 21:54:01,897 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4242
+INFO 2021-12-11 21:57:14,756 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4237
+INFO 2021-12-11 21:57:14,840 basehttp 161 "GET /media/img/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-11 21:59:46,090 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4244
+INFO 2021-12-11 22:01:16,926 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4269
+INFO 2021-12-11 22:04:02,953 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4329
+INFO 2021-12-11 22:04:25,143 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:04:27,430 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4319
+INFO 2021-12-11 22:07:31,145 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4318
+INFO 2021-12-11 22:10:35,797 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4330
+INFO 2021-12-11 22:12:00,933 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4458
+INFO 2021-12-11 22:17:39,235 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4970
+ERROR 2021-12-11 22:17:41,120 log 230 Internal Server Error: /resources/page/matlab
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'tag_name'
+ERROR 2021-12-11 22:17:41,121 basehttp 161 "POST /resources/page/matlab HTTP/1.1" 500 73562
+INFO 2021-12-11 22:19:03,811 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:19:06,848 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 22:19:06,964 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 22:19:06,980 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 22:19:06,998 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 22:19:08,505 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 22:19:09,879 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:19:10,603 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4970
+ERROR 2021-12-11 22:19:11,485 log 230 Internal Server Error: /resources/page/matlab
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'tag_name'
+ERROR 2021-12-11 22:19:11,486 basehttp 161 "POST /resources/page/matlab HTTP/1.1" 500 78968
+ERROR 2021-12-11 22:19:24,470 log 230 Internal Server Error: /resources/page/matlab
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'tag_name'
+ERROR 2021-12-11 22:19:24,472 basehttp 161 "POST /resources/page/matlab HTTP/1.1" 500 78968
+INFO 2021-12-11 22:20:10,221 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:20:11,229 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:20:26,983 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4969
+ERROR 2021-12-11 22:20:29,491 log 230 Internal Server Error: /resources/page/测试
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'tag_name'
+ERROR 2021-12-11 22:20:29,493 basehttp 161 "POST /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 500 79052
+INFO 2021-12-11 22:21:53,946 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/urls.py changed, reloading.
+INFO 2021-12-11 22:21:54,916 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:21:56,177 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4969
+INFO 2021-12-11 22:22:02,148 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:22:15,903 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:22:17,741 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4977
+ERROR 2021-12-11 22:22:23,293 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'tag_name'
+ERROR 2021-12-11 22:22:23,295 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 79000
+INFO 2021-12-11 22:23:03,931 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/urls.py changed, reloading.
+INFO 2021-12-11 22:23:04,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:23:05,607 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4977
+INFO 2021-12-11 22:23:07,077 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:23:08,522 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4977
+INFO 2021-12-11 22:24:20,500 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+ERROR 2021-12-11 22:24:25,424 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 54, in post
+    downloadFile = open(request.body, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: b'{"source_url":"../../media/download/1.png","source_id":1}'
+ERROR 2021-12-11 22:24:25,430 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 83027
+INFO 2021-12-11 22:24:25,433 basehttp 75 - Broken pipe from ('127.0.0.1', 54289)
+
+INFO 2021-12-11 22:24:34,190 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:25:08,835 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:25:53,773 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:25:54,797 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:25:55,936 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+ERROR 2021-12-11 22:25:58,806 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 62, in post
+    return JsonResponse(json_data)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/http/response.py", line 597, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2021-12-11 22:25:58,807 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 87347
+INFO 2021-12-11 22:26:53,841 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+ERROR 2021-12-11 22:26:55,973 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 62, in post
+    return JsonResponse(json_data)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/http/response.py", line 597, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2021-12-11 22:26:55,974 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 87347
+INFO 2021-12-11 22:27:36,088 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:27:37,048 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:27:37,672 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:27:39,381 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 9
+INFO 2021-12-11 22:27:59,158 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:28:01,129 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 9
+INFO 2021-12-11 22:28:19,024 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:28:20,045 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:28:21,125 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:29:49,655 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:29:50,672 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:29:52,036 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:30:02,007 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 59
+INFO 2021-12-11 22:30:37,476 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:30:39,326 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 22:30:39,447 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 22:30:39,461 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 22:30:39,491 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 22:30:42,657 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 22:30:43,958 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:30:44,707 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4972
+INFO 2021-12-11 22:32:18,023 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:32:19,050 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:33:51,708 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:33:54,072 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 22:33:54,176 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 22:33:54,216 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 22:33:54,234 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 22:33:56,635 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 22:33:57,839 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:33:58,386 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5008
+INFO 2021-12-11 22:41:25,359 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:41:26,872 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-11 22:41:26,948 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-11 22:41:26,958 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-11 22:41:26,965 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-11 22:41:28,590 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-11 22:41:30,367 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-11 22:41:31,146 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5008
+ERROR 2021-12-11 22:41:39,691 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 62, in post
+    downloadFile = open("../../media/download/{}".format(json_dict['title']), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '../../media/download/matlab'
+ERROR 2021-12-11 22:41:39,696 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 83696
+INFO 2021-12-11 22:43:10,035 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:47:14,741 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:47:15,383 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:48:10,076 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:48:10,740 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:48:12,528 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5012
+ERROR 2021-12-11 22:48:20,680 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 63, in post
+    downloadFile = open("../../media/download/{}".format(file), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '../../media/download/2018.png'
+ERROR 2021-12-11 22:48:20,684 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 83855
+ERROR 2021-12-11 22:49:24,490 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 63, in post
+    downloadFile = open("../../media/download/{}".format(file), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '../../media/download/1.png'
+ERROR 2021-12-11 22:49:24,495 basehttp 161 "POST /resources/page/download HTTP/1.1" 500 83843
+INFO 2021-12-11 22:51:15,890 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:51:20,173 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:51:21,320 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:52:00,461 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 77
+INFO 2021-12-11 22:52:25,408 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:52:26,147 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:52:29,043 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:52:32,996 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:52:34,392 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:52:36,343 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:52:36,975 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:52:37,157 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:52:50,571 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:53:34,030 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:53:37,760 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:54:33,661 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:54:34,342 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:54:34,627 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:54:37,920 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:55:02,609 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:56:17,071 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:56:17,746 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:56:21,906 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:56:24,929 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:56:27,718 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:56:33,313 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:56:39,763 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-11 22:56:40,105 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-11 22:56:43,433 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5006
+INFO 2021-12-11 22:58:21,840 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4952
+INFO 2021-12-11 22:58:23,357 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-11 22:58:31,840 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 4096
+INFO 2021-12-11 23:03:17,394 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 4096
+INFO 2021-12-11 23:03:41,190 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 4096
+INFO 2021-12-11 23:04:03,458 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 4096
+INFO 2021-12-11 23:04:12,430 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 28672
+INFO 2021-12-11 23:04:28,281 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4944
+INFO 2021-12-11 23:04:30,868 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 09:57:51,393 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 09:58:09,943 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4944
+INFO 2021-12-12 09:58:09,980 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2021-12-12 09:58:09,980 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-12 09:58:19,340 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+ERROR 2021-12-12 10:00:00,551 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'tag_name'
+ERROR 2021-12-12 10:00:00,551 basehttp 161 "GET /resources/page/download HTTP/1.1" 500 69612
+INFO 2021-12-12 10:13:55,063 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:13:55,342 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:14:49,762 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:14:52,844 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-12 10:14:52,863 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-12 10:14:52,873 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 304 0
+WARNING 2021-12-12 10:14:52,912 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 10:14:52,919 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 10:14:52,927 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 10:14:54,359 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 10:14:55,995 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 10:14:56,827 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4993
+INFO 2021-12-12 10:14:59,978 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:15:47,916 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:15:48,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:17:17,981 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:17:18,257 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:17:29,757 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:17:30,043 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:18:52,430 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:18:52,705 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:14,490 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:14,785 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:21,116 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:21,418 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:23,599 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:23,887 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:35,315 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:35,635 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:39,928 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:40,234 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:50,661 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:19:50,956 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:19:53,997 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4993
+INFO 2021-12-12 10:20:01,564 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:20:32,003 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:20:35,333 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4993
+INFO 2021-12-12 10:20:59,900 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:21:54,971 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:21:56,238 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:21:57,189 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:21:57,350 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:21:58,761 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:21:59,877 basehttp 161 "POST /resources/page/download HTTP/1.1" 200 141421
+INFO 2021-12-12 10:42:53,819 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:42:54,186 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:44:06,551 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:44:06,872 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:46:09,796 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:46:10,099 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:47:08,223 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:47:08,535 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:49:26,478 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:49:26,791 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:49:33,230 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4940
+INFO 2021-12-12 10:50:39,993 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 141421
+INFO 2021-12-12 10:50:51,736 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 141421
+INFO 2021-12-12 10:51:36,359 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:51:40,235 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4940
+INFO 2021-12-12 10:53:01,978 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:53:04,988 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 10:53:05,706 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4940
+INFO 2021-12-12 10:53:09,275 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 141421
+INFO 2021-12-12 10:53:46,907 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 10:53:50,787 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4940
+INFO 2021-12-12 10:55:30,222 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:55:30,575 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:57:31,507 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:57:31,865 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:57:40,321 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:57:40,591 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:57:59,167 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 10:57:59,444 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 10:58:06,766 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4940
+INFO 2021-12-12 10:58:08,230 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 141421
+INFO 2021-12-12 11:01:08,731 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:01:09,026 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:01:27,642 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:01:27,917 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:02:50,443 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:02:50,744 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:02:51,460 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4941
+INFO 2021-12-12 11:04:55,734 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:04:56,018 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:06:13,400 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:06:13,736 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:06:15,439 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 11:06:15,503 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 11:06:15,521 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 11:06:15,528 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 11:06:16,812 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 11:06:17,970 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:06:18,735 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4941
+INFO 2021-12-12 11:09:39,090 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:09:39,392 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:10:04,169 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:10:04,463 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:10:05,335 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4942
+INFO 2021-12-12 11:10:27,277 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:10:27,586 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:10:35,977 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:10:36,260 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:10:36,723 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4943
+INFO 2021-12-12 11:11:00,104 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:11:00,397 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:11:01,215 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4943
+INFO 2021-12-12 11:11:04,661 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:11:04,955 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:11:05,823 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4943
+INFO 2021-12-12 11:12:06,460 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:12:06,761 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:12:07,442 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4938
+INFO 2021-12-12 11:18:52,801 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:18:53,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:22:49,163 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:22:49,484 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:24:06,992 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:24:07,279 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:25:07,766 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:25:09,563 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 11:25:09,637 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 11:25:09,651 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 11:25:09,661 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 11:25:12,777 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 11:25:14,022 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:25:14,966 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 4978
+INFO 2021-12-12 11:25:23,939 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page=1 HTTP/1.1" 200 4978
+INFO 2021-12-12 11:26:04,462 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:26:05,096 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:26:10,401 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page=1 HTTP/1.1" 200 4978
+INFO 2021-12-12 11:32:31,278 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:32:31,944 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:35:07,583 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:35:08,248 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:35:49,708 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:35:50,361 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:39:11,393 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:39:24,452 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page=1 HTTP/1.1" 200 4981
+INFO 2021-12-12 11:39:28,348 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 4981
+INFO 2021-12-12 11:39:29,580 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 4981
+INFO 2021-12-12 11:39:29,979 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 4981
+INFO 2021-12-12 11:40:16,349 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:18,016 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:18,909 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:19,177 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:19,544 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:20,276 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:20,900 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:21,363 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:21,836 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:22,395 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:22,691 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:40:23,100 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5026
+INFO 2021-12-12 11:44:07,074 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 11:44:07,778 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 11:44:08,781 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:44:11,533 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:44:12,875 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:44:15,039 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:44:16,109 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:44:16,812 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5069
+INFO 2021-12-12 11:45:32,088 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:45:33,615 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:45:34,413 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:45:48,597 basehttp 161 "GET /notification HTTP/1.1" 200 5069
+INFO 2021-12-12 11:45:48,627 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 304 0
+INFO 2021-12-12 11:45:50,895 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 11:45:53,550 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-12 11:45:55,570 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:45:58,458 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 11:45:58,525 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 11:45:58,534 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 11:45:58,543 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 11:45:59,990 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 11:46:01,625 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:46:06,165 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4487
+INFO 2021-12-12 11:46:06,711 basehttp 161 "GET /resources/page/3 HTTP/1.1" 200 4451
+INFO 2021-12-12 11:46:07,275 basehttp 161 "GET /resources/page/4 HTTP/1.1" 200 4487
+INFO 2021-12-12 11:46:09,585 basehttp 161 "GET /resources/page/3 HTTP/1.1" 200 4451
+INFO 2021-12-12 11:46:10,339 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4487
+INFO 2021-12-12 11:46:11,442 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4451
+INFO 2021-12-12 11:46:12,266 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:46:59,530 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:47:02,436 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:47:03,952 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:47:04,982 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5114
+WARNING 2021-12-12 11:47:35,284 log 230 Not Found: /radmin
+WARNING 2021-12-12 11:47:35,284 basehttp 161 "GET /radmin HTTP/1.1" 404 2840
+INFO 2021-12-12 11:47:38,863 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-12-12 11:47:39,002 basehttp 161 "GET /admin/ HTTP/1.1" 200 8309
+INFO 2021-12-12 11:47:39,056 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-12-12 11:47:39,056 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-12-12 11:47:39,057 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-12-12 11:47:41,724 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9416
+INFO 2021-12-12 11:47:41,766 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:47:41,770 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-12-12 11:47:41,771 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-12-12 11:47:43,161 basehttp 161 "GET /admin/resourcesDownload/resource/11/change/ HTTP/1.1" 200 13717
+INFO 2021-12-12 11:47:43,202 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:47:47,001 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9416
+INFO 2021-12-12 11:47:48,687 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 13729
+INFO 2021-12-12 11:47:48,727 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:47:53,133 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9416
+INFO 2021-12-12 11:47:54,803 basehttp 161 "GET /admin/resourcesDownload/resource/11/change/ HTTP/1.1" 200 13717
+INFO 2021-12-12 11:47:54,843 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:01,151 basehttp 161 "POST /admin/resourcesDownload/resource/11/change/ HTTP/1.1" 302 0
+INFO 2021-12-12 11:48:01,239 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9617
+INFO 2021-12-12 11:48:01,330 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:02,657 basehttp 161 "GET /admin/resourcesDownload/resource/10/change/ HTTP/1.1" 200 13717
+INFO 2021-12-12 11:48:02,694 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:07,263 basehttp 161 "POST /admin/resourcesDownload/resource/10/change/ HTTP/1.1" 302 0
+INFO 2021-12-12 11:48:07,396 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9617
+INFO 2021-12-12 11:48:07,427 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:09,432 basehttp 161 "GET /admin/resourcesDownload/resource/9/change/ HTTP/1.1" 200 13714
+INFO 2021-12-12 11:48:09,469 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:12,897 basehttp 161 "POST /admin/resourcesDownload/resource/9/change/ HTTP/1.1" 302 0
+INFO 2021-12-12 11:48:13,024 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9616
+INFO 2021-12-12 11:48:13,089 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:14,645 basehttp 161 "GET /admin/resourcesDownload/resource/8/change/ HTTP/1.1" 200 13714
+INFO 2021-12-12 11:48:14,686 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:19,569 basehttp 161 "POST /admin/resourcesDownload/resource/8/change/ HTTP/1.1" 302 0
+INFO 2021-12-12 11:48:19,671 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9616
+INFO 2021-12-12 11:48:19,710 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 11:48:22,836 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 11:48:22,904 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 11:48:22,930 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 11:48:22,937 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 11:48:24,007 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 11:48:25,016 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 11:48:25,536 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5726
+INFO 2021-12-12 11:48:31,559 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:33,175 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:33,706 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=3 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:33,896 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=4 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:34,629 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=5 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:34,884 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=4 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:35,482 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=3 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:35,735 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 11:48:37,560 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 11:48:38,986 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 11:48:41,954 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 11:48:45,059 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5726
+INFO 2021-12-12 12:10:50,503 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-12-12 12:10:56,219 log 230 Not Found: /resources/page/
+WARNING 2021-12-12 12:10:56,220 basehttp 161 "GET /resources/page/ HTTP/1.1" 404 3525
+INFO 2021-12-12 12:11:01,260 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:11:01,332 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:11:01,356 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:11:01,365 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:11:03,010 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:11:03,969 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+ERROR 2021-12-12 12:11:05,033 log 230 Internal Server Error: /resources/page/测试
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 61, in get
+    "page_num": page_obj_all.count(),
+TypeError: 'int' object is not callable
+ERROR 2021-12-12 12:11:05,034 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 500 75010
+INFO 2021-12-12 12:11:16,761 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:11:17,068 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:11:18,208 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5726
+INFO 2021-12-12 12:11:50,123 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:11:50,409 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:11:52,091 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:14,458 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:13:14,753 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:13:15,236 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:17,421 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:18,918 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:21,054 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:36,617 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:13:36,911 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:13:37,569 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:39,448 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:40,475 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:41,407 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:41,985 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:43,187 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=3 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:43,669 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:44,686 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:50,935 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=3 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:51,574 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:13:52,737 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:13:55,901 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:15:04,560 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:15:04,857 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:15:05,409 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:15:06,866 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:15:26,380 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:15:33,699 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=3 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:16:04,040 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:16:17,874 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:16:31,704 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:16:42,374 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:16:44,492 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:16:45,669 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:16:47,054 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:16:47,623 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:16:48,577 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:16:49,585 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:17:04,636 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:17:05,672 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:17:08,268 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:17:11,003 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=2 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:17:12,456 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:17:14,222 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5114
+INFO 2021-12-12 12:17:22,237 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:17:45,577 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-12 12:20:58,824 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13615
+INFO 2021-12-12 12:20:58,846 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:21:03,285 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5473
+INFO 2021-12-12 12:21:04,794 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:21:49,468 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:21:50,145 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:21:50,217 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:21:50,226 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:21:50,236 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:21:51,456 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:22:29,843 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:22:53,494 basehttp 161 "GET /resources/page/2 HTTP/1.1" 200 4487
+INFO 2021-12-12 12:22:54,380 basehttp 161 "GET /resources/page/1 HTTP/1.1" 200 4451
+INFO 2021-12-12 12:22:55,021 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5574
+INFO 2021-12-12 12:22:58,463 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:23:07,059 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:23:07,123 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:23:07,128 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:23:07,133 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:23:08,539 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:25:06,637 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:25:06,911 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:25:07,969 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:25:09,884 basehttp 161 "GET /resources/ HTTP/1.1" 200 5055
+INFO 2021-12-12 12:25:20,341 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5726
+INFO 2021-12-12 12:26:07,012 basehttp 161 "GET /resources/ HTTP/1.1" 200 5055
+INFO 2021-12-12 12:26:52,582 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:26:52,869 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:26:53,881 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:29:55,385 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:29:58,351 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:30:10,216 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:30:10,273 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:30:10,296 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:30:10,301 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:30:11,786 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:30:15,306 basehttp 161 "GET /resources/ HTTP/1.1" 200 4451
+INFO 2021-12-12 12:30:17,777 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5615
+INFO 2021-12-12 12:30:26,007 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:30:26,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:30:27,164 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5767
+INFO 2021-12-12 12:30:49,583 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5431
+INFO 2021-12-12 12:31:05,725 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5726
+INFO 2021-12-12 12:31:57,745 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 6019
+INFO 2021-12-12 12:31:59,322 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:31:59,389 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:31:59,399 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:31:59,411 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:32:00,854 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:32:09,560 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:32:11,427 basehttp 161 "GET /resources/ HTTP/1.1" 200 5348
+INFO 2021-12-12 12:32:12,161 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5724
+INFO 2021-12-12 12:32:22,606 basehttp 161 "GET /resources/ HTTP/1.1" 200 5348
+INFO 2021-12-12 12:32:45,417 basehttp 161 "GET /resources/ HTTP/1.1" 200 5053
+INFO 2021-12-12 12:32:53,923 basehttp 161 "GET /resources/ HTTP/1.1" 200 5053
+INFO 2021-12-12 12:32:55,762 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5724
+INFO 2021-12-12 12:32:58,356 basehttp 161 "GET /notification HTTP/1.1" 200 5069
+INFO 2021-12-12 12:33:00,779 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:33:03,426 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5766
+INFO 2021-12-12 12:33:24,768 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5471
+INFO 2021-12-12 12:33:28,530 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13615
+INFO 2021-12-12 12:34:36,555 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 873
+INFO 2021-12-12 12:34:38,974 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 915
+INFO 2021-12-12 12:34:43,642 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 539
+INFO 2021-12-12 12:34:46,076 basehttp 161 "POST /article/lists/1 HTTP/1.1" 200 937
+INFO 2021-12-12 12:35:46,728 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13572
+INFO 2021-12-12 12:36:11,452 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4629
+INFO 2021-12-12 12:36:11,485 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-12 12:36:51,791 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4586
+INFO 2021-12-12 12:38:51,495 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5471
+INFO 2021-12-12 12:38:54,484 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:38:54,550 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:38:54,562 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:38:54,573 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:38:55,826 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:38:58,886 basehttp 161 "GET /notification HTTP/1.1" 200 5065
+INFO 2021-12-12 12:39:04,051 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5471
+INFO 2021-12-12 12:39:05,593 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13572
+INFO 2021-12-12 12:39:08,361 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:39:12,555 basehttp 161 "GET /notification HTTP/1.1" 200 5065
+INFO 2021-12-12 12:39:13,253 basehttp 161 "GET /resources/ HTTP/1.1" 200 5053
+INFO 2021-12-12 12:39:13,897 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5724
+INFO 2021-12-12 12:39:16,387 basehttp 161 "GET /notification HTTP/1.1" 200 5065
+INFO 2021-12-12 12:39:18,674 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5471
+INFO 2021-12-12 12:39:23,130 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 13572
+INFO 2021-12-12 12:39:24,421 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4590
+INFO 2021-12-12 12:40:15,093 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4590
+INFO 2021-12-12 12:40:37,273 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4590
+INFO 2021-12-12 12:40:37,307 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-12 12:40:37,309 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-12 12:40:37,310 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-12 12:40:37,311 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7040
+INFO 2021-12-12 12:40:37,313 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-12 12:40:37,322 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-12 12:40:37,339 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-12 12:40:37,339 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-12 12:40:37,339 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-12 12:40:37,342 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-12 12:40:37,343 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-12 12:40:37,344 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-12 12:40:37,345 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-12 12:40:43,317 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:42:45,569 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4629
+INFO 2021-12-12 12:42:45,601 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:43:04,532 basehttp 161 "GET /resources/ HTTP/1.1" 200 5053
+INFO 2021-12-12 12:43:04,559 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:43:04,578 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-12 12:43:17,727 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-12 12:43:18,076 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:43:18,363 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:44:08,976 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:44:09,019 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:44:11,850 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:44:13,066 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-12 12:44:13,103 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-12 12:44:13,106 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-12 12:44:13,107 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-12 12:44:13,107 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-12 12:44:13,108 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-12 12:44:13,109 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-12 12:44:13,110 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-12 12:44:13,115 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-12 12:44:13,364 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-12 12:44:13,366 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-12 12:44:13,386 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:44:13,397 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:44:13,407 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:44:14,938 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:44:14,960 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-12 12:44:14,985 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-12 12:44:14,986 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 200 1327
+INFO 2021-12-12 12:44:14,987 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-12 12:44:14,988 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-12 12:44:14,988 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-12 12:44:14,990 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-12 12:44:14,990 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-12 12:44:14,990 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-12 12:44:17,939 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:44:19,261 basehttp 161 "GET /notification HTTP/1.1" 200 5137
+INFO 2021-12-12 12:44:19,287 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-12 12:44:40,161 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:44:40,185 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:44:43,999 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:45:10,189 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:45:10,224 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:45:13,830 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:45:14,616 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:45:14,687 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:45:14,700 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:45:14,710 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:45:18,311 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:45:19,708 basehttp 161 "GET /article/detail/12 HTTP/1.1" 200 4629
+INFO 2021-12-12 12:45:46,289 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-12 12:45:47,264 basehttp 161 "GET / HTTP/1.1" 200 3143
+INFO 2021-12-12 12:45:47,275 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-12 12:45:47,276 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-12 12:45:47,285 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-12 12:45:47,287 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-12 12:45:47,291 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-12 12:45:47,294 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-12 12:45:47,294 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-12 12:45:47,296 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-12 12:45:47,298 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-12 12:45:47,389 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-12 12:45:47,390 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-12 12:45:47,402 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:45:47,407 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:45:47,411 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:45:48,879 basehttp 161 "GET /article/ HTTP/1.1" 200 5012
+INFO 2021-12-12 12:45:48,913 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-12 12:45:48,914 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-12 12:45:48,915 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-12 12:45:48,946 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-12 12:45:48,946 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-12 12:45:48,947 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-12 12:45:48,947 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-12 12:45:48,950 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-12 12:45:48,951 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-12 12:45:48,952 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-12 12:45:48,952 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 200 1327
+INFO 2021-12-12 12:45:48,954 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-12 12:45:48,955 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-12 12:45:48,956 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-12 12:45:48,956 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-12 12:45:48,956 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-12 12:45:48,959 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-12 12:45:50,599 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:45:50,631 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-12 12:45:50,632 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7040
+INFO 2021-12-12 12:45:50,633 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-12 12:46:56,929 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:46:56,966 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:46:58,448 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:47:05,305 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:47:09,562 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5572
+INFO 2021-12-12 12:47:09,596 basehttp 161 "GET /media/img/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-12 12:47:43,258 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:47:43,285 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:47:47,724 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:47:53,724 basehttp 161 "GET /resources/ HTTP/1.1" 200 4449
+INFO 2021-12-12 12:47:54,229 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:48:39,816 basehttp 161 "GET /resources/ HTTP/1.1" 200 4538
+INFO 2021-12-12 12:48:39,854 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:49:51,829 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:49:51,863 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:50:00,050 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5201
+INFO 2021-12-12 12:50:01,333 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:52:37,225 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5201
+INFO 2021-12-12 12:52:37,260 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:52:38,371 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=2 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:56:00,136 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:56:00,171 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:56:02,119 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_up=1 HTTP/1.1" 200 5201
+INFO 2021-12-12 12:56:04,554 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5661
+INFO 2021-12-12 12:56:20,847 basehttp 161 "GET /resources/ HTTP/1.1" 200 4538
+INFO 2021-12-12 12:58:24,949 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-12 12:58:25,027 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-12 12:58:25,047 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-12 12:58:25,053 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-12 12:58:26,425 basehttp 161 "GET /admin/ HTTP/1.1" 200 8337
+INFO 2021-12-12 12:58:26,439 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-12-12 12:58:26,440 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-12-12 12:58:26,440 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-12-12 12:58:26,441 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-12-12 12:58:26,446 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-12-12 12:58:26,451 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-12-12 12:58:26,451 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-12-12 12:58:26,466 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-12-12 12:58:26,485 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-12-12 12:58:26,486 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-12-12 12:58:26,487 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-12-12 12:58:28,510 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9636
+INFO 2021-12-12 12:58:28,545 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-12-12 12:58:28,548 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-12-12 12:58:28,549 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-12-12 12:58:28,551 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-12-12 12:58:28,556 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+INFO 2021-12-12 12:58:28,558 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-12-12 12:58:28,559 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 12:58:28,560 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-12-12 12:58:28,562 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-12-12 12:58:28,563 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-12-12 12:58:28,577 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-12-12 12:58:29,882 basehttp 161 "GET /admin/resourcesDownload/resource/12/change/ HTTP/1.1" 200 13687
+INFO 2021-12-12 12:58:29,903 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-12-12 12:58:29,913 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 12:58:29,921 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-12-12 12:58:29,921 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-12-12 12:58:29,922 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-12-12 12:58:29,922 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-12-12 12:58:29,927 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-12-12 12:58:29,951 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-12-12 12:58:29,951 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-12-12 12:58:36,593 basehttp 161 "POST /admin/resourcesDownload/resource/12/change/ HTTP/1.1" 302 0
+INFO 2021-12-12 12:58:36,670 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 9837
+INFO 2021-12-12 12:58:36,693 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-12 12:58:36,720 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-12-12 12:58:41,420 basehttp 161 "GET /resources/page/%E5%8A%9E%E5%85%AC HTTP/1.1" 200 5203
+INFO 2021-12-12 12:58:41,447 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-12 12:58:43,173 basehttp 161 "GET /resources/page/download?source_id=12 HTTP/1.1" 200 5088801

@@ -1,6 +1,6 @@
 import json
 import math
-
+import logging
 from django.core import serializers
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -11,6 +11,8 @@ import markdown
 # Create your views here.
 page_show_num = 2
 tag_show_num = 8
+
+logger = logging.getLogger('django')
 class ContextShow(View):
     def get(self, request):
         articles = models.Article.objects.filter(is_delete=False)

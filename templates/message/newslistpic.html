@@ -19,44 +19,21 @@
       <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">网站公告</a></span><b>网站公告</b></h2>
       <div class="dtxw box" style="position: relative;
 	left: 130px;">
-        <li>
+          {% for notification in notifications %}
+            <li>
           <div class="dttext f_l" style="position: relative;">
             <ul>
-              <h2><a href="#" target="_blank">测试</a></h2>
-              <p></p>
-              <span>2017-3-10</span>
+              <h2><a href="#" target="_blank">{{ notification.title }}</a></h2>
+              <p>{{ notification.content }}</p>
+              <span>{{ notification.create_time }}</span>
             </ul>
           </div>
         </li>
-        <li>
-          <div class="dttext f_l" style="position: relative;">
-            <ul>
-              <h2><a href="#" target="_blank">测试</a></h2>
-              <p></p>
-              <span>2017-3-10</span>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="dttext f_l" style="position: relative;">
-            <ul>
-              <h2><a href="#" target="_blank">测试</a></h2>
-              <p></p>
-              <span>2017-3-10</span>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="dttext f_l" style="position: relative;">
-            <ul>
-              <h2><a href="#" target="_blank">测试</a></h2>
-              <p></p>
-              <span>2017-3-10</span>
-            </ul>
-          </div>
-        </li>
+          {% endfor %}
+
+
       </div>
-      <div class="pagelist">页次：1/1 每页25 总数10<a href="#" target="_self">首页</a><a href="#" target="_self">上一页</a><a href="#" target="_self">下一页</a><a href="#" target="_self">尾页</a></div>
+{#      <div class="pagelist">页次：1/1 每页25 总数10<a href="#" target="_self">首页</a><a href="#" target="_self">上一页</a><a href="#" target="_self">下一页</a><a href="#" target="_self">尾页</a></div>#}
     </div>
   </div>
   <div class="blank"></div>

@@ -1,5 +1,6 @@
 import json
 import math
+import logging
 import os.path
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
@@ -8,6 +9,7 @@ from resourcesDownload.models import *
 from django.http import FileResponse, HttpResponse, JsonResponse, StreamingHttpResponse
 from django.core.paginator import Paginator
 
+logger = logging.getLogger('django')
 # Create your views here.
 page_show_every_page = 4
 class ResourceShow(View):

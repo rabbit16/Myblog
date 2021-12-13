@@ -22,7 +22,7 @@ class ContextShow(View):
             articles = articles[0:page_show_num]  # 首页就展示前page_show_num个文章
         except:
             articles = articles[0:]
-        return render(request,'message/article_first.html', context={
+        return render(request, 'message/article_first.html', context={
             'articles': articles
         })
 

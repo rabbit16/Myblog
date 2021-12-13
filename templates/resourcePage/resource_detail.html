@@ -2,17 +2,17 @@
 {% load static %}
 
 {% block link %}
-    <link href="../../static/css/base.css" rel="stylesheet">
-    <link href="../../static/css/main.css" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
     <!--[if lt IE 9]>
 
 {% endblock %}
 {% block script %}
-     <script src="../../static/js/modernizr.js"></script>
+     <script src="{% static 'js/modernizr.js' %}"></script>
     <![endif]-->
-    <script type="text/javascript" src="../../static/js/jquery.js"></script>
-    <script src="../../static/js/shang.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/shang.js' %}"></script>
 {% endblock %}
 {% block container %}
 

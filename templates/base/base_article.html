@@ -3,15 +3,15 @@
 <html>
 <head>
     {% block link %}
-        <link rel="shortcut icon" href="../../static/images/logo.png">
-        <link href="../../static/css/base.css" rel="stylesheet">
-        <link href="../../static/css/index.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{% static 'images/logo.png' %}">
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <link href="{% static 'css/index.css' %}" rel="stylesheet">
     {% endblock %}
     {% block script %}
         <!--[if lt IE 9]>
-        <script src="../../static/js/modernizr.js"></script>
+        <script src="{% static 'js/modernizr.js' %}"></script>
         <![endif]-->
-        <script type="text/javascript" src="../../static/js/jquery.js"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
     {% endblock %}
 <meta charset="utf-8">
 <title>兔子🐰</title>

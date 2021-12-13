@@ -25,7 +25,8 @@ urlpatterns = [
     path('article/', include('blog.urls')),
     path('resources/', include('resourcesDownload.urls')),
     re_path(r'media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
-    path('notification', include('notification.urls'))
+    path('notification/', include('notification.urls')),
+    path('leactos/', include('leacots.urls'))
     # path('index/', include('user_m.urls')),
     # path('', include('verifications.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

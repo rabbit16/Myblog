@@ -18,6 +18,8 @@ class ResourceShow(View):
         tag = Tag.objects.all()[:page_show_every_page]
         all_obj = Tag.objects.count()
         pag_num = math.ceil(Tag.objects.count()/page_show_every_page)
+        if pag_num == 0:
+            pag_num = 1
         now_page = 1
         tag_dict = {
             'tags': tag,
@@ -31,6 +33,8 @@ class ResourcePageShow(View):
     def get(self, request, page_num):
         all_obj = Tag.objects.count()
         page_all = math.ceil(Tag.objects.count() / page_show_every_page)
+        if page_all == 0:
+            page_all = 1
         if page_num <= 0 or page_num > page_all:
             page_num = 1
         try:

@@ -52,7 +52,7 @@
                 </li>
                   <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
                 <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
-                <li><a href="404.html">给我留言</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
 
               {% endblock %}
 
@@ -134,7 +134,10 @@
            {% endblock %}
 
 
-</div>
+</div></div>
+{% endblock %}
+{% block script_end %}
+
 {% endblock %}
 {% block footer %}
     <footer>

@@ -9,6 +9,7 @@ from django.shortcuts import render
 from django.views import View
 from blog import models
 import markdown
+from django.views.decorators.csrf import csrf_protect
 # Create your views here.
 page_show_num = 2
 tag_show_num = 8
@@ -40,13 +41,17 @@ class ArticleContentShow(View):
 class ArticleListByTag(View):
     def get(self, request):
         now_page = 1
-        next_page = request.GET.get("page_num")
+        next_page = int(request.GET.get("page_num"))
         if next_page:
             now_page = next_page
         tag = models.Tag.objects.all()
         all_show_project = Paginator(tag, tag_show_num)
         all_obj = models.Tag.objects.count()
         pag_num = all_show_project.num_pages
+        if now_page > pag_num:
+            now_page = pag_num
+        if now_page < 1:
+            now_page = 1
 
         tag_dict = {
             'tags': all_show_project.get_page(now_page),

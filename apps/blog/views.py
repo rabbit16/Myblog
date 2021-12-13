@@ -32,7 +32,8 @@ class ArticleContentShow(View):
         news.content = markdown.markdown(news.content, extensions=[
             'markdown.extensions.extra',
             'markdown.extensions.codehilite',  # 语法高亮拓展
-            'markdown.extensions.toc'  # 自动生成目录
+            'markdown.extensions.toc',  # 自动生成目录
+            'sane_lists'
         ])  # 修改blog.content内容为html
         return render(request, 'message/article_detail.html', context={
             'article': news

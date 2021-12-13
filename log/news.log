@@ -22371,3 +22371,67 @@ INFO 2021-12-13 18:59:18,126 autoreload 251 /Users/jianghaoliang/Desktop/jiangpe
 INFO 2021-12-13 18:59:18,421 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-13 18:59:33,128 basehttp 161 "GET /admin/blog/article/1/change/ HTTP/1.1" 200 21249
 INFO 2021-12-13 18:59:33,153 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 19:16:23,320 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-13 19:16:23,388 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-13 19:16:23,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 19:16:23,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 19:16:39,990 basehttp 161 "GET /admin/blog/article/1/change/ HTTP/1.1" 200 21249
+INFO 2021-12-13 19:16:40,023 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 19:16:49,859 basehttp 161 "POST /admin/blog/article/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-13 19:16:49,895 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8458
+INFO 2021-12-13 19:16:49,921 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 19:16:54,489 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 19:16:54,576 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 19:16:54,587 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 19:16:54,593 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 19:16:58,009 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+INFO 2021-12-13 19:16:58,036 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-13 19:16:58,036 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2021-12-13 19:16:58,065 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 19:16:59,682 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4772
+INFO 2021-12-13 19:16:59,695 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2021-12-13 19:16:59,719 log 230 Not Found: /article/detail/media/editor/2018.png
+WARNING 2021-12-13 19:16:59,720 basehttp 161 "GET /article/detail/media/editor/2018.png HTTP/1.1" 404 3568
+INFO 2021-12-13 19:17:18,287 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4772
+WARNING 2021-12-13 19:17:18,342 log 230 Not Found: /article/detail/media/editor/2018.png
+WARNING 2021-12-13 19:17:18,342 basehttp 161 "GET /article/detail/media/editor/2018.png HTTP/1.1" 404 3568
+INFO 2021-12-13 19:17:22,626 basehttp 161 "GET /admin/blog/article/1/change/ HTTP/1.1" 200 21272
+INFO 2021-12-13 19:17:22,658 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 19:17:38,212 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4772
+INFO 2021-12-13 19:17:38,273 basehttp 161 "GET /article/detail/media/editor/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-13 19:19:00,464 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 19:19:00,510 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 19:19:00,540 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 19:19:00,552 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 19:19:01,812 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 19:19:01,866 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 19:19:05,170 basehttp 161 "GET /leactos/ HTTP/1.1" 200 9309
+INFO 2021-12-13 19:19:05,199 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 304 0
+INFO 2021-12-13 19:19:05,202 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-13 19:19:05,203 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 304 0
+INFO 2021-12-13 19:19:05,220 basehttp 161 "GET /static/images/header.png HTTP/1.1" 304 0
+INFO 2021-12-13 19:19:12,002 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 19:19:13,051 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 19:19:13,108 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 19:19:14,886 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 19:19:15,797 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 19:19:17,108 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 19:19:17,173 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 19:19:17,182 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 19:19:17,193 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 19:19:33,654 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 19:19:33,711 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 19:19:35,405 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 19:19:36,497 basehttp 161 "GET /leactos/ HTTP/1.1" 200 9309
+INFO 2021-12-13 19:21:29,856 basehttp 161 "GET /leactos/ HTTP/1.1" 200 9243
+INFO 2021-12-13 19:21:31,239 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 19:21:31,294 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 19:21:31,319 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 19:21:31,332 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 19:21:32,670 basehttp 161 "GET /article/ HTTP/1.1" 200 4526
+WARNING 2021-12-13 19:21:32,732 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 19:21:37,075 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4715
+INFO 2021-12-13 19:21:39,185 basehttp 161 "GET /notification/ HTTP/1.1" 200 3825
+INFO 2021-12-13 19:21:39,864 basehttp 161 "GET /resources/ HTTP/1.1" 200 5221
+INFO 2021-12-13 19:21:40,416 basehttp 161 "GET /article/ HTTP/1.1" 200 4526
+WARNING 2021-12-13 19:21:40,472 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804

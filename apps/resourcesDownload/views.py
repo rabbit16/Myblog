@@ -95,7 +95,7 @@ class FileDownload(View):
         data_id = request.GET.get("source_id")
         file = Resource.objects.filter(id=data_id)[0].title
         file_path = "media/download/{}".format(file)
-        downloadFile = open(file_path, 'rb')
+        # downloadFile = open(file_path, 'rb')
         if not os.path.isfile("media/download/{}".format(file)):  # 判断下载文件是否存在
             return HttpResponse("Sorry but Not Found the File")
 
@@ -106,13 +106,16 @@ class FileDownload(View):
             :param chunk_size: 块大小
             :return: 生成器
             """
-            with open(file_path, mode='rb') as f:
-                while True:
-                    c = f.read(chunk_size)
-                    if c:
-                        yield c
-                    else:
-                        break
+            try:
+                with open(file_path, mode='rb') as f:
+                    while True:
+                        c = f.read(chunk_size)
+                        if c:
+                            yield c
+                        else:
+                            break
+            except:
+                return HttpResponse("该文件不存在哦～")
         # response = FileResponse(downloadFile)
         response = StreamingHttpResponse(file_iterator())
         response['Content-Disposition'] = 'attachment;filename="{}"'.format(os.path.basename(file))

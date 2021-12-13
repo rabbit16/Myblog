@@ -22562,3 +22562,160 @@ WARNING 2021-12-13 21:25:04,639 basehttp 161 "GET /static/webfonts/fa-regular-40
 WARNING 2021-12-13 21:25:04,650 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
 INFO 2021-12-13 21:25:08,173 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
 WARNING 2021-12-13 21:25:08,220 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 21:26:45,805 basehttp 161 "GET /notification/ HTTP/1.1" 200 3822
+INFO 2021-12-13 21:28:57,023 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 21:29:09,934 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 21:29:10,630 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:42:25,225 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:42:26,411 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:42:27,108 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:42:31,309 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:42:32,104 basehttp 161 "GET /resources/ HTTP/1.1" 200 5196
+INFO 2021-12-13 21:43:47,155 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 21:44:56,404 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5584
+INFO 2021-12-13 21:44:59,375 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5584
+INFO 2021-12-13 21:45:13,006 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95?page_down=1 HTTP/1.1" 200 5584
+INFO 2021-12-13 21:45:21,021 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8271
+INFO 2021-12-13 21:45:21,071 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:45:23,657 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 8339
+INFO 2021-12-13 21:45:23,689 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:45:24,739 basehttp 161 "GET /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 200 14773
+INFO 2021-12-13 21:45:24,784 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:45:30,083 basehttp 161 "POST /admin/resourcesDownload/resource/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-13 21:45:30,149 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 8540
+INFO 2021-12-13 21:45:30,184 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:45:32,077 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 21:45:33,044 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5714
+INFO 2021-12-13 21:45:33,093 basehttp 161 "GET /resources/page/d HTTP/1.1" 200 5516
+INFO 2021-12-13 21:46:07,987 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5714
+INFO 2021-12-13 21:46:08,025 basehttp 161 "GET /resources/page/d HTTP/1.1" 200 5516
+INFO 2021-12-13 21:46:09,111 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 21:46:09,691 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5714
+INFO 2021-12-13 21:46:09,729 basehttp 161 "GET /resources/page/d HTTP/1.1" 200 5516
+INFO 2021-12-13 21:46:39,521 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5741
+ERROR 2021-12-13 21:46:42,776 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 98, in get
+    downloadFile = open(file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/download/测试'
+ERROR 2021-12-13 21:46:42,777 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 500 82196
+INFO 2021-12-13 21:48:14,150 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5741
+ERROR 2021-12-13 21:48:15,264 log 230 Internal Server Error: /resources/page/download
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py", line 98, in get
+    downloadFile = open(file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'media/download/测试'
+ERROR 2021-12-13 21:48:15,265 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 500 82196
+INFO 2021-12-13 21:48:51,887 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 141421
+INFO 2021-12-13 21:49:14,202 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 5088801
+INFO 2021-12-13 21:57:41,501 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-13 21:57:41,958 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 21:57:42,020 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/views.py changed, reloading.
+INFO 2021-12-13 21:57:42,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 21:57:44,547 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5740
+INFO 2021-12-13 21:57:45,684 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 5088801
+INFO 2021-12-13 21:58:14,407 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5740
+INFO 2021-12-13 21:58:18,644 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 8557
+INFO 2021-12-13 21:58:18,666 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:58:19,963 basehttp 161 "GET /admin/resourcesDownload/resource/2/change/ HTTP/1.1" 200 14827
+INFO 2021-12-13 21:58:19,990 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:58:26,190 basehttp 161 "POST /admin/resourcesDownload/resource/2/change/ HTTP/1.1" 302 0
+INFO 2021-12-13 21:58:26,245 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 8758
+INFO 2021-12-13 21:58:26,274 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 21:58:29,730 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5897
+INFO 2021-12-13 21:58:31,952 basehttp 161 "GET /resources/page/download?source_id=2 HTTP/1.1" 200 141421
+INFO 2021-12-13 21:58:39,441 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 5088801
+INFO 2021-12-13 21:58:59,231 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5897
+INFO 2021-12-13 21:59:00,079 basehttp 161 "GET /resources/page/download?source_id=2 HTTP/1.1" 200 28
+INFO 2021-12-13 22:00:45,684 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:01:03,354 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:01:04,370 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 15774
+INFO 2021-12-13 22:01:45,415 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8271
+INFO 2021-12-13 22:01:45,448 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 22:01:46,644 basehttp 161 "GET /admin/blog/article/1/change/ HTTP/1.1" 200 21272
+INFO 2021-12-13 22:01:46,675 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 22:01:52,309 basehttp 161 "POST /admin/blog/article/1/change/ HTTP/1.1" 302 0
+INFO 2021-12-13 22:01:52,377 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8458
+INFO 2021-12-13 22:01:52,408 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 22:01:57,307 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:01:57,986 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16187
+WARNING 2021-12-13 22:01:58,045 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:02:01,595 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4676
+INFO 2021-12-13 22:03:08,370 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 22:03:08,436 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 22:03:08,454 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 22:03:08,466 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 22:03:16,886 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:03:23,271 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 22:03:24,860 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:03:24,917 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:03:26,843 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:05:09,708 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 4868
+INFO 2021-12-13 22:05:11,955 basehttp 161 "GET /article/lists/?page_num=3 HTTP/1.1" 200 4868
+INFO 2021-12-13 22:05:14,617 basehttp 161 "GET /article/lists/?page_num=4 HTTP/1.1" 200 4868
+INFO 2021-12-13 22:05:21,940 basehttp 161 "GET /article/lists/?page_num=1 HTTP/1.1" 200 4868
+WARNING 2021-12-13 22:05:44,127 log 230 Not Found: /e/search/index.php
+WARNING 2021-12-13 22:05:44,128 basehttp 161 "POST /e/search/index.php HTTP/1.1" 404 3095
+WARNING 2021-12-13 22:05:46,076 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:05:46,765 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:21:41,253 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-13 22:21:41,299 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-13 22:21:41,300 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2021-12-13 22:21:41,328 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:21:43,093 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 22:21:43,123 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-13 22:21:46,074 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:21:46,932 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 22:21:47,003 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 22:21:47,013 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 22:21:47,026 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 22:21:48,372 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:21:48,413 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:21:51,310 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:21:53,169 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 22:21:54,745 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-13 22:21:56,927 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:22:01,296 basehttp 161 "GET /leactos/ HTTP/1.1" 200 9815
+INFO 2021-12-13 22:22:01,321 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 304 0
+INFO 2021-12-13 22:22:35,482 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:22:36,609 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:22:36,670 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:22:37,178 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 22:22:37,727 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:22:44,496 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 22:22:44,571 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 22:22:44,582 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 22:22:44,594 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 22:22:45,885 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:22:45,932 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:25:51,385 basehttp 161 "GET /leactos/ HTTP/1.1" 200 9815
+INFO 2021-12-13 22:25:51,420 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-13 22:25:51,433 basehttp 161 "GET /static/images/header.png HTTP/1.1" 304 0
+INFO 2021-12-13 22:26:05,728 basehttp 161 "POST /leactos/ HTTP/1.1" 200 16
+INFO 2021-12-13 22:26:05,763 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 10130
+INFO 2021-12-13 22:28:04,777 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:28:06,590 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 22:28:07,178 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:28:07,606 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:28:07,662 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:28:08,090 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343

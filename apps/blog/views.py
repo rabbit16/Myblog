@@ -41,7 +41,10 @@ class ArticleContentShow(View):
 class ArticleListByTag(View):
     def get(self, request):
         now_page = 1
-        next_page = int(request.GET.get("page_num"))
+        try:
+            next_page = int(request.GET.get("page_num"))
+        except:
+            next_page = 1
         if next_page:
             now_page = next_page
         tag = models.Tag.objects.all()

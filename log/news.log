@@ -21678,3 +21678,171 @@ INFO 2021-12-13 12:53:28,607 basehttp 161 "GET /admin/notification/notification/
 INFO 2021-12-13 12:53:28,634 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
 INFO 2021-12-13 12:53:30,389 basehttp 161 "GET /admin/resourcesDownload/resource/ HTTP/1.1" 200 7174
 INFO 2021-12-13 12:53:30,439 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 14:15:52,801 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:15:52,919 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:15:52,930 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:15:52,972 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:15:54,283 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:15:54,308 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-13 14:15:54,308 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-13 14:15:54,328 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 304 0
+ERROR 2021-12-13 14:15:57,702 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 44, in get
+    next_page = int(request.GET.get("page_num"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-12-13 14:15:57,703 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 74489
+INFO 2021-12-13 14:16:29,915 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 14:16:31,303 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:16:31,371 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:16:31,391 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:16:31,400 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:16:32,467 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+ERROR 2021-12-13 14:16:33,330 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 44, in get
+    next_page = int(request.GET.get("page_num"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-12-13 14:16:33,330 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 74489
+INFO 2021-12-13 14:16:36,115 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:16:37,009 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 14:16:37,043 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-13 14:16:37,690 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:16:38,561 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10550
+INFO 2021-12-13 14:16:38,592 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 304 0
+INFO 2021-12-13 14:16:38,593 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-13 14:16:38,609 basehttp 161 "GET /static/images/header.png HTTP/1.1" 304 0
+ERROR 2021-12-13 14:16:39,921 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 44, in get
+    next_page = int(request.GET.get("page_num"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-12-13 14:16:39,922 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 74489
+INFO 2021-12-13 14:17:16,506 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-13 14:17:18,868 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 44, in get
+    next_page = int(request.GET.get("page_num"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-12-13 14:17:18,869 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 79895
+INFO 2021-12-13 14:18:31,628 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-13 14:18:31,951 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 14:18:32,002 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 14:18:40,919 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:18:49,640 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 14:18:54,298 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:19:04,982 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:19:05,054 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:19:05,066 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:19:05,075 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:19:06,197 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:19:07,175 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:19:07,237 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:19:07,249 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:19:07,261 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:19:08,940 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:19:10,920 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:19:11,703 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 14:19:12,522 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:19:13,109 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:19:13,924 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10550
+INFO 2021-12-13 14:19:14,967 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:19:15,558 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:19:15,903 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 14:19:16,183 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:19:16,407 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:19:16,468 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:19:16,477 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:19:16,488 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:19:17,505 basehttp 161 "GET /article/ HTTP/1.1" 200 4179
+INFO 2021-12-13 14:19:18,445 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:20:45,787 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:20:50,758 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+INFO 2021-12-13 14:20:50,789 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+WARNING 2021-12-13 14:20:50,813 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:20:54,088 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4605
+INFO 2021-12-13 14:20:54,121 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-13 14:20:58,910 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 14:20:58,965 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:21:07,926 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:21:13,564 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 14:21:13,619 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:22:00,731 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:22:00,794 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:22:00,818 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:22:00,829 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 14:22:02,112 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 14:22:02,161 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:22:04,445 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:22:05,418 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:22:07,981 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 14:22:09,094 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 14:22:09,150 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:22:10,435 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:22:23,418 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10550
+INFO 2021-12-13 14:22:41,091 basehttp 161 "POST /leactos/ HTTP/1.1" 200 16
+INFO 2021-12-13 14:22:41,124 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 10567
+INFO 2021-12-13 14:23:01,556 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8271
+INFO 2021-12-13 14:23:01,605 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 14:23:05,370 basehttp 161 "GET /admin/leacots/leacots/ HTTP/1.1" 200 10834
+INFO 2021-12-13 14:23:05,395 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 14:23:13,930 basehttp 161 "GET /admin/leacots/leacots/13/change/ HTTP/1.1" 200 9686
+INFO 2021-12-13 14:23:13,958 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 14:23:15,396 basehttp 161 "GET /admin/leacots/leacots/13/delete/ HTTP/1.1" 200 7085
+INFO 2021-12-13 14:23:15,427 basehttp 161 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2021-12-13 14:23:16,448 basehttp 161 "POST /admin/leacots/leacots/13/delete/ HTTP/1.1" 302 0
+INFO 2021-12-13 14:23:16,574 basehttp 161 "GET /admin/leacots/leacots/ HTTP/1.1" 200 10767
+INFO 2021-12-13 14:23:16,602 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-13 14:23:35,730 basehttp 161 "GET /admin/leacots/leacots/13/delete/ HTTP/1.1" 302 0
+INFO 2021-12-13 14:23:35,783 basehttp 161 "GET /admin/ HTTP/1.1" 200 7141
+INFO 2021-12-13 14:23:35,838 basehttp 161 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2021-12-13 14:23:40,960 basehttp 161 "GET /admin/leacots/leacots/13/change/ HTTP/1.1" 302 0
+INFO 2021-12-13 14:23:41,013 basehttp 161 "GET /admin/ HTTP/1.1" 200 7141
+INFO 2021-12-13 14:23:41,516 basehttp 161 "GET /admin/leacots/leacots/ HTTP/1.1" 200 10621
+INFO 2021-12-13 14:23:42,115 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8271
+INFO 2021-12-13 14:23:45,709 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 10550
+INFO 2021-12-13 14:24:16,133 basehttp 161 "GET /leactos/?page=0 HTTP/1.1" 200 10550
+INFO 2021-12-13 14:24:19,923 basehttp 161 "GET /leactos/?page=3 HTTP/1.1" 200 9605
+INFO 2021-12-13 14:24:23,609 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 10550
+INFO 2021-12-13 14:24:28,217 basehttp 161 "GET /resources/ HTTP/1.1" 200 5287
+INFO 2021-12-13 14:24:30,127 basehttp 161 "GET /notification/ HTTP/1.1" 200 3891
+INFO 2021-12-13 14:24:31,162 basehttp 161 "GET /article/ HTTP/1.1" 200 4592
+WARNING 2021-12-13 14:24:31,217 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 14:24:32,417 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4781
+INFO 2021-12-13 14:24:33,224 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10550
+INFO 2021-12-13 14:24:34,124 basehttp 161 "GET / HTTP/1.1" 200 3143
+WARNING 2021-12-13 14:24:34,190 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 14:24:34,194 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 14:24:34,200 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840

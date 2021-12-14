@@ -25340,3 +25340,33 @@ WARNING 2021-12-14 18:45:04,383 basehttp 161 "GET /static/webfonts/fa-regular-40
 WARNING 2021-12-14 18:45:04,402 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
 WARNING 2021-12-14 18:45:04,415 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
 INFO 2021-12-14 18:45:06,406 basehttp 161 "GET /article/ HTTP/1.1" 200 10123
+INFO 2021-12-14 19:00:50,013 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 19:00:51,412 basehttp 161 "GET / HTTP/1.1" 200 8487
+WARNING 2021-12-14 19:00:51,495 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 19:00:51,528 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 19:00:51,534 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 19:00:53,305 basehttp 161 "GET /article/ HTTP/1.1" 200 10123
+INFO 2021-12-14 19:00:53,368 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-14 19:00:55,883 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 43281
+WARNING 2021-12-14 19:01:13,903 log 230 Not Found: /article/detail/空
+WARNING 2021-12-14 19:01:13,903 basehttp 161 "GET /article/detail/%E7%A9%BA HTTP/1.1" 404 3874
+WARNING 2021-12-14 19:06:26,506 log 230 Not Found: /e/search/index.php
+WARNING 2021-12-14 19:06:26,507 basehttp 161 "POST /e/search/index.php HTTP/1.1" 404 3237
+INFO 2021-12-14 19:07:11,504 basehttp 161 "GET /resources/ HTTP/1.1" 200 10956
+INFO 2021-12-14 19:07:11,521 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 19:07:11,531 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 19:07:11,542 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 19:07:12,438 basehttp 161 "GET /notification/ HTTP/1.1" 200 9741
+INFO 2021-12-14 19:07:13,255 basehttp 161 "GET /article/ HTTP/1.1" 200 10123
+INFO 2021-12-14 19:07:13,780 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 10481
+INFO 2021-12-14 19:07:14,626 basehttp 161 "GET / HTTP/1.1" 200 8487
+WARNING 2021-12-14 19:07:14,658 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 19:07:14,698 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 19:07:14,709 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 19:07:17,085 basehttp 161 "GET /article/ HTTP/1.1" 200 10123
+INFO 2021-12-14 19:08:59,879 basehttp 161 "GET /article/ HTTP/1.1" 200 4806
+INFO 2021-12-14 19:09:07,744 basehttp 161 "GET /article/ HTTP/1.1" 200 10123
+INFO 2021-12-14 19:09:52,751 basehttp 161 "GET /article/ HTTP/1.1" 200 10133
+INFO 2021-12-14 19:10:06,802 basehttp 161 "GET /article/ HTTP/1.1" 200 10133
+INFO 2021-12-14 19:10:14,216 basehttp 161 "GET /article/ HTTP/1.1" 200 10133
+INFO 2021-12-14 19:10:26,560 basehttp 161 "GET /article/ HTTP/1.1" 200 10134

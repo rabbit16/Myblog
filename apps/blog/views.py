@@ -7,6 +7,8 @@ from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
+from markdown.extensions.toc import TocExtension, slugify
+
 from blog import models
 import markdown
 from django.views.decorators.csrf import csrf_protect
@@ -28,15 +30,29 @@ class ContextShow(View):
 
 class ArticleContentShow(View):
     def get(self, request, a_id):
-        news = models.Article.objects.filter(is_delete=False).reverse()[a_id-1]
+        news = models.Article.objects.get(id=a_id)
+        md = markdown.Markdown(extensions=[
+            'markdown.extensions.extra',
+            'markdown.extensions.codehilite',  # 语法高亮拓展
+            'markdown.extensions.toc',  # 自动生成目录
+            'sane_lists',
+            TocExtension(slugify=slugify),
+            'tables'
+        ])
         news.content = markdown.markdown(news.content, extensions=[
             'markdown.extensions.extra',
             'markdown.extensions.codehilite',  # 语法高亮拓展
             'markdown.extensions.toc',  # 自动生成目录
-            'sane_lists'
+            'sane_lists',
+            TocExtension(slugify=slugify),
+            'tables'
         ])  # 修改blog.content内容为html
+        tocs = md.convert(str(news.content))
+        # tocs.toc = md.toc
+        # news.toc = md.toc
         return render(request, 'message/article_detail.html', context={
-            'article': news
+            'article': news,
+            'toc': md.toc
         })
 
 class ArticleListByTag(View):

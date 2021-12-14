@@ -18,16 +18,20 @@ from django.urls import path, include, re_path
 from django.views.static import serve
 from untitled import settings
 from django.conf.urls.static import static
+from django.conf.urls import url ##新增
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('index.urls')),
+    url(r'^static/(?P<path>.*)$', serve,
+                      {'document_root': settings.STATICFILES_DIRS[0]}, name='static'),
     path('article/', include('blog.urls')),
     path('resources/', include('resourcesDownload.urls')),
     re_path(r'media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     path('notification/', include('notification.urls')),
     path('leactos/', include('leacots.urls')),
-    path('mdeditor/', include('mdeditor.urls'))
+    path('mdeditor/', include('mdeditor.urls')),
+
     # path('index/', include('user_m.urls')),
     # path('', include('verifications.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

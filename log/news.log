@@ -22719,3 +22719,1685 @@ INFO 2021-12-13 22:28:07,178 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
 INFO 2021-12-13 22:28:07,606 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
 WARNING 2021-12-13 22:28:07,662 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
 INFO 2021-12-13 22:28:08,090 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 22:34:27,370 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 22:34:31,094 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 22:34:31,166 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 22:34:31,193 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 22:34:31,200 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 22:34:32,323 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 22:34:32,370 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 22:34:33,791 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 22:34:34,406 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10130
+WARNING 2021-12-13 22:34:51,398 log 230 Not Found: /favicon.ico
+WARNING 2021-12-13 22:34:51,404 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3073
+WARNING 2021-12-13 22:34:51,415 log 230 Not Found: /favicon.ico
+WARNING 2021-12-13 22:34:51,423 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3073
+INFO 2021-12-13 23:20:42,275 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 23:20:43,266 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 23:20:43,336 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 23:20:43,352 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 23:20:43,359 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 23:20:44,534 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 23:20:44,572 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 23:20:48,968 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 23:20:49,816 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 23:20:50,985 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 23:20:51,047 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 23:20:51,060 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 23:20:51,071 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-13 23:20:52,148 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-13 23:20:53,082 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 23:20:53,744 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 23:20:53,802 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 23:20:55,790 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 23:20:56,570 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10130
+INFO 2021-12-13 23:20:59,792 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-13 23:21:00,594 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-13 23:21:00,648 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-13 23:21:01,587 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-13 23:21:02,098 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-13 23:28:50,048 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-13 23:28:51,289 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-13 23:28:51,365 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-13 23:28:51,385 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-13 23:28:51,395 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-14 08:48:00,208 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:48:00,249 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:00,522 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:02,403 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 08:48:02,438 log 230 Not Found: /static/images/jinwu.png
+WARNING 2021-12-14 08:48:02,439 log 230 Not Found: /static/assets/css/main.css
+WARNING 2021-12-14 08:48:02,439 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,439 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:02,441 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+WARNING 2021-12-14 08:48:02,444 log 230 Not Found: /static/assets/js/jquery.min.js
+WARNING 2021-12-14 08:48:02,445 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 08:48:02,445 log 230 Not Found: /static/assets/js/browser.min.js
+WARNING 2021-12-14 08:48:02,448 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,446 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,448 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 08:48:02,449 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,447 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 08:48:02,450 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,450 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:02,466 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 08:48:02,467 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:11,985 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:48:12,396 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:12,794 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:48:13,095 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:17,505 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:18,306 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 08:48:18,326 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 08:48:18,327 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 08:48:18,330 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 08:48:18,340 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+INFO 2021-12-14 08:48:18,347 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 08:48:18,350 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 08:48:18,354 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 08:48:18,354 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 08:48:18,356 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+WARNING 2021-12-14 08:48:18,362 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1846
+WARNING 2021-12-14 08:48:18,394 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1843
+WARNING 2021-12-14 08:48:18,405 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1840
+INFO 2021-12-14 08:48:32,122 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:48:32,522 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:32,675 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:33,990 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 08:48:34,042 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 08:48:34,043 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:34,063 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 08:48:34,063 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:34,068 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 08:48:34,068 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:43,369 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 08:48:43,423 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 08:48:43,423 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:43,427 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 08:48:43,427 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:43,431 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 08:48:43,431 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:46,770 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:48:47,800 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 08:48:47,840 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 08:48:47,841 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:47,869 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 08:48:47,869 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:47,874 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 08:48:47,874 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:50,989 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 08:48:51,016 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 08:48:51,017 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:51,020 log 230 Not Found: /static/js/jquery.js
+WARNING 2021-12-14 08:48:51,021 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 08:48:51,022 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:51,022 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:51,035 log 230 Not Found: /static/images/2018.png
+WARNING 2021-12-14 08:48:51,035 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:53,504 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 08:48:53,532 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 08:48:53,532 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:53,536 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 08:48:53,538 log 230 Not Found: /static/js/jquery.js
+WARNING 2021-12-14 08:48:53,539 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:53,540 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:53,549 log 230 Not Found: /static/images/2018.png
+WARNING 2021-12-14 08:48:53,550 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:56,282 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 08:48:56,285 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 08:48:56,285 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:56,287 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+INFO 2021-12-14 08:48:58,859 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 08:48:58,883 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 08:48:58,885 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 08:48:58,889 log 230 Not Found: /static/js/jquery.js
+WARNING 2021-12-14 08:48:58,889 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:58,890 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:58,891 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:48:58,894 log 230 Not Found: /static/images/2018.png
+WARNING 2021-12-14 08:48:58,895 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 404 179
+INFO 2021-12-14 08:49:23,272 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:23,394 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:23,602 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:23,734 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:24,906 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 08:49:24,928 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 08:49:24,931 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 08:49:24,932 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 08:49:24,936 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 08:49:24,947 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 08:49:24,948 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+WARNING 2021-12-14 08:49:24,957 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-14 08:49:36,244 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:36,294 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:36,638 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:36,651 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:37,484 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 08:49:37,546 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 08:49:37,547 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 08:49:52,360 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 08:49:52,389 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 08:49:52,394 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 08:49:52,395 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:49:52,399 log 230 Not Found: /static/js/jquery.js
+WARNING 2021-12-14 08:49:52,399 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 08:49:52,400 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 404 179
+WARNING 2021-12-14 08:49:52,406 log 230 Not Found: /static/images/2018.png
+WARNING 2021-12-14 08:49:52,406 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 404 179
+INFO 2021-12-14 08:49:56,391 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:56,516 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 08:49:56,795 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:56,823 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 08:49:57,833 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 08:49:57,852 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 08:49:57,854 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 08:49:57,857 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 08:49:57,861 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 08:49:57,878 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 08:49:57,880 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 08:49:57,881 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 08:49:57,885 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 08:49:57,886 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 08:49:57,890 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 08:49:57,892 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 08:49:57,897 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 08:49:57,903 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 08:49:57,904 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 08:49:57,904 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 08:49:57,909 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 08:49:57,910 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+WARNING 2021-12-14 08:49:57,914 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1804
+INFO 2021-12-14 09:05:11,166 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:05:11,458 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:05:11,600 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:05:11,768 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:05:15,013 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 09:05:15,054 log 230 Not Found: /static/images/gz02.png
+WARNING 2021-12-14 09:05:15,055 log 230 Not Found: /static/images/gz03.png
+WARNING 2021-12-14 09:05:15,055 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:15,056 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:15,063 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:05:15,064 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:16,538 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:05:16,574 log 230 Not Found: /static/assets/css/main.css
+WARNING 2021-12-14 09:05:16,575 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,578 log 230 Not Found: /static/images/jinwu.png
+WARNING 2021-12-14 09:05:16,581 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:05:16,589 log 230 Not Found: /static/assets/js/jquery.min.js
+WARNING 2021-12-14 09:05:16,590 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,592 log 230 Not Found: /static/assets/js/browser.min.js
+WARNING 2021-12-14 09:05:16,597 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 09:05:16,597 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,597 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,599 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:05:16,600 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:16,601 basehttp 75 - Broken pipe from ('127.0.0.1', 57460)
+
+WARNING 2021-12-14 09:05:16,601 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,602 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:16,604 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+WARNING 2021-12-14 09:05:16,630 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:05:16,631 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:16,634 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:05:16,635 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:51,938 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:05:52,223 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:05:52,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:05:52,518 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:05:53,152 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:05:53,173 log 230 Not Found: /static/assets/css/main.css
+WARNING 2021-12-14 09:05:53,173 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:53,177 log 230 Not Found: /static/images/jinwu.png
+WARNING 2021-12-14 09:05:53,177 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:53,190 log 230 Not Found: /static/assets/js/jquery.min.js
+WARNING 2021-12-14 09:05:53,192 log 230 Not Found: /static/assets/js/browser.min.js
+WARNING 2021-12-14 09:05:53,194 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 09:05:53,194 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:53,195 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:53,196 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:05:53,198 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:05:53,199 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:53,199 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:53,199 basehttp 75 - Broken pipe from ('127.0.0.1', 57632)
+
+WARNING 2021-12-14 09:05:53,200 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:57,742 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 09:05:57,793 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:05:57,793 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:05:58,852 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+WARNING 2021-12-14 09:05:58,867 log 230 Not Found: /static/css/main.css
+WARNING 2021-12-14 09:05:58,868 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:05:58,871 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:05:58,871 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:02,063 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+WARNING 2021-12-14 09:06:02,089 log 230 Not Found: /static/css/main.css
+WARNING 2021-12-14 09:06:02,091 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:02,094 log 230 Not Found: /static/js/modernizr.js
+WARNING 2021-12-14 09:06:02,095 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:06,190 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 09:06:06,228 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:06:06,228 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:07,170 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+WARNING 2021-12-14 09:06:07,199 log 230 Not Found: /static/css/main.css
+WARNING 2021-12-14 09:06:07,199 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:07,202 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:06:07,202 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:10,104 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10130
+WARNING 2021-12-14 09:06:10,133 log 230 Not Found: /static/res/layui/css/layui.css
+WARNING 2021-12-14 09:06:10,134 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:10,136 log 230 Not Found: /static/res/css/main.css
+WARNING 2021-12-14 09:06:10,138 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:06:10,140 log 230 Not Found: /static/css/article_next_button.css
+WARNING 2021-12-14 09:06:10,141 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:10,141 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:10,142 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:10,152 log 230 Not Found: /static/images/header.png
+WARNING 2021-12-14 09:06:10,153 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:16,842 log 230 Not Found: /static/res/layui/css/layui.css
+WARNING 2021-12-14 09:06:16,845 log 230 Not Found: /static/res/css/main.css
+WARNING 2021-12-14 09:06:16,846 log 230 Not Found: /static/css/article_next_button.css
+WARNING 2021-12-14 09:06:16,848 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:06:16,849 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:16,849 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:16,850 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:16,850 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:18,993 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10130
+WARNING 2021-12-14 09:06:19,017 log 230 Not Found: /static/res/layui/css/layui.css
+WARNING 2021-12-14 09:06:19,021 log 230 Not Found: /static/res/css/main.css
+WARNING 2021-12-14 09:06:19,023 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:06:19,025 log 230 Not Found: /static/css/article_next_button.css
+WARNING 2021-12-14 09:06:19,027 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:19,027 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:19,028 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:19,028 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:19,028 basehttp 75 - Broken pipe from ('127.0.0.1', 57636)
+
+WARNING 2021-12-14 09:06:19,040 log 230 Not Found: /static/images/header.png
+WARNING 2021-12-14 09:06:19,041 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 179
+INFO 2021-12-14 09:06:38,739 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10130
+WARNING 2021-12-14 09:06:38,763 log 230 Not Found: /static/res/layui/css/layui.css
+WARNING 2021-12-14 09:06:38,764 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,767 log 230 Not Found: /static/res/css/main.css
+WARNING 2021-12-14 09:06:38,770 log 230 Not Found: /static/css/code.css
+WARNING 2021-12-14 09:06:38,772 log 230 Not Found: /static/css/base.css
+WARNING 2021-12-14 09:06:38,775 log 230 Not Found: /static/css/index.css
+WARNING 2021-12-14 09:06:38,778 log 230 Not Found: /static/css/article_next_button.css
+WARNING 2021-12-14 09:06:38,782 log 230 Not Found: /static/js/jquery.js
+WARNING 2021-12-14 09:06:38,782 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,783 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,785 basehttp 161 "GET /static/css/index.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,785 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,785 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,785 basehttp 161 "GET /static/css/base.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,789 log 230 Not Found: /static/images/header.png
+WARNING 2021-12-14 09:06:38,789 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,831 log 230 Not Found: /static/res/layui/layui.js
+WARNING 2021-12-14 09:06:38,831 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:06:38,845 log 230 Not Found: /static/images/logo.png
+WARNING 2021-12-14 09:06:38,845 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 404 179
+INFO 2021-12-14 09:07:36,306 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:07:36,334 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:07:36,685 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:07:36,685 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:08:03,425 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:08:03,773 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:08:27,435 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:08:27,594 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:08:27,933 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:08:27,967 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:08:51,819 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:21,557 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:21,920 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:09:22,264 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:43,824 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:44,089 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:09:44,397 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:53,774 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:09:54,086 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:54,216 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:09:54,559 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:09:55,406 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:08,653 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:10:08,992 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:09,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:13,942 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:14,232 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:10:14,560 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:22,549 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:22,888 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:10:23,183 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:33,214 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:10:33,573 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:10:33,866 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:06,175 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:11:06,551 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:07,106 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:11:07,473 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:10,731 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:20,100 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:11:20,127 log 230 Not Found: /static/assets/css/main.css
+WARNING 2021-12-14 09:11:20,128 log 230 Not Found: /static/images/jinwu.png
+WARNING 2021-12-14 09:11:20,128 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,128 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 404 179
+INFO 2021-12-14 09:11:20,135 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+WARNING 2021-12-14 09:11:20,142 log 230 Not Found: /static/assets/js/jquery.min.js
+WARNING 2021-12-14 09:11:20,142 log 230 Not Found: /static/assets/js/browser.min.js
+WARNING 2021-12-14 09:11:20,143 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 09:11:20,144 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:11:20,145 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:11:20,146 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,146 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,146 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,146 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,146 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,157 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 09:11:20,157 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,159 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:11:20,159 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:20,162 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:11:20,162 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:11:39,720 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:11:39,888 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:40,084 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:11:41,076 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 09:11:41,104 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 09:11:41,107 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 09:11:41,110 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 09:11:41,119 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 09:11:41,122 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 09:11:41,127 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 09:11:41,128 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 09:11:41,128 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 09:11:41,452 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 09:11:41,453 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 09:11:41,463 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:11:41,463 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:41,470 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:11:41,471 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:41,474 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:11:41,474 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:11:43,037 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 09:11:43,063 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 09:11:43,066 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 09:11:43,069 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 09:11:43,083 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 09:11:43,094 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 09:11:43,094 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 09:11:43,095 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 09:11:43,097 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+WARNING 2021-12-14 09:11:43,098 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:11:43,100 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:11:43,101 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 09:11:43,102 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 09:11:43,103 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 09:11:43,104 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 09:11:43,105 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 09:11:43,107 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 09:11:43,108 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 09:11:43,108 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 09:11:43,108 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 09:11:44,084 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 09:11:44,115 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 09:11:44,118 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-14 09:11:44,119 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 09:11:45,462 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:11:45,523 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:11:45,523 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:45,529 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:11:45,529 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 09:11:45,535 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:11:45,535 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:02,932 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 09:12:02,959 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 09:12:02,961 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 09:12:02,974 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 09:12:02,974 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 09:12:02,976 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 09:12:02,976 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 09:12:02,979 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 09:12:02,980 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-14 09:12:02,983 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+WARNING 2021-12-14 09:12:03,106 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:12:03,107 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:03,108 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 09:12:03,109 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 09:12:03,112 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:12:03,113 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:03,119 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:12:03,119 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:04,678 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 09:12:04,700 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 09:12:04,709 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 09:12:04,711 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 09:12:04,719 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 09:12:04,733 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 09:12:04,735 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 09:12:04,738 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 09:12:04,739 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 09:12:04,741 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 09:12:04,741 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 09:12:04,743 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 09:12:04,743 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 09:12:04,744 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 09:12:04,745 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 09:12:04,746 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+WARNING 2021-12-14 09:12:04,748 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:12:04,748 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:04,749 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 09:12:04,749 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 09:12:20,489 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:12:20,519 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:12:20,891 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:12:20,891 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:12:21,608 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 09:12:21,679 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:12:21,679 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:31,187 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:12:31,220 log 230 Not Found: /static/assets/css/main.css
+WARNING 2021-12-14 09:12:31,221 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,226 log 230 Not Found: /static/images/jinwu.png
+WARNING 2021-12-14 09:12:31,231 log 230 Not Found: /static/assets/js/jquery.min.js
+WARNING 2021-12-14 09:12:31,233 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,236 log 230 Not Found: /static/assets/js/browser.min.js
+WARNING 2021-12-14 09:12:31,238 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:12:31,239 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,239 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,243 log 230 Not Found: /static/assets/js/breakpoints.min.js
+WARNING 2021-12-14 09:12:31,245 log 230 Not Found: /static/assets/js/util.js
+WARNING 2021-12-14 09:12:31,246 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,247 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:31,248 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:31,248 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+WARNING 2021-12-14 09:12:31,250 log 230 Not Found: /static/assets/js/main.js
+WARNING 2021-12-14 09:12:31,250 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:33,354 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:12:33,477 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:12:33,746 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:12:33,775 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:12:34,707 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 09:12:34,736 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 09:12:34,749 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 09:12:34,751 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 09:12:34,752 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 09:12:34,754 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 09:12:34,755 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 09:12:34,756 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 09:12:34,760 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 09:12:34,901 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+WARNING 2021-12-14 09:12:34,902 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:12:34,908 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 09:12:34,912 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:12:34,913 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+INFO 2021-12-14 09:12:34,914 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 09:12:34,919 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:12:34,920 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:13:30,776 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:13:30,802 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:13:31,207 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:13:31,207 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:13:37,339 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:13:37,424 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:13:37,425 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 09:13:37,434 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:13:37,435 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 09:13:37,441 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:13:37,441 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:14:14,912 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:14:15,274 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:14:15,327 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:14:43,333 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 09:14:43,792 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:14:44,075 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:15:24,382 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-14 09:15:24,687 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:15:24,713 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:15:26,349 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 09:15:26,421 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:15:26,422 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+WARNING 2021-12-14 09:15:26,438 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:15:26,438 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+WARNING 2021-12-14 09:15:26,446 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:15:26,446 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:15:34,735 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 09:15:34,773 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 09:15:34,781 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 09:15:34,782 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 09:15:34,785 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 09:15:34,788 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 09:15:34,788 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 09:15:34,789 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 09:15:34,789 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 09:15:34,790 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+WARNING 2021-12-14 09:15:34,905 log 230 Not Found: /static/webfonts/fa-regular-400.woff2
+WARNING 2021-12-14 09:15:34,906 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 179
+INFO 2021-12-14 09:15:34,907 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+WARNING 2021-12-14 09:15:34,911 log 230 Not Found: /static/webfonts/fa-regular-400.woff
+WARNING 2021-12-14 09:15:34,911 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 179
+INFO 2021-12-14 09:15:34,912 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 09:15:34,916 log 230 Not Found: /static/webfonts/fa-regular-400.ttf
+WARNING 2021-12-14 09:15:34,917 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 179
+INFO 2021-12-14 09:15:36,735 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 09:15:36,763 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 09:15:36,767 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 09:15:36,770 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 09:15:36,787 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 09:15:36,800 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 09:15:36,800 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 09:15:36,801 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 09:15:36,802 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+WARNING 2021-12-14 09:15:36,803 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 09:15:36,806 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+INFO 2021-12-14 09:15:36,807 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 09:15:36,809 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 09:15:36,809 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 09:15:36,810 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 09:15:36,812 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 09:15:36,812 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 09:15:36,813 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 09:15:36,814 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 09:15:36,814 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 09:21:50,109 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:21:50,496 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:21:50,634 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:21:50,967 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:22:00,836 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:22:01,178 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:24:15,021 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:24:15,369 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:41:18,617 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4676
+INFO 2021-12-14 09:41:18,633 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-14 09:41:18,633 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 09:41:18,644 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 09:41:18,658 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 09:41:18,659 basehttp 161 "GET /article/detail/media/editor/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 09:42:12,104 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 10092
+INFO 2021-12-14 09:43:05,233 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37414
+INFO 2021-12-14 09:46:50,895 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:46:51,311 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:46:53,414 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 09:55:05,808 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:55:06,224 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:55:44,541 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:55:44,920 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:58:47,444 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:58:47,826 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 09:59:44,862 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 09:59:45,211 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 10:00:42,201 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:00:42,204 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+ERROR 2021-12-14 10:00:50,787 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:00:50,789 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+ERROR 2021-12-14 10:00:57,288 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:00:57,291 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+INFO 2021-12-14 10:01:00,693 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 10:01:02,762 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:01:02,765 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+INFO 2021-12-14 10:01:06,676 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:01:06,705 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-14 10:01:08,180 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:01:09,791 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:01:11,146 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16187
+INFO 2021-12-14 10:01:11,165 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+WARNING 2021-12-14 10:01:11,209 log 230 Not Found: /static/images/time.jpg
+WARNING 2021-12-14 10:01:11,210 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 179
+ERROR 2021-12-14 10:01:12,524 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:01:12,526 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+INFO 2021-12-14 10:01:26,725 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:01:27,090 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 10:01:27,990 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:01:27,993 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+ERROR 2021-12-14 10:01:34,047 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 47, in get
+    'toc'
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.TOC'
+ERROR 2021-12-14 10:01:34,048 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+INFO 2021-12-14 10:01:49,843 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:01:50,233 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:01:51,181 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:02:04,769 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:02:05,073 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 10:02:06,294 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 52, in get
+    'toc': md.toc
+AttributeError: 'str' object has no attribute 'toc'
+ERROR 2021-12-14 10:02:06,296 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 145
+INFO 2021-12-14 10:02:12,544 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:02:12,861 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:02:13,141 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:02:37,459 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 10:02:37,783 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-14 10:02:37,890 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:02:38,126 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:02:41,299 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:02:44,468 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:04:59,923 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:05:00,258 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:05:00,298 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:05:00,556 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:05:25,339 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 10:05:25,398 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:05:25,414 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:05:25,442 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:05:26,561 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:05:26,607 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:05:28,639 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:05:30,118 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:05:30,837 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16187
+WARNING 2021-12-14 10:05:30,885 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+ERROR 2021-12-14 10:05:32,762 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 39, in get
+    TocExtension(slugify=slugify)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 386, in markdown
+    md = Markdown(**kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 97, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 123, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/markdown/core.py", line 162, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'markdown.extensions.Toc'
+ERROR 2021-12-14 10:05:32,763 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 111814
+INFO 2021-12-14 10:05:41,879 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:05:42,138 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:05:42,199 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:05:42,423 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:05:42,909 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:21:17,821 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:21:29,214 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:21:29,242 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:21:29,251 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7187
+INFO 2021-12-14 10:21:29,252 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-14 10:21:29,253 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:21:29,256 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:21:29,278 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:21:29,279 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:21:29,279 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:21:29,280 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:21:29,281 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:21:29,283 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:21:29,284 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:21:29,284 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:21:33,157 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:21:33,193 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:33,199 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 10:21:38,162 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:21:38,188 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:38,192 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-14 10:21:40,880 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:21:40,907 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 10:21:40,936 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 10:21:40,936 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 10:21:40,936 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 10:21:40,944 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 10:21:40,946 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 10:21:40,947 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 10:21:40,948 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+WARNING 2021-12-14 10:21:40,953 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:21:43,342 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:21:43,369 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:44,097 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:21:48,087 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 10:21:48,117 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 10:21:48,126 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 10:21:48,132 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 10:21:48,136 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 10:21:48,138 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 10:21:48,139 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 10:21:48,140 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-14 10:21:48,142 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 10:21:48,143 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 10:21:48,580 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 10:21:48,582 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 10:21:48,595 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:21:48,606 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:21:48,620 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:21:51,343 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:21:51,393 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:21:52,210 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:21:52,238 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:55,693 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:21:55,719 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:57,261 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:21:57,319 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:21:58,203 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:21:59,480 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16187
+INFO 2021-12-14 10:21:59,493 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:21:59,494 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+WARNING 2021-12-14 10:21:59,527 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:22:00,812 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:22:16,467 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:22:16,501 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:22:17,711 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:22:17,768 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:24:42,063 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:24:42,134 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:25:26,799 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:25:26,867 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:25:36,275 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:25:36,304 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3903
+INFO 2021-12-14 10:25:36,314 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 10:25:36,316 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:25:36,330 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 10:25:36,350 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:25:36,351 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:25:36,352 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:25:36,354 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 10:25:36,380 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 10:25:36,382 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+WARNING 2021-12-14 10:25:36,383 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:25:36,384 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 10:25:36,384 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 10:25:36,387 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:25:36,388 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 10:25:36,388 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 10:25:36,389 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:25:36,392 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:26:47,112 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:26:47,151 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3903
+WARNING 2021-12-14 10:26:47,187 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:26:49,824 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:26:49,855 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:26:49,858 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7187
+INFO 2021-12-14 10:26:49,861 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-14 10:26:50,678 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:26:50,708 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:26:50,713 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:26:50,713 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 4889
+INFO 2021-12-14 10:26:51,522 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:26:51,548 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:26:52,212 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:26:52,243 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:26:58,110 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 10:26:58,137 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 10:26:58,147 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 10:26:58,149 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 10:26:58,149 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 10:26:58,152 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 10:26:58,157 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 10:26:58,159 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 10:26:58,160 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-14 10:26:58,162 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 10:26:58,416 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 10:26:58,418 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 10:26:58,430 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:26:58,440 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:26:58,451 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:27:03,868 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+INFO 2021-12-14 10:27:03,894 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2021-12-14 10:27:03,926 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:27:05,143 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:27:05,168 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:27:07,218 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:27:07,246 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:27:18,655 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:27:18,681 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:27:19,643 basehttp 161 "GET /article/ HTTP/1.1" 200 4506
+WARNING 2021-12-14 10:27:19,701 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:27:20,404 basehttp 161 "GET /notification/ HTTP/1.1" 200 4126
+INFO 2021-12-14 10:27:21,145 basehttp 161 "GET /resources/ HTTP/1.1" 200 5343
+INFO 2021-12-14 10:27:22,694 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 5897
+INFO 2021-12-14 10:27:22,724 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:27:22,728 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:27:25,142 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 4868
+INFO 2021-12-14 10:27:26,004 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16187
+INFO 2021-12-14 10:27:26,018 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+INFO 2021-12-14 10:27:26,018 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2021-12-14 10:27:26,071 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:27:27,660 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37862
+INFO 2021-12-14 10:27:27,701 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:27:27,717 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:31:06,203 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:31:07,501 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 10:31:07,567 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:31:07,578 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:31:07,584 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:31:09,946 basehttp 161 "GET /article/ HTTP/1.1" 200 4813
+INFO 2021-12-14 10:31:09,977 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2021-12-14 10:31:10,020 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:31:11,762 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38169
+INFO 2021-12-14 10:31:11,775 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:33:41,908 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38169
+INFO 2021-12-14 10:33:41,931 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:33:41,933 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:36:10,248 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:36:10,273 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:36:10,274 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:36:10,288 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:36:10,289 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:38:02,688 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:38:02,714 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:38:02,717 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:38:02,728 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:38:02,730 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:38:17,306 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:38:17,333 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3903
+INFO 2021-12-14 10:38:17,341 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7187
+INFO 2021-12-14 10:38:17,343 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:38:17,344 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:38:17,346 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:38:17,362 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:38:17,364 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:38:17,373 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:38:17,374 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:38:17,375 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:38:17,378 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:38:17,378 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:38:17,379 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:38:17,380 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:38:17,385 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:39:07,791 basehttp 161 "GET /article/ HTTP/1.1" 200 4733
+INFO 2021-12-14 10:39:07,825 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 10:39:07,843 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:07,848 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:07,851 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 10:39:07,875 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 10:39:07,876 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 10:39:07,876 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 10:39:07,878 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 10:39:07,882 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+WARNING 2021-12-14 10:39:07,882 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:39:07,883 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 10:39:07,883 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 10:39:14,609 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:39:14,638 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:14,649 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:14,649 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:29,193 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 10:39:29,218 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:39:29,226 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 10:39:29,227 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:39:29,228 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:39:29,229 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:39:29,245 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:39:29,246 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:39:29,256 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:39:29,258 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:39:29,260 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 10:39:29,261 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:39:29,261 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:39:29,263 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:39:29,264 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:39:33,993 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 10:39:34,020 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:34,024 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:39:34,706 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16414
+INFO 2021-12-14 10:39:34,721 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+INFO 2021-12-14 10:39:34,721 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 10:39:34,773 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 10:39:34,774 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 10:39:34,774 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 10:39:34,775 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+WARNING 2021-12-14 10:39:34,779 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:39:34,779 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+INFO 2021-12-14 10:39:34,781 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 10:39:34,782 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 10:39:35,720 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:39:35,761 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:39:35,779 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:40:17,673 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:17,673 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:17,673 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:52,532 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:40:52,555 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:52,558 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:52,559 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:52,572 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:40:52,572 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:41:59,508 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:41:59,550 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:41:59,553 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:41:59,554 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:41:59,564 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:41:59,565 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:42:03,091 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:42:09,806 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:42:09,833 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:42:09,837 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 10:42:09,842 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:42:09,843 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:42:09,844 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:42:09,862 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:42:09,863 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:42:09,868 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:42:09,869 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:42:09,869 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:42:09,870 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:42:09,888 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:42:09,889 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:42:09,890 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:42:09,890 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:42:38,373 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:42:38,397 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:42:38,402 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:42:38,403 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:42:47,969 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:42:47,991 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:42:47,996 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 10:42:47,999 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:42:48,000 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:42:48,001 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:42:48,019 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:42:48,021 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:42:48,031 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:42:48,031 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:42:48,031 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:42:48,034 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:42:48,036 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:42:48,036 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:42:48,036 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:42:48,037 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:45:42,289 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38089
+INFO 2021-12-14 10:45:42,329 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:45:42,333 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:45:42,334 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:45:42,346 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:45:42,346 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:18,094 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:47:18,388 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 10:47:18,555 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:47:18,730 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 10:47:22,111 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:47:22,131 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:22,134 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:22,134 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:22,142 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:22,142 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:47:31,187 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:47:31,216 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:47:31,225 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 10:47:31,227 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5657
+INFO 2021-12-14 10:47:31,228 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:47:31,229 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:47:31,246 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:47:31,246 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:47:31,254 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:47:31,256 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:47:31,257 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:47:31,258 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:47:31,259 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:47:31,264 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:47:31,330 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:47:31,331 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:49:13,854 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:49:13,898 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:49:13,903 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:49:13,903 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5643
+INFO 2021-12-14 10:49:13,921 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:49:13,922 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:49:25,760 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:49:25,792 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5641
+INFO 2021-12-14 10:49:34,927 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:49:34,954 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 10:49:34,965 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5641
+INFO 2021-12-14 10:49:34,966 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 10:49:34,967 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 10:49:34,968 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 10:49:34,995 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 10:49:34,995 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 10:49:34,996 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 10:49:34,997 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 10:49:34,998 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 10:49:35,001 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 10:49:35,001 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 10:49:35,002 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 10:49:35,016 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 10:49:35,017 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 10:51:50,705 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 10:51:50,726 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 10:51:50,733 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 10:51:50,735 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 10:51:50,736 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-14 10:51:50,746 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 10:51:50,746 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 10:51:50,747 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 10:51:50,747 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 10:51:50,747 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 10:51:51,023 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 10:51:51,025 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 10:51:51,049 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:51:51,060 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:51:51,066 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:51:59,412 basehttp 161 "GET /article/ HTTP/1.1" 200 4733
+INFO 2021-12-14 10:51:59,438 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:51:59,441 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 10:51:59,455 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:51:59,455 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:51:59,459 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 10:51:59,484 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 10:51:59,485 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 10:51:59,485 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+WARNING 2021-12-14 10:51:59,485 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:51:59,485 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 10:51:59,486 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 10:51:59,490 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 10:51:59,491 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 10:52:00,976 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:52:00,994 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:52:00,994 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5650
+INFO 2021-12-14 10:52:04,002 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 10:52:05,361 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16414
+INFO 2021-12-14 10:52:05,379 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+WARNING 2021-12-14 10:52:05,424 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:52:07,025 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:52:21,170 basehttp 161 "GET / HTTP/1.1" 200 3118
+WARNING 2021-12-14 10:52:21,231 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 10:52:21,260 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 10:52:21,270 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 10:52:31,520 basehttp 161 "GET /article/ HTTP/1.1" 200 4733
+WARNING 2021-12-14 10:52:31,599 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:53:20,189 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:53:20,203 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:53:20,203 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:53:20,203 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:53:21,349 basehttp 161 "GET /leactos/ HTTP/1.1" 200 10357
+INFO 2021-12-14 10:53:21,388 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 200 69524
+INFO 2021-12-14 10:53:21,390 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 200 3885
+INFO 2021-12-14 10:53:21,413 basehttp 161 "GET /static/images/header.png HTTP/1.1" 200 275362
+INFO 2021-12-14 10:53:21,413 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 200 6667
+INFO 2021-12-14 10:54:21,963 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 10:54:22,004 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:54:22,024 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:54:22,024 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:54:22,723 basehttp 161 "GET /article/ HTTP/1.1" 200 4733
+WARNING 2021-12-14 10:54:22,778 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:54:23,523 basehttp 161 "GET /notification/ HTTP/1.1" 200 4353
+INFO 2021-12-14 10:54:23,552 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-14 10:54:24,218 basehttp 161 "GET /resources/ HTTP/1.1" 200 5570
+INFO 2021-12-14 10:54:24,834 basehttp 161 "GET /notification/ HTTP/1.1" 200 4353
+INFO 2021-12-14 10:58:52,314 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 10:58:52,338 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:58:52,342 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:58:52,342 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 10:58:52,363 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:58:52,363 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 10:58:53,058 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16414
+WARNING 2021-12-14 10:58:53,122 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 10:58:54,824 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:59:27,969 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:59:29,479 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:59:44,676 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37646
+INFO 2021-12-14 10:59:53,742 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 10:59:53,764 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:03:59,786 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:04:00,108 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:04:00,225 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:04:00,560 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:04:03,477 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 44, in get
+    'toc': news.toc
+AttributeError: 'Article' object has no attribute 'toc'
+ERROR 2021-12-14 11:04:03,477 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 77605
+INFO 2021-12-14 11:04:10,826 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:04:10,988 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:04:11,121 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:04:11,288 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:04:12,444 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:04:12,464 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:04:12,465 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:04:12,465 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:04:12,476 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:04:12,486 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:05:20,837 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:05:20,913 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:05:21,217 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:05:21,221 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:06:06,653 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:06:07,006 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:06:07,041 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:06:07,298 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:06:09,497 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 33, in get
+    news = models.Article.objects.get(a_id-1)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1415, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: 'int' object is not iterable
+ERROR 2021-12-14 11:06:09,498 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 114557
+INFO 2021-12-14 11:06:24,848 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:06:24,955 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:06:25,198 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:06:25,255 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:06:27,194 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 33, in get
+    news = models.Article.objects.get(id=a_id-1)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 437, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+ERROR 2021-12-14 11:06:27,195 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 86454
+INFO 2021-12-14 11:07:11,000 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:07:11,024 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:07:11,319 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:07:11,345 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:07:12,016 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:07:12,044 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:07:12,045 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:07:12,046 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:07:12,066 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:07:12,066 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:07:19,182 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:07:50,856 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:07:51,165 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:07:51,663 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:07:51,970 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:07:52,544 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 53, in get
+    'toc': news.toc
+AttributeError: 'Article' object has no attribute 'toc'
+ERROR 2021-12-14 11:07:52,544 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 77740
+INFO 2021-12-14 11:07:59,505 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:07:59,854 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:00,323 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:08:00,632 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:23,501 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:08:23,798 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:08:23,820 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:24,102 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:25,874 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:08:41,475 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:08:41,717 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:08:41,806 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:42,020 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:08:42,455 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:08:56,895 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:08:59,521 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:08:59,542 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:09:27,307 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:27,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:27,701 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:28,002 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:09:28,695 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 53, in get
+    'toc': news.content.toc
+AttributeError: 'str' object has no attribute 'toc'
+ERROR 2021-12-14 11:09:28,695 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 77765
+INFO 2021-12-14 11:09:31,165 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:31,463 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:09:31,771 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 53, in get
+    'toc': news.content
+AttributeError: 'str' object has no attribute 'toc'
+ERROR 2021-12-14 11:09:31,771 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 77757
+INFO 2021-12-14 11:09:31,918 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:32,207 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:33,364 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 94309
+INFO 2021-12-14 11:09:35,669 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:35,995 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:36,512 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:36,849 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:38,049 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 94309
+INFO 2021-12-14 11:09:45,356 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:45,377 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:09:45,666 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:45,680 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:09:46,353 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:11:46,019 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:11:46,266 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:11:46,397 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:11:46,571 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:11:52,258 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 55, in get
+    news.body = md.convert(news.body)
+AttributeError: 'Article' object has no attribute 'body'
+ERROR 2021-12-14 11:11:52,258 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 77839
+INFO 2021-12-14 11:12:33,332 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:12:33,706 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:12:34,071 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:12:34,365 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:14:11,629 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:14:11,649 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:14:11,651 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:14:11,652 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:14:11,670 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:14:11,673 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:15:20,121 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:20,353 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:20,496 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:20,652 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:39,218 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:39,304 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:39,642 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:39,642 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:41,781 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:42,066 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:45,280 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:45,593 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:15:56,017 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:15:56,326 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:16:04,670 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:16:05,019 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:16:07,311 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:16:07,591 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:16:18,041 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:16:18,439 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:16:29,876 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:16:30,286 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-14 11:16:32,074 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 51, in get
+    tocs.toc = md.toc
+AttributeError: 'str' object has no attribute 'toc'
+ERROR 2021-12-14 11:16:32,074 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 78099
+INFO 2021-12-14 11:16:45,979 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:16:46,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:16:46,988 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37675
+INFO 2021-12-14 11:16:47,010 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:17:01,991 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:17:02,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:17:03,669 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 38088
+INFO 2021-12-14 11:17:13,024 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:17:13,309 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:18:05,312 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:18:05,659 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:18:07,339 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37641
+INFO 2021-12-14 11:18:07,358 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:18:07,360 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:18:07,368 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:21:46,702 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:21:47,093 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:22:02,701 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:22:03,081 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:22:11,314 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37710
+INFO 2021-12-14 11:22:11,336 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:22:11,337 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:22:11,337 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:22:11,345 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:22:26,236 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:22:26,276 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:22:47,755 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37720
+INFO 2021-12-14 11:23:06,483 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37720
+INFO 2021-12-14 11:23:58,923 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:23:59,273 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:23:59,954 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 11:23:59,997 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:24:00,011 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:24:00,012 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:24:01,137 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16416
+WARNING 2021-12-14 11:24:01,216 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 11:24:03,045 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:25:10,315 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:25:10,365 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:25:10,695 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:25:10,695 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:25:30,228 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:25:30,253 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:25:31,819 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:25:52,576 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:26:40,874 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:26:42,088 basehttp 161 "GET / HTTP/1.1" 200 3118
+INFO 2021-12-14 11:26:42,104 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36093
+INFO 2021-12-14 11:26:42,117 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 200 2439
+INFO 2021-12-14 11:26:42,118 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 200 1851
+INFO 2021-12-14 11:26:42,131 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 200 8435
+INFO 2021-12-14 11:26:42,131 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-14 11:26:42,131 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-14 11:26:42,132 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-14 11:26:42,155 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 200 12433
+INFO 2021-12-14 11:26:42,158 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-14 11:26:42,376 basehttp 161 "GET /static/images/overlay.png HTTP/1.1" 200 4385
+INFO 2021-12-14 11:26:42,377 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+WARNING 2021-12-14 11:26:42,391 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
+WARNING 2021-12-14 11:26:42,396 basehttp 161 "GET /static/webfonts/fa-regular-400.woff HTTP/1.1" 404 1944
+WARNING 2021-12-14 11:26:42,401 basehttp 161 "GET /static/webfonts/fa-regular-400.ttf HTTP/1.1" 404 1941
+INFO 2021-12-14 11:26:44,846 basehttp 161 "GET /admin/ HTTP/1.1" 200 9614
+INFO 2021-12-14 11:26:44,891 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-12-14 11:26:44,904 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-12-14 11:26:44,905 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-12-14 11:26:46,461 basehttp 161 "GET /admin/blog/article/ HTTP/1.1" 200 8271
+INFO 2021-12-14 11:26:46,498 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-14 11:26:46,502 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-12-14 11:26:46,509 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-12-14 11:26:48,636 basehttp 161 "GET /admin/blog/article/1/change/ HTTP/1.1" 200 30525
+INFO 2021-12-14 11:26:48,663 basehttp 161 "GET /static/mdeditor/css/editormd.css HTTP/1.1" 200 78173
+INFO 2021-12-14 11:26:48,668 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-14 11:26:48,670 basehttp 161 "GET /static/mdeditor/js/jquery.min.js HTTP/1.1" 200 95870
+INFO 2021-12-14 11:26:48,673 basehttp 161 "GET /static/mdeditor/js/editormd.min.js HTTP/1.1" 200 54058
+INFO 2021-12-14 11:26:48,738 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/codemirror.min.js HTTP/1.1" 200 221231
+INFO 2021-12-14 11:26:48,747 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/modes.min.js HTTP/1.1" 200 205435
+INFO 2021-12-14 11:26:48,754 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/addons.min.js HTTP/1.1" 200 39221
+INFO 2021-12-14 11:26:48,820 basehttp 161 "GET /static/mdeditor/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1" 200 56780
+INFO 2021-12-14 11:26:48,826 basehttp 161 "GET /static/mdeditor/js/lib/raphael.min.js HTTP/1.1" 200 92705
+INFO 2021-12-14 11:26:48,844 basehttp 161 "GET /static/mdeditor/js/lib/sequence-diagram.min.js HTTP/1.1" 200 87695
+INFO 2021-12-14 11:27:01,863 basehttp 161 "GET /article/ HTTP/1.1" 200 4735
+INFO 2021-12-14 11:27:01,895 basehttp 161 "GET /static/css/base.css HTTP/1.1" 200 3850
+INFO 2021-12-14 11:27:01,900 basehttp 161 "GET /static/css/index.css HTTP/1.1" 200 4411
+INFO 2021-12-14 11:27:01,902 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-14 11:27:01,920 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 200 2914
+INFO 2021-12-14 11:27:01,922 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+INFO 2021-12-14 11:27:01,925 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-14 11:27:01,939 basehttp 161 "GET /static/images/topbg.jpg HTTP/1.1" 200 10017
+INFO 2021-12-14 11:27:01,940 basehttp 161 "GET /static/images/maintopbg.jpg HTTP/1.1" 200 3503
+INFO 2021-12-14 11:27:01,942 basehttp 161 "GET /static/images/bg_arti.jpg HTTP/1.1" 200 16658
+INFO 2021-12-14 11:27:01,947 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-14 11:27:01,949 basehttp 161 "GET /static/images/gz01.png HTTP/1.1" 200 3875
+INFO 2021-12-14 11:27:01,950 basehttp 161 "GET /static/images/rtitbg.png HTTP/1.1" 200 19998
+WARNING 2021-12-14 11:27:01,950 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 11:27:01,953 basehttp 161 "GET /static/images/gz02.png HTTP/1.1" 200 3645
+INFO 2021-12-14 11:27:01,954 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-14 11:27:01,955 basehttp 161 "GET /static/images/footerbg.png HTTP/1.1" 200 1188
+INFO 2021-12-14 11:27:01,955 basehttp 161 "GET /static/images/mainendbg.jpg HTTP/1.1" 200 3512
+INFO 2021-12-14 11:27:01,956 basehttp 161 "GET /static/images/gz03.png HTTP/1.1" 200 2808
+INFO 2021-12-14 11:27:01,956 basehttp 161 "GET /static/images/gz04.png HTTP/1.1" 200 4768
+INFO 2021-12-14 11:27:01,957 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-14 11:27:03,018 basehttp 161 "GET /resources/ HTTP/1.1" 200 5570
+INFO 2021-12-14 11:27:03,049 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7166
+INFO 2021-12-14 11:27:03,051 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5650
+INFO 2021-12-14 11:27:03,063 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-14 11:27:03,961 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 6124
+INFO 2021-12-14 11:27:05,047 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 5095
+INFO 2021-12-14 11:27:05,671 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 16416
+INFO 2021-12-14 11:27:05,684 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+WARNING 2021-12-14 11:27:05,733 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 404 1905
+INFO 2021-12-14 11:27:07,073 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:27:07,096 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-14 11:27:07,099 basehttp 161 "GET /static/images/shang.png HTTP/1.1" 200 9050
+INFO 2021-12-14 11:27:57,854 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:27:57,923 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:27:58,232 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:27:58,232 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:28:11,615 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:30:02,604 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:30:02,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:30:03,004 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:30:03,333 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:30:07,449 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37720
+INFO 2021-12-14 11:31:21,280 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:31:21,391 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:31:21,666 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:31:21,699 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:31:47,190 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:31:47,216 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:32:11,215 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:32:11,455 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-14 11:32:11,586 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:32:11,754 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:32:39,474 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:32:39,821 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-14 11:32:39,828 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:32:40,110 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-14 11:32:40,695 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676
+INFO 2021-12-14 11:32:40,713 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:32:40,714 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-14 11:32:40,723 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:32:40,724 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-14 11:32:43,050 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 37676

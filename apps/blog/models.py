@@ -9,7 +9,8 @@ from mdeditor.fields import MDTextField
 class Article(ModelBase):
     id = models.IntegerField(verbose_name='文章ID', help_text="文章ID", primary_key=True, auto_created=True)
     title = models.CharField(verbose_name='文章标题', help_text='文章标题', max_length=150)
-    content = MDTextField(verbose_name='文章内容', help_text='文章标题')
+    content = MDTextField(verbose_name='文章内容', help_text='文章内容')
+    # content = models.TextField(verbose_name='文章内容', help_text='文章内容', default='')
     abstract = models.TextField(verbose_name='摘要', help_text='文章标签', default=None)
     click = models.IntegerField(verbose_name='点击量', help_text='点击量', default=0)
     like_num = models.IntegerField(verbose_name='点赞数', help_text='点赞数', default=0)

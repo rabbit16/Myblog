@@ -184,6 +184,7 @@ USE_TZ = False # 这个必须为false，不然渲染上去的时间就不对了�
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
 MEDIA_URL = '/media/'   #你上传的文件和图片会默认存在/uploads/editor下
 
 STATICFILES_DIRS = [
@@ -191,7 +192,7 @@ STATICFILES_DIRS = [
 ]
 AUTH_USER_MODEL = 'index.User'  # 指定替换的用户模型类
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  #uploads必须存在，且在项目目录下
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 MDEDITOR_CONFIGS = {

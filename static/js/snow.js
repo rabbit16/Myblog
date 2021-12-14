@@ -9,8 +9,8 @@
             defaults = {
              // 雪花最小、最大尺寸、出现频率、雪花颜色
                 minSize : 10,
-                maxSize : 20,
-                newOn : 1000,
+                maxSize : 15,
+                newOn : 800,
                 flakeColor: "#AFDAEF"
             },
             // 将一个新的空对象（{}）做为$.extend的第一个参数，defaults和用户传递的参数对象紧随其后，这样做的好处是所有值被合并到这个空对象上，保护了插件里面的默认值。
@@ -45,9 +45,9 @@
 //$.fn.snow({})
 $(function(){
     $.fn.snow({
-        minSize:5,
-        maxSize:50,
-        newOn:300
+        minSize:10,
+        maxSize:20,
+        newOn:400
     });
 });
 

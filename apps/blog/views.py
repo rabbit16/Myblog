@@ -39,17 +39,15 @@ class ArticleContentShow(View):
             TocExtension(slugify=slugify),
             'tables'
         ])
-        news.content = markdown.markdown(news.content, extensions=[
-            'markdown.extensions.extra',
-            'markdown.extensions.codehilite',  # 语法高亮拓展
-            'markdown.extensions.toc',  # 自动生成目录
-            'sane_lists',
-            TocExtension(slugify=slugify),
-            'tables'
-        ])  # 修改blog.content内容为html
-        tocs = md.convert(str(news.content))
-        # tocs.toc = md.toc
-        # news.toc = md.toc
+        # news.content = markdown.markdown(news.content, extensions=[
+        #     'markdown.extensions.extra',
+        #     'markdown.extensions.codehilite',  # 语法高亮拓展
+        #     'markdown.extensions.toc',  # 自动生成目录
+        #     'sane_lists',
+        #     TocExtension(slugify=slugify),
+        #     'tables'
+        # ])  # 修改blog.content内容为html
+        news.content = md.convert(news.content)
         return render(request, 'message/article_detail.html', context={
             'article': news,
             'toc': md.toc

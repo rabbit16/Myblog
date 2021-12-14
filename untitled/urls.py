@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 from django.conf.urls import url ##新增
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('rabbit/', admin.site.urls),
     path('', include('index.urls')),
     url(r'^static/(?P<path>.*)$', serve,
                       {'document_root': settings.STATICFILES_DIRS[0]}, name='static'),
@@ -34,4 +34,4 @@ urlpatterns = [
 
     # path('index/', include('user_m.urls')),
     # path('', include('verifications.urls')),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

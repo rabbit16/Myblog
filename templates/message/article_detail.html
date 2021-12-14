@@ -5,6 +5,7 @@
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
     <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
     <!--[if lt IE 9]>
 
@@ -27,7 +28,7 @@
           <p class="a_title"></p>
           <p class="p_title"></p>
             <p class="box_p"><span>发布时间：{{ article.create_time }}</span><span>作者：{{ article.author_name }}</span><span>来源：<a
-                    href="{{ article.source }}">点击前往</a></span><span>点击数量：{{ article.click }}</span></p>
+                    href="{{ article.source }}">点击前往</a></span><span>访问次数：{{ article.click }}</span></p>
           <!-- 可用于内容模板 -->
         </div>
         <ul class="about_content">

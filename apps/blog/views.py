@@ -31,6 +31,8 @@ class ContextShow(View):
 class ArticleContentShow(View):
     def get(self, request, a_id):
         news = models.Article.objects.get(id=a_id)
+        news.click += 1
+        news.save()
         md = markdown.Markdown(extensions=[
             'markdown.extensions.extra',
             'markdown.extensions.codehilite',  # 语法高亮拓展

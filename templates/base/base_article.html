@@ -21,6 +21,7 @@
 
 </head>
 <body>
+
 {% block top_nave %}
     <div class="topnav">
 <a href="{% url 'index:enter' %}" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
@@ -78,7 +79,9 @@
     </div>
   </header>
     {% endblock %}
-
+{#    <canvas width="100%" height="100%" class="flare"></canvas>#}
+{#	<canvas width="100%" height="100%" class="snow"></canvas>#}
+{#	<canvas width="100%" height="100%" class="flake"></canvas>#}
   <div class="jztop"></div>
 
         {% block container %}
@@ -163,6 +166,7 @@
 	<a href="https://www.chazidian.com/"  title="xxx">xxxx</a>
 </div>
 <script src="{% static 'js/highlight.min.js' %}"></script>
+    <script src="{% static 'js/snow.js' %}"></script>
     <script src="{% static 'js/highlightjs-line-numbers.min.js' %}"></script>
     <script>
         hljs.initHighlightingOnLoad();

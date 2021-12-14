@@ -106,3 +106,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
             padding-left: 10px;
             white-space: pre;
         }
+.img{
+    width: 200px;
+    height: 200px;
+}

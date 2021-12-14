@@ -5,6 +5,8 @@
 		<title>{% block title %}{% endblock %}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{% static 'css/country_to_nanjing.css' %}">
+        <link rel="Shortcut icon" href="{% static 'logo/jhl_logo.png' %}">
 		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
 {#		<noscript><link rel="stylesheet" href="../../static/assets/css/noscript.css" /></noscript>#}
         {% block link %}
@@ -18,16 +20,16 @@
             {% block header %}
             <!-- Header -->
 					<header id="header">
-						<div class="logo">
-                            <a href="/admin/" target="_blank">
-                                <p class="icon fa-gem"></p>
-                            </a>
-						</div>
+{#						<div class="logo">#}
+{#                            <a href="/admin/" target="_blank">#}
+{#                                <p class="icon fa-gem"></p>#}
+{#                            </a>#}
+{#						</div>#}
 						<div class="content">
 							<div class="inner">
 								<h1>兔子</h1>
 								<p>建造者-姜昊良<a href="#">关于我</a> <br />
-                                    <img src="../../static/images/jinwu.png" style="width: 200px;height: 200px" alt="图片丢失">
+                                    <img src="{% static 'images/jinwu.png' %}" style="width: 200px;height: 200px" alt="图片丢失">
 								 <a href="#"></a> </p>
 							</div>
 						</div>
@@ -136,7 +138,7 @@
         snowcanvas.id = "snowfall";
         snowcanvas.width = window.innerWidth;
         snowcanvas.height = document.body.clientHeight;
-        snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");
+        snowcanvas.setAttribute("style", "position:absolute; top: 0; right: 0; z-index: 1; pointer-events: none;");
         document.getElementsByTagName("body")[0].appendChild(snowcanvas);
         this.canvas = snowcanvas;
         this.ctx = snowcanvas.getContext("2d");

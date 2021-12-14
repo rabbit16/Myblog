@@ -2,8 +2,11 @@
 <!doctype html>
 <html>
 <head>
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/country_to_nanjing.css' %}" rel="stylesheet">
+<link rel="Shortcut icon" href="{% static 'logo/jhl_logo.png' %}">
     {% block link %}
-        <link rel="shortcut icon" href="{% static 'images/logo.png' %}">
+
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
         <link href="{% static 'css/index.css' %}" rel="stylesheet">
         <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
@@ -24,7 +27,7 @@
 
 {% block top_nave %}
     <div class="topnav">
-<a href="{% url 'index:enter' %}" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
+<a href="{% url 'index:enter' %}" target="_self">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_self">如有涉嫌侵权，请与本站邮箱联系</a>
 </div>
 {% endblock %}
 {% block wrapper %}

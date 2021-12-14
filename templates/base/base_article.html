@@ -21,9 +21,11 @@
 
 </head>
 <body>
-<div class="topnav">
+{% block top_nave %}
+    <div class="topnav">
 <a href="{% url 'index:enter' %}" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
 </div>
+{% endblock %}
 {% block wrapper %}
     <div id="wrapper">
     {% block header %}

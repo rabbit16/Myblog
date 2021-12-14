@@ -3,15 +3,16 @@
 <html>
 <head>
     {% block link %}
-        <link rel="shortcut icon" href="../../static/images/logo.png">
-        <link href="../../static/css/base.css" rel="stylesheet">
-        <link href="../../static/css/index.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{% static 'images/logo.png' %}">
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <link href="{% static 'css/index.css' %}" rel="stylesheet">
+        <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
     {% endblock %}
     {% block script %}
         <!--[if lt IE 9]>
-        <script src="../../static/js/modernizr.js"></script>
+        <script src="{% static 'js/modernizr.js' %}"></script>
         <![endif]-->
-        <script type="text/javascript" src="../../static/js/jquery.js"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
     {% endblock %}
 <meta charset="utf-8">
 <title>兔子🐰</title>
@@ -20,9 +21,11 @@
 
 </head>
 <body>
-<div class="topnav">
-<a href="http://www.tthcclove.cn" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="http://www.tthcclove.cn" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
+{% block top_nave %}
+    <div class="topnav">
+<a href="{% url 'index:enter' %}" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
 </div>
+{% endblock %}
 {% block wrapper %}
     <div id="wrapper">
     {% block header %}
@@ -52,7 +55,7 @@
                 </li>
                   <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
                 <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
-                <li><a href="404.html">给我留言</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
 
               {% endblock %}
 
@@ -127,16 +130,23 @@
 
     {% endblock %}
     {% block comment %}
-    
+        <div class="comment" style="position: relative; height: 180px;">
     {% endblock %}
 {% block script_next %}
 
            {% endblock %}
+
+
+</div></div>
+{% endblock %}
+{% block script_end %}
+
+{% endblock %}
 {% block footer %}
     <footer>
     <div class="footer">
       <div class="f_l">
-        <p>All Rights Reserved 版权所有：<a href="http://www.tthcclove.cn">XXX个人博客</a> 备案号：陕ICP备XXX号</p>
+        <p>All Rights Reserved 版权所有：<a href="{% url 'index:enter' %}">XXX个人博客</a> 备案号：陕ICP备XXX号</p>
       </div>
       <div class="f_r textr">
         <p>XXX</p>
@@ -145,10 +155,6 @@
   </footer>
 {% endblock %}
 
-</div>
-{% endblock %}
-
-
 <style>
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 </style>
@@ -156,5 +162,11 @@
 	Collect from <a href="http://www.cssmoban.com/"  title="">xxxx</a>
 	<a href="https://www.chazidian.com/"  title="xxx">xxxx</a>
 </div>
+<script src="{% static 'js/highlight.min.js' %}"></script>
+    <script src="{% static 'js/highlightjs-line-numbers.min.js' %}"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad();
+    </script>
 </body>
 </html>

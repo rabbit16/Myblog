@@ -18,6 +18,7 @@ class Resource(ModelBase):
     downloadUrl = models.CharField(verbose_name="下载路径", help_text="下载路径", max_length=1000)
     # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
     tags = TaggableManager(blank=True)
+    type = models.CharField(verbose_name="文件类型", help_text="文件类型", max_length=100, default='')
     class Meta:
         ordering = ['-update_time', '-id']
         db_table = 'tb_resource'

@@ -2,24 +2,27 @@
 {% load static %}
 
 {% block link %}
-    <link href="../../static/css/base.css" rel="stylesheet">
-    <link href="../../static/css/main.css" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
     <!--[if lt IE 9]>
 
 {% endblock %}
 {% block script %}
-     <script src="../../static/js/modernizr.js"></script>
+     <script src="{% static 'js/modernizr.js' %}"></script>
     <![endif]-->
-    <script type="text/javascript" src="../../static/js/jquery.js"></script>
-    <script src="../../static/js/shang.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/shang.js' %}"></script>
+{% endblock %}
+{% block top_nave %}
 {% endblock %}
 {% block container %}
-
     <div class="container">
     <div class="con_content">
       <div class="about_box">
-        <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">文章展示</a>>><a href="#" target="_blank">{{ article.title }}</a></span><b>{{ article.title }}</b></h2>
+          <div class="blog-catalog"><span style="color: black;font-size: 20px">目录</span>{{ toc | safe }}</div>
+        <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_self">文章展示</a>>><a href="#" target="_self">{{ article.title }}</a></span><b>{{ article.title }}</b></h2>
         <div class="f_box">
           <p class="a_title"></p>
           <p class="p_title"></p>
@@ -39,7 +42,7 @@
 
           <div class="shang_a">
               <div class="one"></div>
-              <div class="two"><img src="../../static/images/wexin.jpeg" alt="" width="200" height="200"></div>
+              <div class="two"><img src="{% static 'images/wexin.jpeg' %}" alt="" width="200" height="200"></div>
 
           </div>
       </div>
@@ -47,9 +50,4 @@
 
     <div class="blank"></div>
   </div>
-{% endblock %}
-{% block comment %}
-    <div class="comment" style="position: relative; height: 180px;">
-
-</div>
 {% endblock %}

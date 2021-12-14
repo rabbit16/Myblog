@@ -2,17 +2,17 @@
 {% load static %}
 
 {% block link %}
-    <link href="../../static/css/base.css" rel="stylesheet">
-    <link href="../../static/css/main.css" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
     <!--[if lt IE 9]>
-
 {% endblock %}
+
 {% block script %}
-     <script src="../../static/js/modernizr.js"></script>
+     <script src="{% static 'js/modernizr.js' %}"></script>
     <![endif]-->
-    <script type="text/javascript" src="../../static/js/jquery.js"></script>
-    <script src="../../static/js/shang.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/shang.js' %}"></script>
 {% endblock %}
 
 {% block wrapper %}
@@ -43,7 +43,7 @@
                 </li>
                   <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
                 <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
-                <li><a href="404.html">给我留言</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
 
               {% endblock %}
 
@@ -71,34 +71,66 @@
       <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">网站资源目录</a></span><b>网站资源目录</b></h2>
       <div class="lispic">
         <ul>
-            {% for tag in tags %}
-                <li><a href="javascript:;"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
+            {% for resource in resources %}
+{#                <li><a href="javascript:void(0)" onclick="downloadFile('{{ resource.img_url }}', {{ resource.id }}, '{{ resource.title }}', '{{ resource.type }}')" id="{{ resource.id }}"><img src="{{ resource.source }}"><span>{{ resource.title }}</span></a></li>#}
+                <li><a href="{% url 'resource:download' %}?source_id={{ resource.id }}" id="{{ resource.id }}"><img src="{{ resource.source }}"><span>{{ resource.title }}</span></a></li>
             {% endfor %}
 
+        {% block script_tag %}
+            <script type="text/javascript">
+                {#console.log("wolaile")#}
+                function downloadFile(source_url, source_id, url, type) {
+                    let SdataParams = {
+                        source_ur: source_url,
+                        source_id: source_id,
+                        title: url,
+                        type: type
+                    }
+                    $.ajax({
+                        url: "download",
+                      // 请求方式
+                      type: "POST",
+                      data: JSON.stringify(SdataParams),
+                      // 请求内容的数据类型（前端发给后端的格式）
+                      contentType: "application/json; charset=utf-8",
+                      // 响应数据的格式（后端返回给前端的格式）
+                      dataType: "json",
+                    }).done(function (res) {
 
+                    })
+
+                }
+            </script>
+        {% endblock %}
         </ul>
       </div>
 {#    {{ page_next }} = {{ page_num }} + 1#}
-    {% if now_page > page_num %}
-        <div class="pagelist">页次：{{ now_page }}/{{ page_num }} 每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="#" target="_self">上一页</a><a href="{% url 'resource:page_change' page_num=1%}">下一页</a><a href="{% url 'resource:page_change' page_num=1%}">尾页</a></div>
-      <p>由于本站功能正在开发，相册暂时只有一张图片</p>
-    {% endif %}
-      <div class="pagelist">页次：{{ now_page }}/{{ page_num }} 每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="{% url 'resource:page_change' page_num=now_page|add:-1%}">上一页</a><a href="{% url 'resource:page_change' page_num=now_page|add:1%}">下一页</a><a href="{% url 'resource:page_change' page_num=page_num%}">尾页</a></div>
+      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_down=1">首页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_down={{ now_page }}">上一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_up={{ now_page }}">下一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_up={{ page_num }}">尾页</a></div>
     </div>
+  {% block script_next %}
+      <script type="text/javascript">
+        function goPage() {
+                let page = Number(document.getElementById('goToPage').value);
+                window.location.href = "?page_to=" + page
+            }
+            $(function(){
+              $(document).keypress(function (e) {
+                if (e.keyCode == 13){
+                    goPage()
+                }
+                  //do something
+             })
+         });
+      </script>
+  {% endblock %}
   </div>
 
 </div>
     {% endblock %}
-  <footer>
-    <div class="footer">
-      <div class="f_l">
-        <p>All Rights Reserved 版权所有：<a href="http://www.tthcclove.cn">XXX个人博客</a> 备案号：陕ICP备XXX号</p>
-      </div>
-      <div class="f_r textr">
-        <p>QQ：XXX</p>
-      </div>
-    </div>
-  </footer>
+    {% block comment %}
+        <div class="comment" style="position: relative; height: 180px;"></div>
+    {% endblock %}
 </div>
 <!--百度推送代码-->
 {% endblock %}
+

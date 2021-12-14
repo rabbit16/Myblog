@@ -192,12 +192,19 @@ footer {
 	background: url(../images/footerbg.png) repeat-x;
 	padding: 20px 0;
 	color: #ccc;
-	margin: 20px 0 0 0
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	/*position: absolute; !*相对于父元素contanier定位*!*/
+    /*width: 100%;*/
+    bottom: 0;/*始终距离它的父元素的底部为0px.则是处于父元素的最底*/
 }
 .footer {
 	width: 1000px;
 	margin: auto;
-	overflow: hidden
+	overflow: hidden;
+	/*position: absolute; !*相对于父元素contanier定位*!*/
+    /*width: 100%;*/
+    bottom: 0;/*始终距离它的父元素的底部为0px.则是处于父元素的最底*/
 }
 .footer p {
 	line-height: 24px;

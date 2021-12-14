@@ -1,0 +1,123 @@
+{% extends 'base/base_article.html' %}
+{% load static %}
+
+{% block link %}
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
+    <!--[if lt IE 9]>
+
+{% endblock %}
+{% block script %}
+     <script src="{% static 'js/modernizr.js' %}"></script>
+    <![endif]-->
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/shang.js' %}"></script>
+{% endblock %}
+
+{% block wrapper %}
+    <div id="wrapper">
+    {% block header %}
+    <header>
+    <div class="headtop"></div>
+    <div class="contenttop">
+      <div class="logo f_l">兔子🐰</div>
+      <div class="search f_r">
+        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+          <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+          <input name="show" value="title" type="hidden">
+          <input name="tempid" value="1" type="hidden">
+          <input name="tbname" value="news" type="hidden">
+          <input name="Submit" class="input_submit" value="搜索" type="submit">
+        </form>
+      </div>
+      <div class="blank"></div>
+      <nav>
+        <div  class="navigation">
+          <ul class="menu">
+              {% block header_li %}
+                <li><a href="{% url 'index:enter' %}">网站首页</a></li>
+                <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
+                </li>
+                <li><a href="{% url 'notification:noti' %}">网站公告</a>
+                </li>
+                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
+                <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
+
+              {% endblock %}
+
+          </ul>
+        </div>
+      </nav>
+  <SCRIPT type=text/javascript>
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+</SCRIPT>
+    </div>
+  </header>
+    {% endblock %}
+    {% block container %}
+            <div class="container">
+  <div class="con_content">
+    <div class="about_box">
+      <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">网站资源目录</a></span><b>网站资源目录</b></h2>
+      <div class="lispic">
+        <ul>
+            {% for tag in tags %}
+                <li><a href="{% url 'resource:resource_list' tag_name=tag.tag_name %}"><img src="{{ tag.img_url }}"><span>{{ tag.tag_name }}</span></a></li>
+            {% endfor %}
+
+
+        </ul>
+      </div>
+{#    {{ page_next }} = {{ page_num }} + 1#}
+      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a>  每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="{% url 'resource:page_change' page_num=now_page|add:-1%}">上一页</a><a href="{% url 'resource:page_change' page_num=now_page|add:1%}">下一页</a><a href="{% url 'resource:page_change' page_num=page_num%}">尾页</a></div>
+        <script type="text/javascript">
+            function goPage() {
+                let page = Number(document.getElementById('goToPage').value);
+                $.ajax({
+                    // 请求地址
+                  url: "/resources/page/"+page,
+                  // 请求方式
+                  type: "GET",
+                  {#data: page,#}
+                  // 请求内容的数据类型（前端发给后端的格式）
+                  contentType: "application/json; charset=utf-8",
+                  // 响应数据的格式（后端返回给前端的格式）
+                  dataType: "json",
+                }).always(function (res) {
+                    {#console.log(res.responseText)#}
+                    document.write(res.responseText)  //重新渲染整个页面
+                    window.location.href = "/resources/page/"+page
+                    document.close()
+
+                })
+            }
+            $(function(){
+              $(document).keypress(function (e) {
+                if (e.keyCode == 13){
+                    goPage()
+                }
+                  //do something
+             })
+         });
+        </script>
+    </div>
+  </div>
+
+</div>
+    {% endblock %}
+    {% block comment %}
+        <div class="comment" style="position: relative; height: 180px;"></div>
+    {% endblock %}
+</div>
+<!--百度推送代码-->
+{% endblock %}

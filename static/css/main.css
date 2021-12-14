@@ -144,6 +144,14 @@
 	margin: 10px 0;
 	display: block
 }
+.jump {
+	text-align: center;
+	color: #666;
+	/*width: 100%;*/
+	clear: both;
+	/*margin: 10px 0;*/
+	/*display: block*/
+}
 .pagelist_article {
 	text-align: center;
 	color: #666;

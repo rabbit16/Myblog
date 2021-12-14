@@ -6,15 +6,16 @@ from mdeditor.fields import MDTextField
 # Create your models here.
 
 
-class Article(ModelBase, ):
+class Article(ModelBase):
     id = models.IntegerField(verbose_name='文章ID', help_text="文章ID", primary_key=True, auto_created=True)
-    title = models.CharField(verbose_name='文章标题',help_text='文章标题',max_length=150)
-    content = MDTextField(verbose_name='文章内容',help_text='文章标题')
-    abstract = models.TextField(verbose_name='摘要',help_text='文章标签',default=None)
-    click = models.IntegerField(verbose_name='点击量',help_text='点击量',default=0)
-    like_num = models.IntegerField(verbose_name='点赞数',help_text='点赞数',default=0)
+    title = models.CharField(verbose_name='文章标题', help_text='文章标题', max_length=150)
+    # content = MDTextField(verbose_name='文章内容', help_text='文章内容')
+    content = models.TextField(verbose_name='文章内容', help_text='文章内容', default='')
+    abstract = models.TextField(verbose_name='摘要', help_text='文章标签', default=None)
+    click = models.IntegerField(verbose_name='点击量', help_text='点击量', default=0)
+    like_num = models.IntegerField(verbose_name='点赞数', help_text='点赞数', default=0)
     author_name = models.CharField(verbose_name="作者名字", help_text='作者名字', default='兔子', max_length=10)
-    source = models.TextField(verbose_name="网址", help_text="网址", max_length=400, default='')
+    source = models.CharField(verbose_name="网址", help_text="网址", max_length=400, default='')
     update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now())
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
@@ -30,10 +31,10 @@ class Article(ModelBase, ):
         return self.title
 
 class Tag(models.Model):
-    tag_name = models.CharField(verbose_name='标签', help_text='输入标签',max_length=64)
+    tag_name = models.CharField(verbose_name='标签', help_text='输入标签', max_length=64)
     tag_id = models.IntegerField(verbose_name='标签ID', help_text="标签ID", primary_key=True, auto_created=True)
     a_id = models.ManyToManyField('Article', through='AuthorAndTag')
-    img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
+    img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', max_length=100)
     class Meta:
         verbose_name = '标签'
         db_table = 'tb_tag'

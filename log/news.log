@@ -27011,3 +27011,18 @@ INFO 2021-12-15 09:45:54,351 basehttp 161 "GET /static/css/country_to_nanjing.cs
 INFO 2021-12-15 09:45:55,644 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
 INFO 2021-12-15 09:45:56,731 basehttp 161 "GET / HTTP/1.1" 200 8448
 INFO 2021-12-15 09:46:03,002 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 10:09:23,389 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:09:24,977 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 10:09:25,002 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 10:09:33,553 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 10:09:35,174 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 10:09:37,070 basehttp 161 "GET /article/detail/3 HTTP/1.1" 200 10647
+INFO 2021-12-15 10:56:37,021 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-15 10:56:37,340 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:56:55,221 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:57:32,702 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/models.py changed, reloading.
+INFO 2021-12-15 10:57:33,010 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:57:46,537 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:58:18,897 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/models.py changed, reloading.
+INFO 2021-12-15 10:58:19,197 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 10:58:27,109 autoreload 637 Watching for file changes with StatReloader

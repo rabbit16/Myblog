@@ -16,7 +16,7 @@ class Article(ModelBase):
     like_num = models.IntegerField(verbose_name='点赞数', help_text='点赞数', default=0)
     author_name = models.CharField(verbose_name="作者名字", help_text='作者名字', default='兔子', max_length=10)
     source = models.CharField(verbose_name="网址", help_text="网址", max_length=400, default='')
-    update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now())
+    update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now)
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
     # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
@@ -46,7 +46,7 @@ class Tag(models.Model):
 class AuthorAndTag(models.Model):
     article_id = models.ForeignKey('Article', on_delete=models.CASCADE)
     tag_id = models.ForeignKey('Tag', on_delete=models.CASCADE)
-    push_time = models.DateTimeField(verbose_name='时间', help_text="创建时间", auto_created=True, default=timezone.now())
+    push_time = models.DateTimeField(verbose_name='时间', help_text="创建时间", auto_created=True, default=timezone.now)
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     class Meta:
         verbose_name = '书和标签'

@@ -7,7 +7,7 @@ from mdeditor.fields import MDTextField
 
 
 class Article(ModelBase):
-    id = models.IntegerField(verbose_name='文章ID', help_text="文章ID", primary_key=True, auto_created=True)
+    id = models.AutoField(verbose_name='文章ID', help_text="文章ID", primary_key=True, auto_created=True)
     title = models.CharField(verbose_name='文章标题', help_text='文章标题', max_length=150)
     # content = MDTextField(verbose_name='文章内容', help_text='文章内容')
     content = models.TextField(verbose_name='文章内容', help_text='文章内容', default='')

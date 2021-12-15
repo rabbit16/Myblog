@@ -1,6 +1,8 @@
 import json
 import math
 import logging
+
+import jieba
 from django.core import serializers
 from django.http import JsonResponse, HttpResponse
 from django.core.paginator import Paginator
@@ -87,6 +89,7 @@ class ArticleListDetailByTag(View):
     @csrf_exempt
     def get(self, request, tag_id):
         tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
+        tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
         articles = models.Article.objects.filter(tags__name__in=[tag_name])[:page_show_num]
         articles_count = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_num = math.ceil(articles_count/page_show_num)
@@ -111,7 +114,8 @@ class ArticleListDetailByTag(View):
     def post(self, request, tag_id):
         final_page_flag = 0
         to_page_flag = 0
-        tag_name = models.Tag.objects.all()[tag_id-1].tag_name
+        tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
+        tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
         all_num = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_all = math.ceil(all_num / page_show_num)
         page_num = json.loads(request.body)

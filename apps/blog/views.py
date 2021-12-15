@@ -15,7 +15,7 @@ from blog import models
 import markdown
 from django.views.decorators.csrf import csrf_protect
 # Create your views here.
-page_show_num = 2
+page_show_num = 3
 tag_show_num = 8
 
 logger = logging.getLogger('django')

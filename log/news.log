@@ -27026,3 +27026,245 @@ INFO 2021-12-15 10:57:46,537 autoreload 637 Watching for file changes with StatR
 INFO 2021-12-15 10:58:18,897 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/resourcesDownload/models.py changed, reloading.
 INFO 2021-12-15 10:58:19,197 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-15 10:58:27,109 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:00:47,486 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 11:00:47,513 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:00:47,514 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:00:50,840 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 11:00:50,879 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-15 11:00:50,888 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-15 11:01:21,533 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-15 11:01:21,830 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-15 11:01:21,870 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:01:22,170 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:01:22,548 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 11:01:31,895 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 11:02:05,281 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:02:06,451 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 11:02:08,578 basehttp 161 "GET /article/ HTTP/1.1" 200 10930
+INFO 2021-12-15 11:02:20,793 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:02:53,644 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:02:56,506 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:03:19,199 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10899
+INFO 2021-12-15 11:03:19,230 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:03:19,230 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:03:30,707 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:04:09,697 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 11:04:14,509 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:04:26,940 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:04:29,827 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 11:04:31,305 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:04:45,918 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 11:53:30,396 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 11:53:32,102 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 11:53:32,138 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:53:34,348 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 11:53:34,380 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-15 11:53:34,388 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 11:53:34,399 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 12:11:47,064 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 12:11:47,080 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:11:47,084 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:11:53,424 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 12:11:53,461 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-15 12:12:13,017 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10899
+INFO 2021-12-15 12:12:13,033 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:12:29,705 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 12:12:32,504 basehttp 161 "GET /article/lists/2 HTTP/1.1" 200 22095
+INFO 2021-12-15 12:12:34,000 basehttp 161 "GET /article/detail/2 HTTP/1.1" 200 11368
+INFO 2021-12-15 12:12:38,387 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 12:12:39,163 basehttp 161 "GET /article/lists/3 HTTP/1.1" 200 22083
+INFO 2021-12-15 12:12:41,369 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 12:12:44,264 basehttp 161 "GET /article/lists/3 HTTP/1.1" 200 22083
+INFO 2021-12-15 12:12:54,010 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16252
+INFO 2021-12-15 12:12:58,980 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 12:13:01,137 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 12:13:02,326 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 11666
+INFO 2021-12-15 12:13:04,171 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 5088801
+INFO 2021-12-15 12:14:14,316 basehttp 161 "GET /rabbit HTTP/1.1" 301 0
+INFO 2021-12-15 12:14:14,375 basehttp 161 "GET /rabbit/ HTTP/1.1" 200 11219
+INFO 2021-12-15 12:14:14,403 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-12-15 12:14:14,405 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-12-15 12:14:14,406 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-12-15 12:14:14,407 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-12-15 12:14:14,410 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-12-15 12:14:14,417 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-12-15 12:14:14,430 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-12-15 12:14:14,431 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-12-15 12:14:14,431 basehttp 161 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-12-15 12:14:14,446 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-12-15 12:14:14,446 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-12-15 12:14:14,447 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-12-15 12:14:18,197 basehttp 161 "GET /rabbit/blog/authorandtag/add/ HTTP/1.1" 200 12427
+INFO 2021-12-15 12:14:18,221 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-12-15 12:14:18,233 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-12-15 12:14:18,237 basehttp 161 "GET /rabbit/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-15 12:14:18,240 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-12-15 12:14:18,240 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-12-15 12:14:18,241 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-12-15 12:14:18,247 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-12-15 12:14:18,249 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+INFO 2021-12-15 12:14:18,249 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-12-15 12:14:18,249 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-12-15 12:14:18,250 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-12-15 12:14:18,251 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-12-15 12:14:18,253 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-12-15 12:14:18,266 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-12-15 12:14:18,266 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-12-15 12:14:18,285 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-12-15 12:14:18,285 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-12-15 12:14:20,696 basehttp 161 "GET /rabbit/blog/article/ HTTP/1.1" 200 9736
+INFO 2021-12-15 12:14:20,723 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-12-15 12:14:20,736 basehttp 161 "GET /rabbit/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-15 12:14:20,752 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-12-15 12:14:22,934 basehttp 161 "GET /rabbit/blog/article/add/ HTTP/1.1" 200 21487
+INFO 2021-12-15 12:14:22,960 basehttp 161 "GET /static/mdeditor/css/editormd.css HTTP/1.1" 200 78173
+INFO 2021-12-15 12:14:22,965 basehttp 161 "GET /rabbit/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-15 12:14:22,967 basehttp 161 "GET /static/mdeditor/js/jquery.min.js HTTP/1.1" 200 95870
+INFO 2021-12-15 12:14:22,968 basehttp 161 "GET /static/mdeditor/js/editormd.min.js HTTP/1.1" 200 54058
+INFO 2021-12-15 12:14:23,009 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/addon/search/matchesonscrollbar.css HTTP/1.1" 200 188
+INFO 2021-12-15 12:14:23,010 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/codemirror.min.css HTTP/1.1" 200 5312
+INFO 2021-12-15 12:14:23,010 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/addon/dialog/dialog.css HTTP/1.1" 200 502
+INFO 2021-12-15 12:14:23,036 basehttp 161 "GET /static/mdeditor/images/loading@2x.gif HTTP/1.1" 200 16166
+INFO 2021-12-15 12:14:23,064 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/codemirror.min.js HTTP/1.1" 200 221231
+INFO 2021-12-15 12:14:23,072 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/modes.min.js HTTP/1.1" 200 205435
+INFO 2021-12-15 12:14:23,080 basehttp 161 "GET /static/mdeditor/js/lib/codemirror/addons.min.js HTTP/1.1" 200 39221
+INFO 2021-12-15 12:14:23,102 basehttp 161 "GET /static/mdeditor/js/lib/marked.min.js HTTP/1.1" 200 19256
+INFO 2021-12-15 12:14:23,120 basehttp 161 "GET /static/mdeditor/js/lib/prettify.min.js HTTP/1.1" 200 17973
+INFO 2021-12-15 12:14:23,121 basehttp 161 "GET /static/mdeditor/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1" 200 56780
+INFO 2021-12-15 12:14:23,126 basehttp 161 "GET /static/mdeditor/js/lib/raphael.min.js HTTP/1.1" 200 92705
+INFO 2021-12-15 12:14:23,132 basehttp 161 "GET /static/mdeditor/js/lib/underscore.min.js HTTP/1.1" 200 16487
+INFO 2021-12-15 12:14:23,135 basehttp 161 "GET /static/mdeditor/js/lib/flowchart.min.js HTTP/1.1" 200 19807
+INFO 2021-12-15 12:14:23,140 basehttp 161 "GET /static/mdeditor/js/lib/jquery.flowchart.min.js HTTP/1.1" 200 1396
+INFO 2021-12-15 12:14:23,143 basehttp 161 "GET /static/mdeditor/js/lib/sequence-diagram.min.js HTTP/1.1" 200 87695
+INFO 2021-12-15 12:35:58,702 basehttp 161 "GET /rabbit/blog/article/ HTTP/1.1" 200 9736
+INFO 2021-12-15 12:36:14,035 basehttp 161 "GET /rabbit/blog/article/4/change/ HTTP/1.1" 200 22201
+INFO 2021-12-15 12:36:14,096 basehttp 161 "GET /rabbit/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-12-15 12:38:22,465 basehttp 161 "GET /article/detail/3 HTTP/1.1" 200 10648
+INFO 2021-12-15 12:38:22,482 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:38:22,483 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:38:22,483 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-15 12:38:31,467 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 12:38:32,474 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 12:38:35,007 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:39,044 basehttp 161 "GET /article/lists/?page_num=0 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:40,325 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:40,951 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:41,405 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:41,664 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:41,839 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:42,002 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:42,856 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:42,988 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:43,160 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:50,744 basehttp 161 "GET /article/lists/?page_num=NaN HTTP/1.1" 200 11035
+INFO 2021-12-15 12:38:55,676 basehttp 161 "GET /article/lists/?page_num=3 HTTP/1.1" 200 11035
+INFO 2021-12-15 12:41:28,249 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 12:41:29,361 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 12:41:30,151 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 12:41:34,321 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16252
+INFO 2021-12-15 12:41:48,054 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 16252
+INFO 2021-12-15 12:41:51,787 basehttp 161 "GET /leactos/?page=0 HTTP/1.1" 200 16252
+INFO 2021-12-15 12:42:05,233 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 16252
+INFO 2021-12-15 12:44:01,321 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py changed, reloading.
+INFO 2021-12-15 12:44:01,454 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py changed, reloading.
+INFO 2021-12-15 12:44:01,776 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 12:44:01,835 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 12:44:02,654 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 16253
+INFO 2021-12-15 12:44:25,620 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py changed, reloading.
+INFO 2021-12-15 12:44:25,669 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py changed, reloading.
+INFO 2021-12-15 12:44:25,956 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 12:44:26,010 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 12:44:26,748 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 16254
+ERROR 2021-12-15 12:44:42,043 log 230 Internal Server Error: /leactos/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1366, "Incorrect string value: '\\xF0\\x9F\\x90\\x99' for column 'name' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py", line 56, in post
+    content=add_data['context']
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.DataError: (1366, "Incorrect string value: '\\xF0\\x9F\\x90\\x99' for column 'name' at row 1")
+ERROR 2021-12-15 12:44:42,046 basehttp 161 "POST /leactos/?page=2 HTTP/1.1" 500 239818
+INFO 2021-12-15 12:44:51,332 basehttp 161 "POST /leactos/?page=2 HTTP/1.1" 200 16
+INFO 2021-12-15 12:44:51,369 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 16248
+INFO 2021-12-15 12:44:55,430 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 14996
+INFO 2021-12-15 12:45:03,068 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 16248

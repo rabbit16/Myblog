@@ -45,7 +45,8 @@ class ResourcePageShow(View):
             'tags': tag,
             'page_num': page_all,
             'all_num': all_obj,
-            'now_page': page_num
+            'now_page': page_num,
+            'now_location': "网站资源目录"
         }
         return render(request, 'resourcePage/listsourceTag.html', context=tag_dict)
 
@@ -69,7 +70,8 @@ class SpecificResource(View):
                 "page_num": page_obj_all.num_pages,
                 "all_num": resource.count(),
                 "page_every_show": page_show_every_page,
-                "tag_name": tag_name
+                "tag_name": tag_name,
+                "now_location": tag_name
 
             }
             return render(request, 'resourcePage/listsource.html', context=resource_dict)
@@ -84,7 +86,8 @@ class SpecificResource(View):
                 "page_num": page_obj_all.num_pages,
                 "all_num": resource.count(),
                 "page_every_show": page_show_every_page,
-                "tag_name": tag_name
+                "tag_name": tag_name,
+                "now_location": tag_name
             }
             return render(request, 'resourcePage/listsource.html', context=resource_dict)
 

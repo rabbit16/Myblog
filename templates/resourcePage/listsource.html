@@ -23,7 +23,7 @@
     <div class="contenttop">
       <div class="logo f_l">兔子🐰</div>
       <div class="search f_r">
-        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <form action="/search" method="post" name="searchform" id="searchform">
           <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
           <input name="show" value="title" type="hidden">
           <input name="tempid" value="1" type="hidden">
@@ -68,7 +68,7 @@
             <div class="container">
   <div class="con_content">
     <div class="about_box">
-      <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">网站资源目录</a></span><b>网站资源目录</b></h2>
+      <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">{{ now_location }}</a></span><b>{{ now_location }}</b></h2>
       <div class="lispic">
         <ul>
             {% for resource in resources %}

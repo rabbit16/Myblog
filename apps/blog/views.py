@@ -9,6 +9,7 @@ from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
+from haystack.views import SearchView
 from markdown.extensions.toc import TocExtension, slugify
 
 from blog import models
@@ -170,5 +171,10 @@ class ArticleListDetailByTag(View):
 
         return obj_arr
 
-
+class MySeachView(SearchView):
+    def extra_context(self):       #重载extra_context来添加额外的context内容
+        context = super(MySeachView,self).extra_context()
+        side_list = models.Article.objects.filter(is_delete=False)
+        context['side_list'] = side_list
+        return context
 

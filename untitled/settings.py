@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'haystack',
     'index',
     'blog',
     'resourcesDownload',
@@ -225,3 +226,22 @@ MDEDITOR_CONFIGS = {
     }
 
 }
+# whooshEngine的引擎设置
+# HAYSTACK_CONNECTIONS = {
+#     'default': {
+#         'ENGINE': 'blog.whoosh_cn_backend.WhooshEngine',
+#         'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
+#     },
+# }
+
+# elasticsearch的引擎设置
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch7_backend.Elasticsearch7SearchEngine',
+        'URL': 'http://127.0.0.1:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号默认为9200
+        'INDEX_NAME': 'myblog',  # 指定elasticsearch建立的索引库的名称 数据库名
+    },
+}
+
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 8
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

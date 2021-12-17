@@ -57,4 +57,3 @@ class ShowLeactos(View):
         )
 
         return JsonResponse({"success": 200})
-

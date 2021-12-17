@@ -23,6 +23,7 @@ from django.conf.urls import url ##新增
 urlpatterns = [
     path('rabbit/', admin.site.urls),
     path('', include('index.urls')),
+    path(r'search/', include('haystack.urls')),
     url(r'^static/(?P<path>.*)$', serve,
                       {'document_root': settings.STATICFILES_DIRS[0]}, name='static'),
     path('article/', include('blog.urls')),
@@ -31,6 +32,7 @@ urlpatterns = [
     path('notification/', include('notification.urls')),
     path('leactos/', include('leacots.urls')),
     path('mdeditor/', include('mdeditor.urls')),
+
 
     # path('index/', include('user_m.urls')),
     # path('', include('verifications.urls')),

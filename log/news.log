@@ -27268,3 +27268,1489 @@ INFO 2021-12-15 12:44:51,332 basehttp 161 "POST /leactos/?page=2 HTTP/1.1" 200 1
 INFO 2021-12-15 12:44:51,369 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 16248
 INFO 2021-12-15 12:44:55,430 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 14996
 INFO 2021-12-15 12:45:03,068 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 16248
+INFO 2021-12-15 12:59:44,243 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/leacots/views.py changed, reloading.
+INFO 2021-12-15 12:59:44,627 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 18:37:14,118 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 18:37:15,276 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:37:15,319 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:37:15,319 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,153 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:39:52,186 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,186 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,204 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,206 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,206 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,207 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 304 0
+INFO 2021-12-15 18:39:52,217 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-15 18:40:15,200 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 18:40:15,221 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:40:15,222 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:40:35,324 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 18:40:53,869 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:40:57,043 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 18:41:11,314 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16248
+INFO 2021-12-15 18:41:11,334 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:41:11,334 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:41:11,338 basehttp 161 "GET /static/images/header.png HTTP/1.1" 304 0
+INFO 2021-12-15 18:53:06,709 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:53:09,464 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:53:21,494 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 18:53:22,294 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 18:53:22,949 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:53:24,318 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 18:53:25,162 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 18:53:25,924 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:53:26,463 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 18:53:30,090 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16248
+INFO 2021-12-15 18:53:33,013 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 18:53:34,273 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 22154
+INFO 2021-12-15 18:53:37,206 basehttp 161 "GET /article/detail/3 HTTP/1.1" 200 10648
+INFO 2021-12-15 18:53:37,224 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
+INFO 2021-12-15 18:54:12,251 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:54:14,470 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:56:49,160 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:56:52,177 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:57:11,120 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16248
+INFO 2021-12-15 18:57:12,069 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 18:57:12,641 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:57:13,248 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 18:57:13,805 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 18:57:14,495 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:57:15,711 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:57:19,095 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:57:42,376 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:58:04,893 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:58:05,847 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 18:58:06,630 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 18:58:07,401 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 18:58:12,925 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 18:58:13,906 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16248
+INFO 2021-12-15 18:58:17,660 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 14996
+INFO 2021-12-15 19:04:08,097 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 19:04:08,409 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 19:04:08,491 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:04:08,720 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:04:44,047 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 19:04:44,490 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:04:44,523 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 19:04:44,847 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:07:07,773 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 19:07:08,102 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 19:07:08,201 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:07:08,443 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:10:29,323 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 19:10:29,672 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:10:29,789 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:11:29,230 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 19:11:29,603 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:11:29,861 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 19:11:31,494 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 19:11:34,346 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 19:11:37,438 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-15 19:11:38,370 basehttp 161 "GET /notification/ HTTP/1.1" 200 9933
+INFO 2021-12-15 19:11:38,760 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 19:11:39,195 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 19:11:39,628 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16248
+INFO 2021-12-15 19:11:41,064 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-15 22:54:19,616 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 22:54:19,746 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 22:54:20,117 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:20,117 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:33,746 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/urls.py changed, reloading.
+INFO 2021-12-15 22:54:33,766 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/urls.py changed, reloading.
+INFO 2021-12-15 22:54:34,191 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:34,191 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:38,481 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/urls.py changed, reloading.
+INFO 2021-12-15 22:54:38,561 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/urls.py changed, reloading.
+INFO 2021-12-15 22:54:38,858 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:38,903 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:41,508 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:54:51,471 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/urls.py changed, reloading.
+INFO 2021-12-15 22:54:51,835 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:55:49,346 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 22:55:49,813 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 22:55:51,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:00:56,125 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:01:25,588 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 23:01:25,637 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-15 23:01:25,638 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+WARNING 2021-12-15 23:01:31,810 log 230 Not Found: /search
+WARNING 2021-12-15 23:01:31,810 basehttp 161 "GET /search HTTP/1.1" 404 3309
+WARNING 2021-12-15 23:01:40,469 log 230 Not Found: /search/后端
+WARNING 2021-12-15 23:01:40,469 basehttp 161 "GET /search/%E5%90%8E%E7%AB%AF HTTP/1.1" 404 3342
+WARNING 2021-12-15 23:01:50,941 log 230 Not Found: /search
+WARNING 2021-12-15 23:01:50,942 basehttp 161 "GET /search HTTP/1.1" 404 3309
+WARNING 2021-12-15 23:02:52,772 log 230 Not Found: /search/jiang
+WARNING 2021-12-15 23:02:52,773 basehttp 161 "GET /search/jiang HTTP/1.1" 404 3327
+WARNING 2021-12-15 23:03:00,680 log 230 Not Found: /search
+WARNING 2021-12-15 23:03:00,680 basehttp 161 "GET /search HTTP/1.1" 404 3309
+INFO 2021-12-15 23:03:16,169 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 23:03:16,534 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:03:16,677 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 23:03:17,042 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-12-15 23:03:17,107 log 230 Not Found: /search
+WARNING 2021-12-15 23:03:17,107 basehttp 161 "GET /search HTTP/1.1" 404 3309
+INFO 2021-12-15 23:03:19,857 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 23:03:21,556 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 23:03:21,576 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-15 23:03:21,586 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 23:03:21,597 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-15 23:03:21,598 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-15 23:03:21,609 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-15 23:03:28,209 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 23:03:28,542 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/urls.py changed, reloading.
+INFO 2021-12-15 23:03:28,579 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:03:28,926 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:03:32,944 basehttp 161 "GET /search HTTP/1.1" 301 0
+INFO 2021-12-15 23:03:32,971 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-15 23:03:43,019 basehttp 161 "GET /search/?q=%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:03:43,941 basehttp 161 "GET /search/?q=%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:03:44,298 basehttp 161 "GET /search/?q=%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:03:51,560 basehttp 161 "GET /search/?q=&models=blog.article HTTP/1.1" 200 625
+INFO 2021-12-15 23:03:56,516 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:03:57,293 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:03:57,451 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:03:57,585 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:03:57,720 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:03:57,874 basehttp 161 "GET /search/?q=t&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:04:07,034 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:09,197 basehttp 161 "GET /search/?q=df HTTP/1.1" 200 726
+INFO 2021-12-15 23:04:09,549 basehttp 161 "GET /search/?q=df HTTP/1.1" 200 726
+INFO 2021-12-15 23:04:10,572 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:10,714 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:10,864 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:11,009 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:11,161 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:11,314 basehttp 161 "GET /search/?q=df&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-15 23:04:23,959 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:24,477 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:24,626 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:24,789 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:24,929 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:25,082 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:25,231 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:25,387 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:27,012 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:28,043 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:04:51,154 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:04:51,606 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:05:00,170 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:01,314 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:02,059 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:02,710 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:03,146 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:04,050 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:24,644 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:25,696 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:05:26,206 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:06:59,753 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:07:00,181 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:07:20,827 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 23:07:22,069 basehttp 161 "GET /article/ HTTP/1.1" 200 11375
+INFO 2021-12-15 23:07:29,294 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-15 23:07:35,647 basehttp 161 "GET /search/?q=%E8%AE%A9 HTTP/1.1" 200 727
+INFO 2021-12-15 23:07:40,278 basehttp 161 "GET /search/?q=html HTTP/1.1" 200 788
+INFO 2021-12-15 23:07:43,815 basehttp 161 "GET /search/?q=html HTTP/1.1" 200 788
+INFO 2021-12-15 23:07:44,357 basehttp 161 "GET /search/?q=html HTTP/1.1" 200 788
+INFO 2021-12-15 23:07:44,732 basehttp 161 "GET /search/?q=html HTTP/1.1" 200 788
+INFO 2021-12-15 23:13:06,682 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 23:13:07,305 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 23:14:22,527 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:14:25,853 basehttp 161 "GET /search/?q=html HTTP/1.1" 200 728
+INFO 2021-12-15 23:14:30,101 basehttp 161 "GET /search/?q=%E8%AE%A9 HTTP/1.1" 200 727
+INFO 2021-12-15 23:14:31,708 basehttp 161 "GET /search/?q=%E8%AE%A9 HTTP/1.1" 200 727
+INFO 2021-12-15 23:14:32,713 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,161 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,293 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,456 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,579 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,709 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,839 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:33,980 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:34,126 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:14:36,560 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:14:37,591 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:14:37,926 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:14:38,077 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:14:38,230 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 736
+INFO 2021-12-15 23:14:48,176 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 23:14:48,642 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:14:49,381 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:14:50,739 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:14:51,103 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:15:15,666 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-15 23:15:16,036 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:15:27,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:15:30,550 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:15:32,164 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:15:36,482 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:37,215 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:37,376 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:37,533 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:37,685 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:37,838 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:15:49,595 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:15:50,551 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:01,538 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-15 23:17:02,008 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:17:03,596 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:04,993 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:05,509 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:08,571 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:17:25,212 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB%E6%96%87%E7%AB%A0&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-15 23:17:26,075 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB%E6%96%87%E7%AB%A0&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-15 23:17:29,572 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:30,554 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:30,719 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:30,898 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:34,297 basehttp 161 "GET /search/?q=h&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:17:35,418 basehttp 161 "GET /search/?q=h&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:17:37,353 basehttp 161 "GET /search/?q=htm&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:17:39,810 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:17:57,321 basehttp 161 "GET /search/?q=Django&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:17:57,942 basehttp 161 "GET /search/?q=Django&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:18:11,405 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:18:13,136 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:18:13,425 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:18:13,575 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:18:54,123 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:19:03,370 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:19:04,677 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:19:05,177 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:19:08,041 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:19:58,534 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:20:01,362 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,008 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,180 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,370 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,526 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,686 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,848 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:04,982 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:20:05,190 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:21:17,943 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:18,841 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:19,964 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:20,650 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:21,119 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:25,823 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:21:26,646 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:21:30,037 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:21:31,608 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:22:43,078 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:22:46,512 basehttp 161 "GET /search/?q=&models=blog.article HTTP/1.1" 200 625
+INFO 2021-12-15 23:22:49,134 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:22:54,647 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:22:58,670 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:23:01,927 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:23:03,486 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:23:03,674 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:23:03,957 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:23:32,779 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:23:33,230 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:26:20,149 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py changed, reloading.
+INFO 2021-12-15 23:26:20,693 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-15 23:26:58,603 log 230 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 50, in __call__
+    self.form = self.build_form()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 71, in build_form
+    return self.form_class(data, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/forms.py", line 100, in __init__
+    choices=model_choices(),
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/forms.py", line 16, in model_choices
+    for m in connections[using].get_unified_index().get_indexed_models()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 332, in get_indexed_models
+    return list(self.get_indexes().keys())
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 326, in get_indexes
+    self.build()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 255, in build
+    self.collect_fields(index)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 265, in collect_fields
+    % (self.document_field, index)
+haystack.exceptions.SearchFieldError: All 'SearchIndex' classes must use the same 'text' fieldname for the 'document=True' field. Offending index is '<blog.search_indexes.NoteIndex object at 0x7fee83734708>'.
+ERROR 2021-12-15 23:26:58,604 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 500 98248
+INFO 2021-12-15 23:27:28,913 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-12-15 23:27:36,712 log 230 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 50, in __call__
+    self.form = self.build_form()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 71, in build_form
+    return self.form_class(data, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/forms.py", line 100, in __init__
+    choices=model_choices(),
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/forms.py", line 16, in model_choices
+    for m in connections[using].get_unified_index().get_indexed_models()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 332, in get_indexed_models
+    return list(self.get_indexes().keys())
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 326, in get_indexes
+    self.build()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 255, in build
+    self.collect_fields(index)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/utils/loading.py", line 265, in collect_fields
+    % (self.document_field, index)
+haystack.exceptions.SearchFieldError: All 'SearchIndex' classes must use the same 'text' fieldname for the 'document=True' field. Offending index is '<blog.search_indexes.NoteIndex object at 0x7fe5e86036a8>'.
+ERROR 2021-12-15 23:27:36,713 basehttp 161 "GET /search/ HTTP/1.1" 500 97280
+INFO 2021-12-15 23:28:03,089 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:28:03,558 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:28:24,534 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:28:26,523 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 23:28:31,371 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-15 23:28:34,958 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:28:40,438 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:28:41,986 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:28:42,453 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:28:45,590 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:29:29,464 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:29:29,864 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:29:59,819 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:30:00,340 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:30:01,833 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:30:06,351 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:30:09,831 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:31:04,009 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:31:11,602 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:31:12,590 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:31:16,174 basehttp 161 "GET /search/?q=p&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:31:16,510 basehttp 161 "GET /search/?q=p&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:31:16,699 basehttp 161 "GET /search/?q=p&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:31:16,845 basehttp 161 "GET /search/?q=p&models=blog.article HTTP/1.1" 200 733
+INFO 2021-12-15 23:31:21,762 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:22,014 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:22,323 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:34,832 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:31:35,209 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:31:36,963 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:38,412 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:38,803 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:39,111 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:31:42,562 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:31:55,678 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-15 23:31:56,027 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:39:00,014 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:39:01,734 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-15 23:39:07,158 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-15 23:39:10,537 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-15 23:39:13,948 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:39:18,618 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:39:24,189 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:25,777 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:26,075 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:26,340 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:26,638 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:26,931 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:27,222 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:27,394 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:39:27,660 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:44:29,380 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:44:30,977 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:44:34,618 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:44:35,829 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:44:36,476 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:44:37,110 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:44:42,301 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:44:42,991 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:44:43,143 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:44:43,294 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:44:43,455 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:45:11,299 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:45:13,712 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:45:18,265 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-15 23:45:23,072 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-15 23:45:25,942 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:46:15,708 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-15 23:46:16,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:46:18,988 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:46:26,101 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:46:26,852 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:46:27,243 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-15 23:46:29,010 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:29,471 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:29,630 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:29,781 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:29,919 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:32,056 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:32,217 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-15 23:46:34,547 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-15 23:46:35,024 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:46:36,687 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-15 23:46:36,931 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-15 23:46:38,127 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-15 23:47:05,093 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-15 23:51:45,697 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:54:52,422 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-15 23:57:53,312 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-15 23:58:31,334 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:00:57,598 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:01:27,857 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:01:42,612 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/search_indexes.py changed, reloading.
+INFO 2021-12-16 00:01:43,467 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:01:49,053 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:12:14,890 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:12:23,893 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:12:24,786 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:15:47,904 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:24:47,014 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:25:21,660 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-16 00:26:08,193 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:32:00,187 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:32:01,817 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 00:32:01,846 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-16 00:32:06,972 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-16 00:32:14,736 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:32:18,232 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:32:23,633 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 200 784
+INFO 2021-12-16 00:32:24,383 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-16 00:32:25,095 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 792
+INFO 2021-12-16 00:32:28,886 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:32:31,810 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-16 00:32:46,140 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80&models=blog.article HTTP/1.1" 200 817
+INFO 2021-12-16 00:32:53,313 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-16 00:33:00,867 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99&models=blog.article HTTP/1.1" 200 741
+INFO 2021-12-16 00:33:04,542 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E9%BB%91&models=blog.article HTTP/1.1" 200 747
+INFO 2021-12-16 00:33:07,795 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E9%BB%91%E7%9A%84%E6%96%B9%E6%B3%95&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-16 00:33:11,399 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1027
+INFO 2021-12-16 00:33:15,788 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-16 00:33:20,823 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3&models=blog.article HTTP/1.1" 200 753
+INFO 2021-12-16 00:33:23,228 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84&models=blog.article HTTP/1.1" 200 750
+INFO 2021-12-16 00:33:23,865 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0&models=blog.article HTTP/1.1" 200 747
+INFO 2021-12-16 00:33:24,895 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:33:25,903 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99&models=blog.article HTTP/1.1" 200 741
+INFO 2021-12-16 00:33:26,747 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:33:27,543 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:33:28,527 basehttp 161 "GET /search/?q=&models=blog.article HTTP/1.1" 200 625
+INFO 2021-12-16 00:33:30,939 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-16 00:33:32,852 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 816
+INFO 2021-12-16 00:33:37,007 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:34:39,412 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:34:48,229 basehttp 161 "GET /search/?q=%E6%88%91%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%A0%87%E9%A2%98&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-16 00:34:54,458 basehttp 161 "GET /search/?q=%E6%88%91%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%A0%87%E9%A2%98&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-16 00:35:00,647 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:35:10,290 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80&models=blog.article HTTP/1.1" 200 817
+INFO 2021-12-16 00:35:20,500 basehttp 161 "GET /search/?q=%E5%89%8D%E7%AB%AF&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:35:27,422 basehttp 161 "GET /search/?q=%E6%9C%AC%E7%AB%A0&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:35:42,136 basehttp 161 "GET /search/?q=%E8%AE%A9%E7%BD%91%E9%A1%B5%E5%8F%98%E7%81%B0%E8%89%B2&models=blog.article HTTP/1.1" 200 750
+INFO 2021-12-16 00:35:57,191 basehttp 161 "GET /search/?q=%E7%AC%AC%E4%B8%80%E7%AB%A0&models=blog.article HTTP/1.1" 200 814
+INFO 2021-12-16 00:36:10,085 basehttp 161 "GET /search/?q=%E7%AC%AC%E4%B8%80%E7%AB%A0&models=blog.article HTTP/1.1" 200 814
+INFO 2021-12-16 00:36:12,872 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:36:16,971 basehttp 161 "GET /search/?q=%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:36:37,989 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:38:32,678 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:38:33,140 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:38:36,692 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:38:36,693 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:38:36,693 basehttp 75 - Broken pipe from ('127.0.0.1', 51569)
+
+INFO 2021-12-16 00:38:38,749 basehttp 161 "GET /search/?q=%E8%AE%A9%E7%BD%91%E9%A1%B5%E5%8F%98%E7%81%B0%E8%89%B2&models=blog.article HTTP/1.1" 200 750
+INFO 2021-12-16 00:38:41,634 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:38:42,038 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:38:42,331 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:38:47,765 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:38:52,053 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:11,256 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:39:11,756 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:39:12,956 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:12,958 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:12,958 basehttp 75 - Broken pipe from ('127.0.0.1', 51577)
+
+INFO 2021-12-16 00:39:14,287 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:15,615 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:18,857 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:39:19,233 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:39:33,717 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:39:34,170 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:39:36,002 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:39:40,254 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:39:46,388 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:39:46,849 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:39:47,727 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:48,505 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:48,640 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:48,782 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:49,241 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:49,552 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:49,873 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:50,039 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:50,260 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:50,675 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:54,422 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:39:57,909 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:58,417 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:58,613 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:39:58,786 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:40:02,608 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:40:05,849 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:40:06,438 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:40:12,603 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:40:13,015 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:40:33,486 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:40:33,921 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:40:36,941 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:40:37,880 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:40:42,800 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:43,168 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:43,458 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:43,724 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:43,996 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:49,426 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:40:49,520 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:40:49,963 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:40:51,088 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:40:51,999 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:42:10,754 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-16 00:42:11,228 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:42:12,948 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:42:14,759 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:42:15,001 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:04,675 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:06,179 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:06,361 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:06,567 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:06,810 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:43:16,164 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:43:16,526 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:43:17,960 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:43:19,596 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:43:23,059 basehttp 161 "GET /search/?q=html&models=blog.article HTTP/1.1" 200 796
+INFO 2021-12-16 00:43:26,314 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:43:29,558 basehttp 161 "GET /search/?q=%E5%85%94%E5%AD%90&models=blog.article HTTP/1.1" 200 1143
+INFO 2021-12-16 00:43:33,107 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:43:34,159 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:43:38,133 basehttp 161 "GET /search/?q=go&models=blog.article HTTP/1.1" 200 734
+INFO 2021-12-16 00:43:42,867 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:43:43,396 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:43:47,829 basehttp 161 "GET /search/?q=%E4%BD%BF&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:43:51,443 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0%E7%9A%84%E4%BB%A3%E7%A0%81&models=blog.article HTTP/1.1" 200 756
+INFO 2021-12-16 00:43:53,976 basehttp 161 "GET /search/?q=%E4%BD%BF%E7%BD%91%E7%AB%99%E5%8F%98%E7%81%B0&models=blog.article HTTP/1.1" 200 747
+INFO 2021-12-16 00:43:59,696 basehttp 161 "GET /search/?q=%E5%8F%98%E7%81%B0&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:44:04,067 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:44:06,486 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:44:10,011 basehttp 161 "GET /search/?q=python-&models=blog.article HTTP/1.1" 200 789
+INFO 2021-12-16 00:44:13,312 basehttp 161 "GET /search/?q=pytho&models=blog.article HTTP/1.1" 200 737
+INFO 2021-12-16 00:44:22,563 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 798
+INFO 2021-12-16 00:44:26,267 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 798
+INFO 2021-12-16 00:44:26,949 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 798
+INFO 2021-12-16 00:45:10,754 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-16 00:45:11,265 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:46:27,610 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:46:31,601 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:46:42,495 basehttp 161 "GET /search/?q=%E6%9C%AC%E6%AC%A1%E6%88%91%E4%BB%AC%E6%9D%A5%E8%AE%B2%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%8C%E9%85%8D%E7%BD%AE&models=blog.article HTTP/1.1" 200 789
+INFO 2021-12-16 00:46:43,197 basehttp 161 "GET /search/?q=%E6%9C%AC%E6%AC%A1%E6%88%91%E4%BB%AC%E6%9D%A5%E8%AE%B2%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%8C%E9%85%8D%E7%BD%AE&models=blog.article HTTP/1.1" 200 789
+ERROR 2021-12-16 00:48:13,172 log 230 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 54, in __call__
+    return self.create_response()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 156, in create_response
+    return render(self.request, self.template, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/templatetags/highlight.py", line 31, in render
+    query = self.query.resolve(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [xxx] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'query': '本次我们来讲一下博客搭建的第一步，配置', 'form': <ModelSearchForm bound=True, valid=True, fields=(q;models)>, 'page': <Page 1 of 1>, 'paginator': <django.core.paginator.Paginator object at 0x7ff4065a9240>, 'suggestion': None}]
+ERROR 2021-12-16 00:48:13,172 basehttp 161 "GET /search/?q=%E6%9C%AC%E6%AC%A1%E6%88%91%E4%BB%AC%E6%9D%A5%E8%AE%B2%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%8C%E9%85%8D%E7%BD%AE&models=blog.article HTTP/1.1" 500 148217
+INFO 2021-12-16 00:48:37,398 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 00:48:40,959 basehttp 161 "GET /search/ HTTP/1.1" 200 616
+INFO 2021-12-16 00:48:46,513 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 200 785
+ERROR 2021-12-16 00:48:52,211 log 230 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'xxx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 54, in __call__
+    return self.create_response()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 156, in create_response
+    return render(self.request, self.template, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/templatetags/highlight.py", line 31, in render
+    query = self.query.resolve(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [xxx] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'query': 'python后端', 'form': <ModelSearchForm bound=True, valid=True, fields=(q;models)>, 'page': <Page 1 of 1>, 'paginator': <django.core.paginator.Paginator object at 0x7ff4065b8f28>, 'suggestion': None}]
+ERROR 2021-12-16 00:48:52,211 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 500 147304
+INFO 2021-12-16 00:54:02,643 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:54:03,229 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:54:53,304 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:54:53,735 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:54:56,491 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:54:58,192 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 00:55:02,195 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-16 00:55:07,649 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 200 786
+INFO 2021-12-16 00:55:07,650 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 200 786
+INFO 2021-12-16 00:55:07,651 basehttp 75 - Broken pipe from ('127.0.0.1', 51810)
+
+INFO 2021-12-16 00:55:08,548 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF HTTP/1.1" 200 786
+INFO 2021-12-16 00:55:10,729 basehttp 161 "GET /search/?q=python HTTP/1.1" 200 780
+INFO 2021-12-16 00:55:12,515 basehttp 161 "GET /search/?q=python HTTP/1.1" 200 780
+INFO 2021-12-16 00:55:13,734 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:55:15,890 basehttp 161 "GET /search/?q=python-&models=blog.article HTTP/1.1" 200 739
+INFO 2021-12-16 00:55:16,834 basehttp 161 "GET /search/?q=python-&models=blog.article HTTP/1.1" 200 739
+INFO 2021-12-16 00:55:19,190 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:55:20,123 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:55:24,106 basehttp 161 "GET /search/?q=%E8%AE%A9&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:55:26,912 basehttp 161 "GET /search/?q=%E8%AE%A9%E7%BD%91%E9%A1%B5%E5%8F%98%E7%81%B0%E8%89%B2&models=blog.article HTTP/1.1" 200 750
+INFO 2021-12-16 00:55:30,926 basehttp 161 "GET /search/?q=%E7%BD%91%E9%A1%B5&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:32,087 basehttp 161 "GET /search/?q=%E7%BD%91%E9%A1%B5&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:32,358 basehttp 161 "GET /search/?q=%E7%BD%91%E9%A1%B5&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:33,075 basehttp 161 "GET /search/?q=%E7%BD%91%E9%A1%B5&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:38,069 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 798
+INFO 2021-12-16 00:55:42,280 basehttp 161 "GET /search/?q=%E6%B5%8B&models=blog.article HTTP/1.1" 200 735
+INFO 2021-12-16 00:55:45,377 basehttp 161 "GET /search/?q=%E6%B5%8B%E8%AF%95&models=blog.article HTTP/1.1" 200 798
+INFO 2021-12-16 00:55:51,598 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:52,951 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:55:54,431 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:54,561 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:54,721 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:54,848 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:55,147 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:55,444 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:55,754 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA HTTP/1.1" 200 730
+INFO 2021-12-16 00:55:58,414 basehttp 161 "GET /search/?q=%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 744
+INFO 2021-12-16 00:56:01,609 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:01,994 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:02,292 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:02,597 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:11,274 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/whoosh_cn_backend.py changed, reloading.
+INFO 2021-12-16 00:56:11,744 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 00:56:13,735 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:13,736 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:13,736 basehttp 75 - Broken pipe from ('127.0.0.1', 51834)
+
+INFO 2021-12-16 00:56:14,888 basehttp 161 "GET /search/?q=%E5%8D%9A%E5%AE%A2&models=blog.article HTTP/1.1" 200 738
+INFO 2021-12-16 00:56:17,917 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&models=blog.article HTTP/1.1" 200 794
+INFO 2021-12-16 00:56:19,859 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:56:20,943 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 00:56:22,672 basehttp 161 "GET /search/?q=python-&models=blog.article HTTP/1.1" 200 789
+INFO 2021-12-16 00:56:24,094 basehttp 161 "GET /search/?q=python--&models=blog.article HTTP/1.1" 200 740
+INFO 2021-12-16 00:56:25,718 basehttp 161 "GET /search/?q=python-----&models=blog.article HTTP/1.1" 200 743
+INFO 2021-12-16 00:56:29,924 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 17:09:29,205 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-16 17:09:31,111 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 17:09:31,187 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:31,188 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36122
+INFO 2021-12-16 17:09:31,198 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-16 17:09:31,199 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-16 17:09:31,199 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-16 17:09:31,206 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:31,206 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:31,207 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:31,207 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:31,221 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-16 17:09:31,245 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+INFO 2021-12-16 17:09:31,288 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-16 17:09:35,015 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-16 17:09:41,737 basehttp 161 "GET /search/?q=p HTTP/1.1" 200 725
+INFO 2021-12-16 17:09:41,737 basehttp 75 - Broken pipe from ('127.0.0.1', 51043)
+
+INFO 2021-12-16 17:09:41,740 basehttp 161 "GET /search/?q=p HTTP/1.1" 200 725
+INFO 2021-12-16 17:09:45,168 basehttp 161 "GET /search/?q=python HTTP/1.1" 200 780
+INFO 2021-12-16 17:09:59,262 basehttp 161 "GET /search/?q=python HTTP/1.1" 200 780
+INFO 2021-12-16 17:10:05,579 basehttp 161 "GET /article/ HTTP/1.1" 200 11346
+INFO 2021-12-16 17:10:05,601 basehttp 161 "GET /static/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-12-16 17:10:05,602 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-16 17:10:05,603 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-16 17:10:05,613 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-16 17:10:05,621 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-16 17:10:05,621 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+WARNING 2021-12-16 17:10:05,631 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:10:05,632 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:10:05,634 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-16 17:10:05,634 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-16 17:10:05,635 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-16 17:11:24,698 basehttp 161 "GET /article/ HTTP/1.1" 200 11334
+WARNING 2021-12-16 17:11:24,744 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:11:24,745 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+ERROR 2021-12-16 17:11:25,767 log 230 Internal Server Error: /search
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/middleware/common.py", line 95, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8001/search/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2021-12-16 17:11:25,768 basehttp 161 "POST /search HTTP/1.1" 500 74517
+INFO 2021-12-16 17:12:11,678 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+ERROR 2021-12-16 17:12:15,480 log 230 Internal Server Error: /search
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/middleware/common.py", line 95, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8001/search/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2021-12-16 17:12:15,481 basehttp 161 "POST /search HTTP/1.1" 500 74499
+INFO 2021-12-16 17:12:56,299 basehttp 161 "GET /article/ HTTP/1.1" 200 11324
+WARNING 2021-12-16 17:12:56,328 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:12:56,329 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:12:59,867 basehttp 161 "GET /search?keyboard=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 301 0
+INFO 2021-12-16 17:12:59,888 basehttp 161 "GET /search/?keyboard=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 617
+INFO 2021-12-16 17:15:14,008 basehttp 161 "GET /search/?keyboard=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 617
+INFO 2021-12-16 17:16:10,409 basehttp 161 "GET /search/?keyboard=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 617
+INFO 2021-12-16 17:16:18,492 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 17:16:24,276 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 17:16:24,505 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 17:16:24,684 basehttp 161 "GET /search/?q=python&models=blog.article HTTP/1.1" 200 788
+INFO 2021-12-16 17:17:20,328 basehttp 161 "GET /article/ HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:20,373 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:20,373 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:25,342 basehttp 161 "GET /article/?keyboard=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&show=title&tempid=1&tbname=news&Submit=Search HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:25,372 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:25,373 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:26,241 basehttp 161 "GET /article/?keyboard=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&show=title&tempid=1&tbname=news&Submit=Search HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:26,281 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:26,281 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:27,481 basehttp 161 "GET /article/?keyboard=1&show=title&tempid=1&tbname=news&Submit=Search HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:27,511 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:27,512 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:30,184 basehttp 161 "GET /article/?keyboard=1&show=title&tempid=1&tbname=news&Submit=Search HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:30,214 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:30,215 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:37,421 basehttp 161 "GET /article/?keyboard=1&show=title&tempid=1&tbname=news&Submit=Search HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:37,450 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:37,451 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:39,690 basehttp 161 "GET /article/?keyboard=1&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:39,720 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:39,721 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:41,576 basehttp 161 "GET /article/?keyboard=2&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11318
+WARNING 2021-12-16 17:17:41,607 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:41,608 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:17:57,598 basehttp 161 "GET /article/?keyboard=2&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11302
+WARNING 2021-12-16 17:17:57,629 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:17:57,630 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:18:00,639 basehttp 161 "GET /article/?q=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11302
+WARNING 2021-12-16 17:18:00,671 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:18:00,671 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:18:14,509 basehttp 161 "GET /article/?q=python&show=title&tempid=1&tbname=news&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11132
+WARNING 2021-12-16 17:18:14,540 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:18:14,540 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:18:17,135 basehttp 161 "GET /article/ HTTP/1.1" 200 11132
+WARNING 2021-12-16 17:18:17,197 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:18:17,198 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:18:17,885 basehttp 161 "GET /article HTTP/1.1" 301 0
+INFO 2021-12-16 17:18:20,153 basehttp 161 "GET /article/?q=1&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11132
+WARNING 2021-12-16 17:18:20,184 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:18:20,185 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:18:25,848 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 17:18:28,748 basehttp 161 "GET /search/ HTTP/1.1" 200 617
+INFO 2021-12-16 17:18:37,098 basehttp 161 "GET /search/?q=python HTTP/1.1" 200 780
+INFO 2021-12-16 17:18:46,402 basehttp 161 "GET /article/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11132
+WARNING 2021-12-16 17:18:46,433 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:18:46,433 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:21:06,070 basehttp 161 "GET /article/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11139
+WARNING 2021-12-16 17:21:06,114 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:21:06,115 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:21:10,127 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 780
+INFO 2021-12-16 17:21:58,591 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 786
+INFO 2021-12-16 17:24:47,856 basehttp 161 "GET /article/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 11139
+WARNING 2021-12-16 17:24:47,901 log 230 Not Found: /article/""
+WARNING 2021-12-16 17:24:47,901 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 17:24:50,379 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9816
+INFO 2021-12-16 17:24:50,402 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
+INFO 2021-12-16 17:27:31,356 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 18:13:06,652 basehttp 161 "GET /article/ HTTP/1.1" 200 11139
+WARNING 2021-12-16 18:13:06,703 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:13:06,704 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:23:39,499 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 743
+INFO 2021-12-16 18:23:47,249 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 781
+INFO 2021-12-16 18:23:51,201 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 781
+INFO 2021-12-16 18:25:26,382 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10696
+INFO 2021-12-16 18:25:26,399 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-16 18:25:26,399 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-16 18:25:26,427 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-16 18:26:37,075 basehttp 161 "GET /article/ HTTP/1.1" 200 11139
+WARNING 2021-12-16 18:26:37,117 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:26:37,118 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:26:39,870 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 804
+INFO 2021-12-16 18:26:41,146 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10696
+INFO 2021-12-16 18:49:35,101 basehttp 161 "GET /article/ HTTP/1.1" 200 11139
+WARNING 2021-12-16 18:49:35,132 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:49:35,133 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:49:36,790 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9816
+INFO 2021-12-16 18:49:46,482 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9816
+INFO 2021-12-16 18:50:07,982 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9816
+INFO 2021-12-16 18:50:12,701 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9816
+INFO 2021-12-16 18:51:23,004 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9830
+INFO 2021-12-16 18:51:26,252 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 18:51:27,721 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 18:51:27,760 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:51:27,761 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:51:29,674 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 18:51:29,705 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:51:29,706 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:51:30,319 basehttp 161 "GET /notification/ HTTP/1.1" 200 9726
+INFO 2021-12-16 18:51:30,339 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 200 28461
+INFO 2021-12-16 18:51:30,980 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-16 18:51:31,013 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-16 18:51:32,014 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+INFO 2021-12-16 18:51:33,058 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16041
+INFO 2021-12-16 18:51:33,083 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-16 18:51:33,083 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 304 0
+INFO 2021-12-16 18:51:33,084 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 200 69524
+INFO 2021-12-16 18:51:33,108 basehttp 161 "GET /static/images/header.png HTTP/1.1" 200 275362
+INFO 2021-12-16 18:51:33,820 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 18:52:01,915 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 18:52:01,963 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:52:01,964 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:53:33,025 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 18:53:33,069 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:53:33,069 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:53:34,096 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-16 18:53:35,821 basehttp 161 "GET /notification/ HTTP/1.1" 200 9726
+INFO 2021-12-16 18:53:38,710 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9877
+INFO 2021-12-16 18:53:39,875 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 18:53:41,265 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 18:53:41,307 log 230 Not Found: /article/""
+WARNING 2021-12-16 18:53:41,309 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 18:53:46,203 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9877
+INFO 2021-12-16 18:53:52,004 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 200 390887
+INFO 2021-12-16 18:53:56,885 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9877
+INFO 2021-12-16 18:53:56,946 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 200 390887
+INFO 2021-12-16 18:57:39,990 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 66
+INFO 2021-12-16 18:57:56,227 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 802
+INFO 2021-12-16 18:58:27,061 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 180
+INFO 2021-12-16 18:58:56,399 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9830
+INFO 2021-12-16 18:59:25,394 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9981
+INFO 2021-12-16 18:59:34,599 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10696
+INFO 2021-12-16 18:59:58,588 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9981
+ERROR 2021-12-16 19:00:28,972 log 230 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 54, in __call__
+    return self.create_response()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/views.py", line 156, in create_response
+    return render(self.request, self.template, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' with keyword arguments '{'a_id': ''}' not found. 1 pattern(s) tried: ['article\\/detail\\/(?P<a_id>[0-9]+)$']
+ERROR 2021-12-16 19:00:28,974 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 500 238097
+INFO 2021-12-16 19:00:39,949 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10058
+INFO 2021-12-16 19:00:58,472 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10072
+INFO 2021-12-16 19:01:11,248 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9964
+INFO 2021-12-16 19:01:36,717 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10051
+INFO 2021-12-16 19:02:34,201 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10358
+INFO 2021-12-16 19:03:37,169 basehttp 161 "GET /notification/ HTTP/1.1" 200 9726
+INFO 2021-12-16 19:03:37,938 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 19:03:37,978 log 230 Not Found: /article/""
+WARNING 2021-12-16 19:03:37,979 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 19:03:38,760 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+WARNING 2021-12-16 19:03:42,105 log 230 Not Found: /e/search/index.php
+WARNING 2021-12-16 19:03:42,106 basehttp 161 "POST /e/search/index.php HTTP/1.1" 404 3345
+INFO 2021-12-16 19:03:47,171 basehttp 161 "GET /article/ HTTP/1.1" 200 11153
+WARNING 2021-12-16 19:03:47,215 log 230 Not Found: /article/""
+WARNING 2021-12-16 19:03:47,215 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 19:03:49,328 basehttp 161 "GET /notification/ HTTP/1.1" 200 9726
+INFO 2021-12-16 19:03:50,951 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10358
+INFO 2021-12-16 19:03:52,683 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11035
+WARNING 2021-12-16 19:03:54,637 log 230 Not Found: /e/search/index.php
+WARNING 2021-12-16 19:03:54,637 basehttp 161 "POST /e/search/index.php HTTP/1.1" 404 3345
+INFO 2021-12-16 19:05:18,777 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11046
+ERROR 2021-12-16 19:09:26,105 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 86, in get
+    return render(request, 'message/article_tag_list.html', context=tag_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'container' appears more than once
+ERROR 2021-12-16 19:09:26,106 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 206047
+ERROR 2021-12-16 19:09:59,737 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 86, in get
+    return render(request, 'message/article_tag_list.html', context=tag_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'container' appears more than once
+ERROR 2021-12-16 19:09:59,738 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 206047
+ERROR 2021-12-16 19:10:01,852 log 230 Internal Server Error: /article/lists/
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 86, in get
+    return render(request, 'message/article_tag_list.html', context=tag_dict)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/template/loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'container' appears more than once
+ERROR 2021-12-16 19:10:01,853 basehttp 161 "GET /article/lists/ HTTP/1.1" 500 206047
+INFO 2021-12-16 19:10:11,695 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11059
+INFO 2021-12-16 19:10:30,124 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-16 19:10:32,942 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-16 19:10:34,715 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-16 19:10:43,656 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-16 19:10:50,874 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-16 19:10:52,463 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 21962
+INFO 2021-12-16 19:10:57,518 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:00,342 basehttp 161 "GET /article/lists/?page_num=3 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:02,605 basehttp 161 "GET /article/lists/?page_num=0 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:03,378 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:06,819 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:07,397 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:56,988 basehttp 161 "GET /article/lists/?page_num=2 HTTP/1.1" 200 11433
+INFO 2021-12-16 19:11:59,925 basehttp 161 "GET /article/lists/3 HTTP/1.1" 200 21895
+INFO 2021-12-16 19:13:26,528 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-16 19:13:35,047 basehttp 161 "GET /search/?q=%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-16 19:13:35,700 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-16 19:13:43,409 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-16 19:13:49,033 basehttp 161 "GET /search/?q=p&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-16 19:13:56,279 basehttp 161 "GET /search/?q=%E7%88%AC%E8%99%AB&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-16 19:14:05,401 basehttp 161 "GET /search/?q=html&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10367
+INFO 2021-12-16 19:14:19,065 basehttp 161 "GET /article/detail/2 HTTP/1.1" 200 11176
+INFO 2021-12-16 19:14:22,803 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-16 19:14:29,243 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-16 19:15:37,063 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 19:15:39,193 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-16 19:15:39,234 log 230 Not Found: /article/""
+WARNING 2021-12-16 19:15:39,235 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 19:15:41,014 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-16 19:15:43,650 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-16 19:15:43,687 log 230 Not Found: /article/""
+WARNING 2021-12-16 19:15:43,688 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 19:15:44,362 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-16 19:15:45,356 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 11666
+INFO 2021-12-16 19:15:46,313 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-16 19:15:47,241 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-16 19:15:47,274 log 230 Not Found: /article/""
+WARNING 2021-12-16 19:15:47,274 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-16 19:15:49,312 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-16 19:15:51,214 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-17 10:06:21,621 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 10:06:24,617 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 10:06:24,637 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:24,637 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:24,646 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-17 10:06:24,647 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-17 10:06:35,459 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+INFO 2021-12-17 10:06:35,477 basehttp 161 "GET /static/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-12-17 10:06:35,482 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,482 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,490 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,501 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,504 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+WARNING 2021-12-17 10:06:35,512 log 230 Not Found: /article/""
+WARNING 2021-12-17 10:06:35,514 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 10:06:35,514 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,515 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:35,516 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-17 10:06:40,463 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-17 10:06:40,500 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:59,011 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 10:06:59,031 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:06:59,031 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-17 10:07:17,676 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 21962
+INFO 2021-12-17 10:07:19,985 basehttp 161 "GET /article/detail/3 HTTP/1.1" 200 10442
+INFO 2021-12-17 10:07:20,022 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494
+INFO 2021-12-17 10:07:26,871 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 10:07:30,808 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 10:07:32,350 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 10:07:32,400 log 230 Not Found: /article/""
+WARNING 2021-12-17 10:07:32,400 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 10:07:37,357 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:00:42,936 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 12:00:45,707 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 12:00:56,324 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:00:56,372 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:00:56,372 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:01:01,613 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10697
+INFO 2021-12-17 12:01:04,862 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:01:04,890 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:01:04,890 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:01:05,811 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-17 12:01:05,844 basehttp 161 "GET /static/images/2018.png HTTP/1.1" 200 516606
+INFO 2021-12-17 12:01:11,122 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 11666
+INFO 2021-12-17 12:01:15,515 basehttp 161 "GET /resources/page/download?source_id=2 HTTP/1.1" 200 28
+INFO 2021-12-17 12:01:18,500 basehttp 161 "GET /resources/page/download?source_id=1 HTTP/1.1" 200 5088801
+INFO 2021-12-17 12:01:25,099 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:01:28,195 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 21962
+INFO 2021-12-17 12:01:28,213 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 304 0
+INFO 2021-12-17 12:01:30,075 basehttp 161 "GET /article/detail/3 HTTP/1.1" 200 10442
+INFO 2021-12-17 12:01:32,879 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 12:01:32,900 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-17 12:01:32,900 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 304 0
+INFO 2021-12-17 12:01:32,908 basehttp 161 "GET /static/images/header.png HTTP/1.1" 200 275362
+INFO 2021-12-17 12:01:41,242 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 12:01:49,077 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:01:51,148 basehttp 161 "GET /article/lists/3 HTTP/1.1" 200 21895
+INFO 2021-12-17 12:01:55,164 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:01:58,265 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-17 12:31:30,982 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 12:31:31,004 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2021-12-17 12:31:32,029 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:31:32,810 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:31:32,848 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:31:32,849 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:31:33,474 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 12:31:33,497 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 304 0
+INFO 2021-12-17 12:31:34,231 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 12:31:38,312 basehttp 161 "GET /leactos/?page=2 HTTP/1.1" 200 14790
+INFO 2021-12-17 12:31:41,664 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 16042
+INFO 2021-12-17 12:31:43,126 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:31:43,157 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:31:43,158 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:31:44,052 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 12:31:45,164 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-17 12:31:46,781 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 11666
+INFO 2021-12-17 12:31:48,360 basehttp 161 "GET /resources/page/download?source_id=2 HTTP/1.1" 200 28
+INFO 2021-12-17 12:31:55,679 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 12:32:11,436 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:32:11,477 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:32:11,478 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:32:15,763 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-17 12:32:16,846 basehttp 161 "GET /resources/page/%E6%B5%8B%E8%AF%95 HTTP/1.1" 200 11666
+INFO 2021-12-17 12:32:19,352 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 12:32:20,453 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 12:32:20,486 log 230 Not Found: /article/""
+WARNING 2021-12-17 12:32:20,487 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 12:32:21,608 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 12:32:22,426 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 12:32:23,155 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 12:32:32,347 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 12:54:42,303 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-17 12:54:42,888 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 12:57:06,028 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py changed, reloading.
+INFO 2021-12-17 13:02:09,374 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 13:02:12,626 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 13:02:14,255 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:02:14,302 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:02:14,303 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:02:16,057 basehttp 161 "GET /article/detail/5 HTTP/1.1" 200 10259
+INFO 2021-12-17 13:02:17,040 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 13:02:18,310 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:02:18,349 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:02:18,349 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:02:19,463 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-17 13:02:20,223 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 13:02:20,903 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:02:20,933 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:02:20,934 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:02:21,965 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 13:02:23,125 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 13:03:10,180 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/contrib/messages/utils.py changed, reloading.
+INFO 2021-12-17 13:07:52,090 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 13:11:03,301 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 13:11:35,964 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 13:11:39,413 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 13:11:40,914 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:11:40,964 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:11:40,964 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:11:42,483 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 13:11:45,606 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-17 13:11:48,037 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16042
+INFO 2021-12-17 13:11:48,970 basehttp 161 "GET /resources/ HTTP/1.1" 200 11148
+INFO 2021-12-17 13:11:49,621 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 13:33:37,301 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:33:37,374 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:33:37,375 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:33:46,156 basehttp 161 "GET /article/detail/5 HTTP/1.1" 200 10259
+INFO 2021-12-17 13:33:53,988 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:33:54,023 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:33:54,024 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:34:17,082 basehttp 161 "GET /notification/ HTTP/1.1" 200 9727
+INFO 2021-12-17 13:34:18,267 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-17 13:34:18,308 log 230 Not Found: /article/""
+WARNING 2021-12-17 13:34:18,308 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 13:34:21,655 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10697
+INFO 2021-12-17 13:34:29,024 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11433
+INFO 2021-12-17 13:34:31,223 basehttp 161 "GET /article/lists/3 HTTP/1.1" 200 21895
+INFO 2021-12-17 13:34:32,694 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10697
+INFO 2021-12-17 23:27:33,020 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:27:57,864 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:28:13,187 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:29:01,714 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:30:51,661 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:31:41,776 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:31:58,596 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:32:23,011 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:33:14,911 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:33:17,968 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-17 23:33:17,993 basehttp 161 "GET /static/css/country_to_nanjing.css HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:17,995 basehttp 161 "GET /static/assets/css/main.css HTTP/1.1" 200 36122
+INFO 2021-12-17 23:33:18,008 basehttp 161 "GET /static/assets/css/fontawesome-all.min.css HTTP/1.1" 200 56021
+INFO 2021-12-17 23:33:18,010 basehttp 161 "GET /static/images/jinwu.png HTTP/1.1" 200 176629
+INFO 2021-12-17 23:33:18,011 basehttp 161 "GET /media/img/lgd.png HTTP/1.1" 200 141421
+INFO 2021-12-17 23:33:18,015 basehttp 161 "GET /static/assets/js/browser.min.js HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:18,016 basehttp 161 "GET /static/assets/js/main.js HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:18,017 basehttp 161 "GET /static/assets/js/breakpoints.min.js HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:18,018 basehttp 161 "GET /static/assets/js/util.js HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:18,019 basehttp 161 "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 88145
+INFO 2021-12-17 23:33:18,032 basehttp 161 "GET /static/images/bg.jpg HTTP/1.1" 200 86682
+INFO 2021-12-17 23:33:18,106 basehttp 161 "GET /static/logo/jhl_logo.png HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:19,359 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+INFO 2021-12-17 23:33:19,377 basehttp 161 "GET /static/css/bootstrap.css HTTP/1.1" 200 145933
+INFO 2021-12-17 23:33:19,382 basehttp 161 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:19,383 basehttp 161 "GET /static/css/index.css HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:19,385 basehttp 161 "GET /static/js/jquery.js HTTP/1.1" 200 89500
+INFO 2021-12-17 23:33:19,403 basehttp 161 "GET /static/js/highlightjs-line-numbers.min.js HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:19,404 basehttp 161 "GET /static/js/highlight.min.js HTTP/1.1" 200 49058
+WARNING 2021-12-17 23:33:19,408 log 230 Not Found: /article/""
+WARNING 2021-12-17 23:33:19,408 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-17 23:33:19,415 basehttp 161 "GET /static/images/time.jpg HTTP/1.1" 304 0
+INFO 2021-12-17 23:33:19,416 basehttp 161 "GET /static/images/navbg.png HTTP/1.1" 200 66208
+INFO 2021-12-17 23:33:19,416 basehttp 161 "GET /static/images/yuanshan.jpg HTTP/1.1" 200 25101
+INFO 2021-12-17 23:33:19,417 basehttp 161 "GET /static/images/footside.jpg HTTP/1.1" 200 238965
+INFO 2021-12-17 23:34:03,076 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-17 23:34:23,027 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:04:07,556 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:04:08,112 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:04:15,419 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:04:15,847 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:04:46,629 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:04:48,107 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:04:49,219 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-18 00:04:49,280 log 230 Not Found: /article/""
+WARNING 2021-12-18 00:04:49,280 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-18 00:04:50,799 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:04:50,818 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
+INFO 2021-12-18 00:04:51,962 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:04:52,618 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:05:30,380 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:05:30,967 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:05:31,133 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:05:31,242 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:06:12,089 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:06:12,453 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:06:21,459 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-18 00:06:21,647 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:06:22,375 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:06:24,352 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-18 00:06:35,937 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:06:36,361 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:08:14,802 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/compat.py changed, reloading.
+INFO 2021-12-18 00:08:15,239 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:11:38,840 autoreload 251 /Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/client/monitoring.py changed, reloading.
+INFO 2021-12-18 00:11:39,290 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:13:23,901 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:13:25,016 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:13:26,598 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-18 00:13:26,644 log 230 Not Found: /article/""
+WARNING 2021-12-18 00:13:26,644 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-18 00:13:28,489 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:14:11,035 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:14:12,212 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:14:15,898 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:14:18,964 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:22:00,285 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:22:01,282 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:22:02,784 basehttp 161 "GET /article/ HTTP/1.1" 200 11154
+WARNING 2021-12-18 00:22:02,836 log 230 Not Found: /article/""
+WARNING 2021-12-18 00:22:02,836 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-18 00:22:04,749 basehttp 161 "GET /search/?q=html&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:22:41,719 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:22:42,086 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:23:39,855 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:23:40,224 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:25:46,280 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11611
+INFO 2021-12-18 00:25:46,309 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-18 00:25:46,309 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2021-12-18 00:25:48,010 basehttp 161 "GET /article/lists/4 HTTP/1.1" 200 21446
+INFO 2021-12-18 00:25:57,376 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:25:58,728 basehttp 161 "GET /article/ HTTP/1.1" 200 11020
+WARNING 2021-12-18 00:25:58,776 log 230 Not Found: /article/""
+WARNING 2021-12-18 00:25:58,776 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-18 00:26:01,061 basehttp 161 "GET /search/?q=test&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:26:02,421 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:31:14,283 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:31:17,073 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:31:19,276 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:31:19,914 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:31:21,469 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:31:39,251 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:32:21,035 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:33:21,869 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:33:29,303 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:33:29,672 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:33:56,955 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:34:03,384 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:34:51,543 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:37:58,479 autoreload 251 /Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/untitled/settings.py changed, reloading.
+INFO 2021-12-18 00:37:58,933 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-18 00:38:08,189 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-18 00:38:09,957 basehttp 161 "GET /article/ HTTP/1.1" 200 11020
+WARNING 2021-12-18 00:38:10,003 log 230 Not Found: /article/""
+WARNING 2021-12-18 00:38:10,003 basehttp 161 "GET /article/%22%22 HTTP/1.1" 404 3976
+INFO 2021-12-18 00:38:11,648 basehttp 161 "GET /search/?q=python%E5%90%8E%E7%AB%AF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-18 00:39:11,453 basehttp 161 "GET /search/?q=python&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10359
+INFO 2021-12-18 00:39:15,148 basehttp 161 "GET /search/?q=p&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:39:15,882 basehttp 161 "GET /search/?q=%E8%AF%B7%E8%BE%93%E5%85%A5%E5%85%B3%E9%94%AE%E5%AD%97&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 9915
+INFO 2021-12-18 00:39:17,776 basehttp 161 "GET /search/?q=%E4%BD%BF&Submit=%E6%90%9C%E7%B4%A2 HTTP/1.1" 200 10865
+INFO 2021-12-18 00:39:22,125 basehttp 161 "GET /article/detail/4 HTTP/1.1" 200 10698
+INFO 2021-12-18 00:39:22,156 basehttp 161 "GET /static/images/wexin.jpeg HTTP/1.1" 200 156494

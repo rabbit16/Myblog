@@ -1,0 +1,24 @@
+{% extends 'base/base_article.html' %}
+{% load static %}
+            <h3>Results</h3>
+            {% block show_content %}
+                {% for result in page.object_list %}
+                    <h3><a href="{% url 'blog:article' a_id=result.object.id%}" target="_self">{{ result.object.title }}</a></h3>
+                    <figure><img src="{{ result.object.img_url }}" alt=""></figure>
+                    <ul>
+        <p> {{ result.object.abstract }}</p>
+        <a id ="{{ result.object.id }}" title="{{ result.object.title }}" href="{% url 'blog:article' a_id=result.object.id%}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>{{ result.object.create_time }}</span><span>作者：{{ result.object.author_name }}</span></p>
+            {% empty %}
+                <p>No results found.</p>
+            {% endfor %}
+
+            {% if page.has_previous or page.has_next %}
+                <div>
+                    {% if page.has_previous %}<a href="?q={{ query }}&page={{ page.previous_page_number }}">{% endif %}« Previous{% if page.has_previous %}</a>{% endif %}
+                    |
+                    {% if page.has_next %}<a href="?q={{ query }}&page={{ page.next_page_number }}">{% endif %}Next »{% if page.has_next %}</a>{% endif %}
+                </div>
+            {% endif %}
+            {% endblock %}

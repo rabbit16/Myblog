@@ -34,7 +34,7 @@
 
         </ul>
       </div>
-        <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="?page_num={{ 1 }}">首页</a><a href="?page_num={{ now_page|add:-1 }}" target="_self">上一页</a><a href="?page_num={{ now_page|add:1 }}">下一页</a><a href="?page_num={{ page_num }}">尾页</a></div>
+        <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="?page_num={{ 1 }}">首页</a><a href="?page_num={{ now_page|add:-1 }}" target="_self">上一页</a><a href="?page_num={{ now_page|add:1 }}">下一页</a><a href="?page_num={{ page_num }}">尾页</a></div>
     </div>
   {% block script_next %}
       <script type="text/javascript">

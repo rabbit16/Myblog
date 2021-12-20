@@ -1,8 +1,8 @@
 .blog-catalog {
     width: 150px;
-    position: fixed;
+    position: absolute;
     right: 70px;
-    top: 338px;
+    /*top: 338px;*/
     /*text-align: center;*/
     float: right;
     /*text-align: right;*/

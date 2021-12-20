@@ -8,6 +8,9 @@ from django.views import View
 from leacots.models import *
 from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
+import logging
+
+logger = logging.getLogger('django')
 
 page_every_show = 5
 

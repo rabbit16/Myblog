@@ -90,7 +90,7 @@ class ArticleListDetailByTag(View):
     @csrf_exempt
     def get(self, request, tag_id):
         tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
-        tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
+        # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
         articles = models.Article.objects.filter(tags__name__in=[tag_name])[:page_show_num]
         articles_count = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_num = math.ceil(articles_count/page_show_num)
@@ -116,7 +116,7 @@ class ArticleListDetailByTag(View):
         final_page_flag = 0
         to_page_flag = 0
         tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
-        tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
+        # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
         all_num = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_all = math.ceil(all_num / page_show_num)
         page_num = json.loads(request.body)
@@ -172,9 +172,10 @@ class ArticleListDetailByTag(View):
         return obj_arr
 
 class MySeachView(SearchView):
+    template = 'search/search.html'
     def extra_context(self):       #重载extra_context来添加额外的context内容
         context = super(MySeachView,self).extra_context()
         side_list = models.Article.objects.filter(is_delete=False)
-        context['side_list'] = side_list
+        context['test'] = side_list
         return context
 

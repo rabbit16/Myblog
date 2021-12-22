@@ -19,6 +19,7 @@ class Resource(ModelBase):
     # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
     tags = TaggableManager(blank=True)
     type = models.CharField(verbose_name="文件类型", help_text="文件类型", max_length=100, default='')
+    content = models.TextField(verbose_name="内容", help_text="内容")
     class Meta:
         ordering = ['-update_time', '-id']
         db_table = 'tb_resource'

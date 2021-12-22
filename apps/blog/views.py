@@ -15,6 +15,7 @@ from markdown.extensions.toc import TocExtension, slugify
 from blog import models
 import markdown
 from django.views.decorators.csrf import csrf_protect
+
 # Create your views here.
 page_show_num = 3
 tag_show_num = 8

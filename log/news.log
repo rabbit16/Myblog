@@ -25389,6 +25389,7 @@ INFO 2021-12-14 19:13:34,806 basehttp 161 "GET /article/detail/1 HTTP/1.1" 200 4
 INFO 2021-12-14 19:13:34,830 basehttp 161 "GET /static/css/catalog.css HTTP/1.1" 304 0
 INFO 2021-12-14 19:13:34,831 basehttp 161 "GET /static/css/main.css HTTP/1.1" 304 0
 INFO 2021-12-14 19:13:34,831 basehttp 161 "GET /static/css/code.css HTTP/1.1" 304 0
+INFO 2021-12-23 13:42:36,830 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-14 21:36:53,482 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-14 21:36:54,886 basehttp 161 "GET / HTTP/1.1" 200 8487
 WARNING 2021-12-14 21:36:55,113 basehttp 161 "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 404 1947
@@ -32683,3 +32684,4 @@ INFO 2021-12-21 00:26:37,794 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 110
 INFO 2021-12-21 00:26:38,263 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
 INFO 2021-12-21 00:26:39,112 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11057
 INFO 2021-12-21 00:26:40,856 basehttp 161 "GET /article/lists/1 HTTP/1.1" 200 21942
+INFO 2021-12-23 13:43:07,302 autoreload 637 Watching for file changes with StatReloader

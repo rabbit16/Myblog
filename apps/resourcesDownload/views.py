@@ -53,7 +53,7 @@ class ResourcePageShow(View):
 class SpecificResource(View):
 
     def get(self, request, tag_name):
-        resource = Resource.objects.filter(tags__name__in=[tag_name])
+        resource = Resource.objects.filter(tags__name__in=[tag_name], is_delete=0)
         page_obj_all = Paginator(resource, page_show_every_page)
         page_go = 0
         if request.GET.get('page_to'):
@@ -96,7 +96,7 @@ class FileDownload(View):
     @csrf_exempt
     def get(self, request):
         data_id = request.GET.get("source_id")
-        file = Resource.objects.filter(id=data_id)[0].title
+        file = Resource.objects.filter(id=data_id, is_delete=0)[0].title
         file_path = "media/download/{}".format(file)
         # downloadFile = open(file_path, 'rb')
         if not os.path.isfile("media/download/{}".format(file)):  # 判断下载文件是否存在

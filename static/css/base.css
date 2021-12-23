@@ -219,3 +219,11 @@ footer {
     height: auto;
     margin:auto;
 }
+
+h3 .results{
+        color: red;
+}
+#goToPage {
+	width: 30px;
+	height: 14px;
+}

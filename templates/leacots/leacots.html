@@ -69,7 +69,7 @@
 
 {% endblock %}
 {% block next_page %}
-    <div class="pagelist" style="position: relative;left: 530px;">页次：<span id="now">{{ page_now }}</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="{% url 'leactos:show' %}?page=1" id="first_page">首页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:-1 }}" target="_self" id="back_page">上一页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:1 }}" id="next_page">下一页</a>
+    <div class="pagelist" style="position: relative;left: 530px;">页次：<span id="now">{{ page_now }}</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="{% url 'leactos:show' %}?page=1" id="first_page">首页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:-1 }}" target="_self" id="back_page">上一页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:1 }}" id="next_page">下一页</a>
         <a href="{% url 'leactos:show'  %}?page={{ page_num }}" id="final_page">尾页</a></div>
 
 {% endblock %}
@@ -115,7 +115,8 @@
                 let context = document.getElementById("context").value
                 SdataParams = {
                     "name": user_name,
-                    "context" : context
+                    "context" : context,
+                    "csrfmiddlewaretoken": '{{ csrf_token }}',
                 }
                 $.ajax({
                     url: "",

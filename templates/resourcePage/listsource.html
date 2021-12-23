@@ -105,7 +105,7 @@
         </ul>
       </div>
 {#    {{ page_next }} = {{ page_num }} + 1#}
-      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_down=1">首页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_down={{ now_page }}">上一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_up={{ now_page }}">下一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_up={{ page_num }}">尾页</a></div>
+      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_down=1">首页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_down={{ now_page }}">上一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_up={{ now_page }}">下一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_up={{ page_num }}">尾页</a></div>
     </div>
   {% block script_next %}
       <script type="text/javascript">

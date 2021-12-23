@@ -79,7 +79,7 @@
         </ul>
       </div>
 {#    {{ page_next }} = {{ page_num }} + 1#}
-      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a>  每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="{% url 'resource:page_change' page_num=now_page|add:-1%}">上一页</a><a href="{% url 'resource:page_change' page_num=now_page|add:1%}">下一页</a><a href="{% url 'resource:page_change' page_num=page_num%}">尾页</a></div>
+      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a>  每页8条 总数{{ all_num }}<a href="{% url 'resource:page_change' page_num=1%}">首页</a><a href="{% url 'resource:page_change' page_num=now_page|add:-1%}">上一页</a><a href="{% url 'resource:page_change' page_num=now_page|add:1%}">下一页</a><a href="{% url 'resource:page_change' page_num=page_num%}">尾页</a></div>
         <script type="text/javascript">
             function goPage() {
                 let page = Number(document.getElementById('goToPage').value);

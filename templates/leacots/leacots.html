@@ -115,7 +115,8 @@
                 let context = document.getElementById("context").value
                 SdataParams = {
                     "name": user_name,
-                    "context" : context
+                    "context" : context,
+                    "csrfmiddlewaretoken": '{{ csrf_token }}',
                 }
                 $.ajax({
                     url: "",

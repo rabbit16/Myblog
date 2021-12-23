@@ -185,6 +185,7 @@ USE_TZ = False # 这个必须为false，不然渲染上去的时间就不对了�
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = '/media/'   #你上传的文件和图片会默认存在/uploads/editor下
 

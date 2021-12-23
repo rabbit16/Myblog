@@ -33147,3 +33147,199 @@ INFO 2021-12-23 13:17:28,125 basehttp 161 "GET /static/css/bootstrap.css.map HTT
 INFO 2021-12-23 13:17:54,080 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-12-23 13:17:58,465 basehttp 161 "GET /leactos/?page=1 HTTP/1.1" 200 15486
 INFO 2021-12-23 13:17:58,519 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 200 390887
+INFO 2021-12-23 15:28:39,745 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 15:38:38,542 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 15:38:40,030 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 15:38:44,124 basehttp 161 "GET /rabbit/ HTTP/1.1" 200 11377
+INFO 2021-12-23 15:39:01,969 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 15:39:04,386 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+ERROR 2021-12-23 15:39:06,376 log 230 Internal Server Error: /article/detail/1
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/connection/http_urllib3.py", line 252, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/util/retry.py", line 507, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/http/client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/http/client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/http/client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fd238560550>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/jianghaoliang/Desktop/jiangpersonal/study_files/python学习/untitled/apps/blog/views.py", line 39, in get
+    news.save()
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/db/models/base.py", line 776, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/dispatch/dispatcher.py", line 182, in send
+    for receiver in self._live_receivers(sender)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/django/dispatch/dispatcher.py", line 182, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/signals.py", line 49, in handle_save
+    index.update_object(instance, using=using)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/indexes.py", line 324, in update_object
+    backend.update(self, [instance])
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/haystack/backends/elasticsearch_backend.py", line 243, in update
+    **self._get_doc_type_option(),
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/helpers/actions.py", line 411, in bulk
+    client, actions, ignore_status=ignore_status, *args, **kwargs
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/helpers/actions.py", line 339, in streaming_bulk
+    **kwargs
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/helpers/actions.py", line 256, in _process_bulk_chunk
+    for item in gen:
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/helpers/actions.py", line 195, in _process_bulk_chunk_error
+    raise error
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/helpers/actions.py", line 240, in _process_bulk_chunk
+    resp = client.bulk("\n".join(bulk_actions) + "\n", *args, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/client/utils.py", line 168, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/client/__init__.py", line 468, in bulk
+    body=body,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/transport.py", line 413, in perform_request
+    raise e
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/transport.py", line 388, in perform_request
+    timeout=timeout,
+  File "/Users/jianghaoliang/anaconda3/envs/djP/lib/python3.6/site-packages/elasticsearch/connection/http_urllib3.py", line 266, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7fd238560550>: Failed to establish a new connection: [Errno 61] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7fd238560550>: Failed to establish a new connection: [Errno 61] Connection refused)
+ERROR 2021-12-23 15:39:06,379 basehttp 161 "GET /article/detail/1 HTTP/1.1" 500 407885
+INFO 2021-12-23 15:39:11,866 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:39:11,903 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:39:11,904 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:39:11,904 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:39:11,904 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:39:11,911 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+WARNING 2021-12-23 15:39:11,912 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+WARNING 2021-12-23 15:39:11,947 basehttp 161 "GET /static/images/logo.png HTTP/1.1" 404 1905
+WARNING 2021-12-23 15:39:20,870 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:39:20,871 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:39:20,873 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:39:20,874 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:39:20,939 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1923
+INFO 2021-12-23 15:39:28,271 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:39:28,308 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:39:28,310 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:39:28,313 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:39:28,313 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:39:28,318 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1923
+WARNING 2021-12-23 15:39:28,328 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+WARNING 2021-12-23 15:39:28,330 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+INFO 2021-12-23 15:40:18,537 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11057
+WARNING 2021-12-23 15:40:18,590 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:18,592 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:18,594 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+WARNING 2021-12-23 15:40:18,636 basehttp 161 "GET /static/css/bootstrap.css.map HTTP/1.1" 404 1923
+INFO 2021-12-23 15:40:21,410 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:40:22,076 basehttp 161 "GET /notification/ HTTP/1.1" 200 9423
+WARNING 2021-12-23 15:40:22,099 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:22,100 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 404 1905
+INFO 2021-12-23 15:40:22,650 basehttp 161 "GET /resources/ HTTP/1.1" 200 11116
+WARNING 2021-12-23 15:40:22,686 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:22,687 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:22,688 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+INFO 2021-12-23 15:40:23,214 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 15:40:24,304 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:40:25,115 basehttp 161 "GET /notification/ HTTP/1.1" 200 9423
+WARNING 2021-12-23 15:40:25,147 basehttp 161 "GET /static/js/modernizr.js HTTP/1.1" 404 1905
+WARNING 2021-12-23 15:40:25,150 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+INFO 2021-12-23 15:40:25,619 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:40:26,014 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11057
+WARNING 2021-12-23 15:40:26,050 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+WARNING 2021-12-23 15:40:26,050 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:26,050 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:26,057 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+INFO 2021-12-23 15:40:26,482 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:40:26,520 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:40:26,520 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:40:26,520 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:40:26,520 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:40:26,527 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+WARNING 2021-12-23 15:40:26,527 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+INFO 2021-12-23 15:44:23,503 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 15:44:24,505 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 15:44:25,905 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:44:26,785 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:44:26,831 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:44:26,831 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:44:26,831 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:44:26,831 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:44:26,840 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+WARNING 2021-12-23 15:44:26,840 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+INFO 2021-12-23 15:44:28,058 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11057
+WARNING 2021-12-23 15:44:28,091 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:44:28,096 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+WARNING 2021-12-23 15:44:28,096 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:44:28,103 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 404 1893
+INFO 2021-12-23 15:44:28,936 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:44:29,666 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:44:29,706 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:44:29,706 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:44:29,707 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:44:29,708 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:44:29,714 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+WARNING 2021-12-23 15:44:29,714 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+INFO 2021-12-23 15:44:30,005 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+WARNING 2021-12-23 15:44:30,031 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 404 1929
+WARNING 2021-12-23 15:44:30,035 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 404 1908
+WARNING 2021-12-23 15:44:30,035 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 404 1941
+WARNING 2021-12-23 15:44:30,037 basehttp 161 "GET /static/css/code.css HTTP/1.1" 404 1896
+WARNING 2021-12-23 15:44:30,048 basehttp 161 "GET /static/images/header.png HTTP/1.1" 404 1911
+WARNING 2021-12-23 15:44:30,048 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 404 1914
+INFO 2021-12-23 15:45:12,889 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 15:45:30,162 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 15:45:31,130 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 15:45:32,303 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:45:33,128 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104
+INFO 2021-12-23 15:45:33,153 basehttp 161 "GET /static/css/article_next_button.css HTTP/1.1" 200 44
+INFO 2021-12-23 15:45:33,153 basehttp 161 "GET /static/res/css/main.css HTTP/1.1" 200 3885
+INFO 2021-12-23 15:45:33,154 basehttp 161 "GET /static/css/code.css HTTP/1.1" 200 5767
+INFO 2021-12-23 15:45:33,156 basehttp 161 "GET /static/res/layui/css/layui.css HTTP/1.1" 200 69524
+INFO 2021-12-23 15:45:33,168 basehttp 161 "GET /static/res/layui/layui.js HTTP/1.1" 200 6667
+INFO 2021-12-23 15:45:33,171 basehttp 161 "GET /static/images/header.png HTTP/1.1" 200 275362
+INFO 2021-12-23 15:45:37,354 basehttp 161 "GET /article/lists/ HTTP/1.1" 200 11057
+INFO 2021-12-23 15:45:37,375 basehttp 161 "GET /static/js/shang.js HTTP/1.1" 200 115
+INFO 2021-12-23 15:45:37,376 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 7200
+INFO 2021-12-23 15:45:38,148 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 15:45:39,221 basehttp 161 "GET /leactos/ HTTP/1.1" 200 16104

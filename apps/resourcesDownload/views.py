@@ -45,14 +45,15 @@ class ResourcePageShow(View):
             'tags': tag,
             'page_num': page_all,
             'all_num': all_obj,
-            'now_page': page_num
+            'now_page': page_num,
+            'now_location': "网站资源目录"
         }
         return render(request, 'resourcePage/listsourceTag.html', context=tag_dict)
 
 class SpecificResource(View):
 
     def get(self, request, tag_name):
-        resource = Resource.objects.filter(tags__name__in=[tag_name])
+        resource = Resource.objects.filter(tags__name__in=[tag_name], is_delete=0)
         page_obj_all = Paginator(resource, page_show_every_page)
         page_go = 0
         if request.GET.get('page_to'):
@@ -69,7 +70,8 @@ class SpecificResource(View):
                 "page_num": page_obj_all.num_pages,
                 "all_num": resource.count(),
                 "page_every_show": page_show_every_page,
-                "tag_name": tag_name
+                "tag_name": tag_name,
+                "now_location": tag_name
 
             }
             return render(request, 'resourcePage/listsource.html', context=resource_dict)
@@ -84,7 +86,8 @@ class SpecificResource(View):
                 "page_num": page_obj_all.num_pages,
                 "all_num": resource.count(),
                 "page_every_show": page_show_every_page,
-                "tag_name": tag_name
+                "tag_name": tag_name,
+                "now_location": tag_name
             }
             return render(request, 'resourcePage/listsource.html', context=resource_dict)
 
@@ -93,7 +96,7 @@ class FileDownload(View):
     @csrf_exempt
     def get(self, request):
         data_id = request.GET.get("source_id")
-        file = Resource.objects.filter(id=data_id)[0].title
+        file = Resource.objects.filter(id=data_id, is_delete=0)[0].title
         file_path = "media/download/{}".format(file)
         # downloadFile = open(file_path, 'rb')
         if not os.path.isfile("media/download/{}".format(file)):  # 判断下载文件是否存在

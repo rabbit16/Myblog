@@ -2,8 +2,11 @@
 <!doctype html>
 <html>
 <head>
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/country_to_nanjing.css' %}" rel="stylesheet">
+<link rel="Shortcut icon" href="{% static 'logo/jhl_logo.png' %}">
     {% block link %}
-        <link rel="shortcut icon" href="{% static 'images/logo.png' %}">
+
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
         <link href="{% static 'css/index.css' %}" rel="stylesheet">
         <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
@@ -24,7 +27,7 @@
 
 {% block top_nave %}
     <div class="topnav">
-<a href="{% url 'index:enter' %}" target="_blank">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_blank">如有涉嫌侵权，请与本站邮箱联系</a>
+<a href="{% url 'index:enter' %}" target="_self">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_self">如有涉嫌侵权，请与本站邮箱联系</a>
 </div>
 {% endblock %}
 {% block wrapper %}
@@ -35,11 +38,11 @@
     <div class="contenttop">
       <div class="logo f_l">兔子🐰</div>
       <div class="search f_r">
-        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
-          <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
-          <input name="show" value="title" type="hidden">
-          <input name="tempid" value="1" type="hidden">
-          <input name="tbname" value="news" type="hidden">
+        <form action="/search/" method="get" id="searchform">
+          <input name="q" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+{#          <input name="show" value="title" type="hidden">#}
+{#          <input name="tempid" value="1" type="hidden">#}
+{#          <input name="tbname" value="news" type="hidden">#}
           <input name="Submit" class="input_submit" value="搜索" type="submit">
         </form>
       </div>
@@ -65,6 +68,7 @@
       </nav>
     {% endblock %}
 
+
   <SCRIPT type=text/javascript>
 	// Navigation Menu
 	$(function() {
@@ -87,8 +91,8 @@
         {% block container %}
          <div class="container">
     <div class="bloglist f_l">
-
-    {% for article in articles %}
+    {% block show_content %}
+        {% for article in articles %}
       <h3><a href="{% url 'blog:article' a_id=article.id%}" target="_self">{{ article.title }}</a></h3>
       <figure><img src="{{ article.img_url }}" alt=""></figure>
       <ul>
@@ -98,6 +102,8 @@
       <p class="dateview"><span>{{ article.create_time }}</span><span>作者：{{ article.author_name }}</span></p>
 
     {% endfor %}
+    {% endblock %}
+
     {% block script_tag %}
     
     {% endblock %}
@@ -112,10 +118,10 @@
         <h3 class="tit">关注我</h3>
         <div class="gzwm">
           <ul>
-            <li><a class="email" href="#" target="_self">我的电话</a></li>
-            <li><a class="qq" href="#" target="_self">我的邮箱</a></li>
-            <li><a class="tel" href="#" target="_self" title="如果QQ未被唤起请按照提示添加我的QQ">我的QQ</a></li>
-            <li><a class="prize" href="#" target="_self" title="个人奖项">个人奖项</a></li>
+            <li><a class="email" href="#" target="_self" onclick="alert('15801736647')">我的电话</a></li>
+            <li><a class="qq" href="#" target="_self" onclick="alert('1214662198@qq.com')">我的邮箱</a></li>
+            <li><a class="tel" href="#" target="_self" onclick="alert('1214662198')">我的QQ</a></li>
+            <li><a class="prize" href="#" target="_self" onclick="alert('啊，低调低调')">个人奖项</a></li>
           </ul>
         </div>
       </div>

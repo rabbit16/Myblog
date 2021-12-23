@@ -11,7 +11,7 @@
 {% endblock %}
 
 {% block next_page %}
-    <div class="pagelist">页次：<span id="now">1</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="#" id="first_page">首页</a><a href="#" target="_self" id="back_page">上一页</a><a href="#" id="next_page">下一页</a>
+    <div class="pagelist">页次：<span id="now">1</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="#" id="first_page">首页</a><a href="#" target="_self" id="back_page">上一页</a><a href="#" id="next_page">下一页</a>
         <a href="#" id="final_page">尾页</a></div>
 
 {% endblock %}
@@ -20,7 +20,7 @@
         <div class="comment" style="position: relative; height: 180px;">
     {% endblock %}
 {% block script_next %}
-    <script type="text/javascript">
+    <script type="text/javascript" class="wozaizhe">
         {#let button_click = $("#next_page");#}
         {#console.log(document)#}
         $(document).ajaxSend(function(event, xhr, settings) {

@@ -4,6 +4,12 @@ pre {
   max-height: 500px;
     max-width: 900px;
 }
+p{
+    line-height: 125%;
+    overflow-y: auto;
+    max-width: 900px;
+
+}
 td.linenos .normal { color: inherit; background-color: grey; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -106,3 +112,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
             padding-left: 10px;
             white-space: pre;
         }
+.img{
+    width: 200px;
+    height: 200px;
+}

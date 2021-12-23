@@ -21,8 +21,9 @@ from django.conf.urls.static import static
 from django.conf.urls import url ##新增
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('rabbit/', admin.site.urls),
     path('', include('index.urls')),
+    path(r'search/', include('haystack.urls')),
     url(r'^static/(?P<path>.*)$', serve,
                       {'document_root': settings.STATICFILES_DIRS[0]}, name='static'),
     path('article/', include('blog.urls')),
@@ -32,6 +33,7 @@ urlpatterns = [
     path('leactos/', include('leacots.urls')),
     path('mdeditor/', include('mdeditor.urls')),
 
+
     # path('index/', include('user_m.urls')),
     # path('', include('verifications.urls')),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

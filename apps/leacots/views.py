@@ -8,6 +8,9 @@ from django.views import View
 from leacots.models import *
 from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
+import logging
+
+logger = logging.getLogger('django')
 
 page_every_show = 5
 
@@ -30,7 +33,9 @@ class ShowLeactos(View):
             "page_num": page_num,
             "comments": return_objs,
             "comments_num": comments_num,
-            "page_now": page_now
+            "page_now": page_now,
+            "every_page_show": page_every_show,
+            "all_num": all_objs.count
         }
         return render(request, 'leacots/leacots.html', context=content_dict)
 
@@ -55,4 +60,3 @@ class ShowLeactos(View):
         )
 
         return JsonResponse({"success": 200})
-

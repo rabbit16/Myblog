@@ -19,7 +19,9 @@
 	text-indent: 2em
 }
 .about_content p img {
-	margin: auto
+	margin: auto;
+	width: 876px;
+	height: 400px;
 }
 .nh1 {
 	line-height: 31px;

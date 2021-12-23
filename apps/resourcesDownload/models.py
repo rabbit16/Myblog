@@ -12,13 +12,14 @@ class Resource(ModelBase):
     click = models.IntegerField(verbose_name='点击量', help_text='点击量', default=0)
     like_num = models.IntegerField(verbose_name='点赞数', help_text='点赞数', default=0)
     source = models.TextField(verbose_name="网址", help_text="网址", max_length=400, default='')
-    update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now())
+    update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now)
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
     downloadUrl = models.CharField(verbose_name="下载路径", help_text="下载路径", max_length=1000)
     # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
     tags = TaggableManager(blank=True)
     type = models.CharField(verbose_name="文件类型", help_text="文件类型", max_length=100, default='')
+    content = models.TextField(verbose_name="内容", help_text="内容")
     class Meta:
         ordering = ['-update_time', '-id']
         db_table = 'tb_resource'
@@ -44,7 +45,7 @@ class Tag(models.Model):
 class ResourceAndTag(models.Model):
     resource_id = models.ForeignKey('Resource', on_delete=models.CASCADE)
     tag_id = models.ForeignKey('Tag', on_delete=models.CASCADE)
-    push_time = models.DateTimeField(verbose_name='时间', help_text="创建时间", auto_created=True, default=timezone.now())
+    push_time = models.DateTimeField(verbose_name='时间', help_text="创建时间", auto_created=True, default=timezone.now)
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     class Meta:
         verbose_name = '资源和标签'

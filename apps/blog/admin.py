@@ -13,6 +13,6 @@ class ExampleModelAdmin (admin.ModelAdmin):
         mdl.TextField: {'widget': MDEditorWidget}
     }
 
-
+admin.site.register(models.AuthorAndTag)
 admin.site.register(models.Article, ExampleModelAdmin)
 

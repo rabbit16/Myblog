@@ -23,7 +23,7 @@
     <div class="contenttop">
       <div class="logo f_l">兔子🐰</div>
       <div class="search f_r">
-        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <form action="/search" method="post" name="searchform" id="searchform">
           <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
           <input name="show" value="title" type="hidden">
           <input name="tempid" value="1" type="hidden">
@@ -68,7 +68,7 @@
             <div class="container">
   <div class="con_content">
     <div class="about_box">
-      <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">网站资源目录</a></span><b>网站资源目录</b></h2>
+      <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">{{ now_location }}</a></span><b>{{ now_location }}</b></h2>
       <div class="lispic">
         <ul>
             {% for resource in resources %}
@@ -105,7 +105,7 @@
         </ul>
       </div>
 {#    {{ page_next }} = {{ page_num }} + 1#}
-      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text" style="width: 30px;height: 10px;"><a href="javascript:void(0)" onclick="goPage()" id="go">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_down=1">首页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_down={{ now_page }}">上一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_up={{ now_page }}">下一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_up={{ page_num }}">尾页</a></div>
+      <div class="pagelist">页次：{{ now_page }}/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go">点击跳转</a> 每页{{ page_every_show }}条 总数{{ all_num }}<a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_down=1">首页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_down={{ now_page }}">上一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name%}?page_up={{ now_page }}">下一页</a><a href="{% url 'resource:resource_list' tag_name=tag_name %}?page_up={{ page_num }}">尾页</a></div>
     </div>
   {% block script_next %}
       <script type="text/javascript">

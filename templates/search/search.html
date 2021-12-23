@@ -1,0 +1,36 @@
+{% extends 'base/base_article.html' %}
+{% load static %}
+
+
+            {% block show_content %}
+                {% for result in page.object_list %}
+{#                    {% highlight result.object.title with query html_tag "h3" css_class "results" %}#}
+                    <h3 class="'results"><a href="{% url 'blog:article' a_id=result.object.id%}" target="_self">{{ result.object.title }}</a></h3>
+                    <figure><img src="{{ result.object.img_url }}" alt=""></figure>
+                    <ul>
+        <p> {{ result.object.abstract }}</p>
+        <a id ="{{ result.object.id }}" title="{{ result.object.title }}" href="{% url 'blog:article' a_id=result.object.id%}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>{{ result.object.create_time }}</span><span>作者：{{ result.object.author_name }}</span></p>
+            {% empty %}
+                <p>本次查询结果为空</p>
+            {% endfor %}
+
+            {% if page.has_previous or page.has_next %}
+                <div>
+                    {% if page.has_previous %}
+                        <a href="?q={{ query }}&page={{ page.previous_page_number }}">
+                    {% endif %}« Previous
+                    {% if page.has_previous %}
+                        </a>
+                    {% endif %}
+                    |
+                    {% if page.has_next %}
+                        <a href="?q={{ query }}&page={{ page.next_page_number }}">
+                    {% endif %}Next »
+                    {% if page.has_next %}
+                        </a>
+                    {% endif %}
+                </div>
+            {% endif %}
+            {% endblock %}

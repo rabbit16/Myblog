@@ -1,25 +1,29 @@
 import json
 import math
 import logging
+
+import jieba
 from django.core import serializers
 from django.http import JsonResponse, HttpResponse
 from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
+from haystack.views import SearchView
 from markdown.extensions.toc import TocExtension, slugify
 
 from blog import models
 import markdown
 from django.views.decorators.csrf import csrf_protect
+
 # Create your views here.
-page_show_num = 2
+page_show_num = 3
 tag_show_num = 8
 
 logger = logging.getLogger('django')
 class ContextShow(View):
     def get(self, request):
-        articles = models.Article.objects.filter(is_delete=False)
+        articles = models.Article.objects.filter(is_delete=0)
         try:
             articles = articles[0:page_show_num]  # 首页就展示前page_show_num个文章
         except:
@@ -31,6 +35,8 @@ class ContextShow(View):
 class ArticleContentShow(View):
     def get(self, request, a_id):
         news = models.Article.objects.get(id=a_id)
+        news.click += 1
+        news.save()
         md = markdown.Markdown(extensions=[
             'markdown.extensions.extra',
             'markdown.extensions.codehilite',  # 语法高亮拓展
@@ -85,7 +91,8 @@ class ArticleListDetailByTag(View):
     @csrf_exempt
     def get(self, request, tag_id):
         tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
-        articles = models.Article.objects.filter(tags__name__in=[tag_name])[:page_show_num]
+        # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
+        articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[:page_show_num]
         articles_count = models.Article.objects.filter(tags__name__in=[tag_name]).count()
         page_num = math.ceil(articles_count/page_show_num)
         # page_now = 1
@@ -109,8 +116,9 @@ class ArticleListDetailByTag(View):
     def post(self, request, tag_id):
         final_page_flag = 0
         to_page_flag = 0
-        tag_name = models.Tag.objects.all()[tag_id-1].tag_name
-        all_num = models.Article.objects.filter(tags__name__in=[tag_name]).count()
+        tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
+        # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
+        all_num = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0).count()
         page_all = math.ceil(all_num / page_show_num)
         page_num = json.loads(request.body)
         page_num = int(page_num['page_num']) + 1
@@ -130,9 +138,9 @@ class ArticleListDetailByTag(View):
         if final_page_flag:
             page_num = page_all
         try:
-            articles = models.Article.objects.filter(tags__name__in=[tag_name])[(page_num - 1) * page_show_num: page_num * page_show_num]
+            articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[(page_num - 1) * page_show_num: page_num * page_show_num]
         except:
-            articles = models.Article.objects.filter(tags__name__in=[tag_name])[(page_num - 1) * page_show_num:]
+            articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[(page_num - 1) * page_show_num:]
         articles = self.convert_to_dicts(articles)
         # json_data = serializers.serialize("json", MyModel.objects.all())
         articles_dict = {
@@ -164,5 +172,11 @@ class ArticleListDetailByTag(View):
 
         return obj_arr
 
-
+class MySeachView(SearchView):
+    template = 'search/search.html'
+    def extra_context(self):       #重载extra_context来添加额外的context内容
+        context = super(MySeachView,self).extra_context()
+        side_list = models.Article.objects.filter(is_delete=0)
+        context['test'] = side_list
+        return context
 

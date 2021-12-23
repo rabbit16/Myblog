@@ -5,3 +5,5 @@ from django.contrib import admin
 from resourcesDownload.models import *
 
 admin.site.register(Resource)
+admin.site.register(Tag)
+admin.site.register(ResourceAndTag)

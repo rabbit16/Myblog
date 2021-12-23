@@ -1300,6 +1300,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
+			border-top: transparent;
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;

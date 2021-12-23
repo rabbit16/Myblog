@@ -1,0 +1,4 @@
+INFO 2021-12-23 16:34:55,809 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-12-23 16:34:56,928 basehttp 161 "GET / HTTP/1.1" 200 8448
+INFO 2021-12-23 16:35:00,552 basehttp 161 "GET /article/ HTTP/1.1" 200 10295
+INFO 2021-12-23 16:35:01,207 basehttp 161 "GET /leactos/ HTTP/1.1" 200 15992

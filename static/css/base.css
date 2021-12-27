@@ -172,7 +172,7 @@ nav {
 	overflow: hidden
 }
 .links h2 {
-	background: url(../images/linksbg.png) no-repeat left top;
+	background: url(../../static/images/linksbg.png) no-repeat left top;
 	height: 38px
 }
 .links li {

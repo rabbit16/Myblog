@@ -148,7 +148,8 @@ a.readmore {
 .tuwen li {
 	overflow: hidden;
 	clear: both;
-	margin-bottom: 10px
+	margin-bottom: 10px;
+	margin-left: 41px;
 }
 .tuwen li img {
 	width: 70px;

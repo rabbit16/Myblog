@@ -2,9 +2,11 @@
 <!doctype html>
 <html>
 <head>
-<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+{#<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">#}
 <link href="{% static 'css/country_to_nanjing.css' %}" rel="stylesheet">
 <link rel="Shortcut icon" href="{% static 'logo/jhl_logo.png' %}">
+{#    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">#}
     {% block link %}
 
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
@@ -124,6 +126,24 @@
             <li><a class="prize" href="#" target="_self" onclick="alert('啊，低调低调')">个人奖项</a></li>
           </ul>
         </div>
+        <div class="tuwen">
+        <h3 class="tit">时间小窗</h3>
+        <ul>
+            <li><b>今天还剩：</b></a>
+            <span class="tutime" id="nowDay">请稍后</span>
+          </li>
+            <li><b>这周还剩：</b></a>
+            <span class="tutime" id="nowWeek">请稍后</span>
+          </li>
+            <li><b>当月还剩：</b></a>
+            <span class="tutime" id="nowMonth">请稍后</span>
+          </li>
+            <li><b>考研还剩：</b></a>
+            <span class="tutime" id="timeStudy">请稍等</span>
+          </li>
+
+        </ul>
+      </div>
       </div>
       <div class="ad"></div>
     </div>
@@ -155,7 +175,7 @@
     <footer>
     <div class="footer">
       <div class="f_l">
-        <p>All Rights Reserved 版权所有：<a href="{% url 'index:enter' %}">XXX个人博客</a> 备案号：陕ICP备XXX号</p>
+        <p>All Rights Reserved 版权所有：<a href="{% url 'index:enter' %}">兔子的个人博客</a> 备案号：沪ICP备XXX号</p>
       </div>
       <div class="f_r textr">
         <p>XXX</p>
@@ -305,6 +325,91 @@
     var snow = new snowFall({maxFlake:500});
     snow.start();
     </script>
+<script>
+    function timeStudy() {
+        var date1 = new Date();
+        console.log(date1)
+        var date2 = new Date(2022,12,25);
+        console.log(date2)
+        var lastTime = (date2 - date1 )/1000;
+        console.log(date2 - date1)
+        var d,h,m,s,timeText;
+        var oP = document.getElementById('timeStudy');
+        setInterval(function(){
+            lastTime--;
+            d = parseInt(lastTime /(24*3600));
+            console.log(d);
+            h = parseInt(lastTime/60/60%24);
+            m = parseInt(lastTime/60%60);
+            s = parseInt(lastTime%60);
+            s = s < 10 ? "0" + s : s ;
+            timeText = d + "天" + h +"时" + m + "分" + s + "秒";
+            oP.innerHTML = timeText;
+        },1000)
+    }
+    function nowDay() {
+        var date1 = new Date();
+        var date2 = new Date(date1.getFullYear(),date1.getMonth(),date1.getDate()+1);
+        var lastTime = (date2 - date1 )/1000;
+        var h,m,s,timeText;
+        var oP = $('#nowDay');
+        setInterval(function(){
+            lastTime--;
+            h = parseInt(lastTime/60/60%24);
+            m = parseInt(lastTime/60%60);
+            s = parseInt(lastTime%60);
+            s = s < 10 ? "0" + s : s ;
+            timeText =h +"时" + m + "分" + s + "秒";
+            oP.text(timeText);
+        },1000)
+    }
+    function nowMonth() {
+        var date1 = new Date();
+        var date2 = new Date(date1.getFullYear(),date1.getMonth()+1,1);
+        var lastTime = (date2 - date1 )/1000;
+        var d,h,m,s,timeText;
+        var oP = $('#nowMonth');
+        setInterval(function(){
+            lastTime--;
+            d = parseInt(lastTime /(24*3600));
+            h = parseInt(lastTime/60/60%24);
+            m = parseInt(lastTime/60%60);
+            s = parseInt(lastTime%60);
+            s = s < 10 ? "0" + s : s ;
+            timeText = d + "天" + h +"时" + m + "分" + s + "秒";
+            oP.text(timeText);
+        },1000)
+    }
+    function nowWeek() {
+        var date1 = new Date();
+        let goDay = 7 - date1.getDay()+1;
+        if(goDay===0)
+        {
+            goDay = 1;
+        }
+        let extraTime = new Date(date1.getFullYear(),date1.getMonth(),date1.getDate()+1);
+        let date2 = date1.getTime()+goDay*86400*1000-(24*60*60*1000-(extraTime-date1));
+        console.log(date1, date2)
+        var lastTime = (date2 - date1 )/1000;
+        var d,h,m,s,timeText;
+        var oP = $('#nowWeek');
+        setInterval(function(){
+            lastTime--;
+            d = parseInt(lastTime /(24*3600));
+            h = parseInt(lastTime/60/60%24);
+            m = parseInt(lastTime/60%60);
+            s = parseInt(lastTime%60);
+            s = s < 10 ? "0" + s : s ;
+            timeText = d + "天" + h +"时" + m + "分" + s + "秒";
+            oP.text(timeText);
+        },1000)
+    }
+    timeStudy();
+    nowDay();
+    nowMonth();
+    nowWeek();
+
+</script>
 <script class="mouse">
 
 </script>

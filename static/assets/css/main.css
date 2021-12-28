@@ -711,7 +711,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				margin: 1.5rem -8rem;
 			}
 
 		}
@@ -1460,7 +1460,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 1.5rem -8rem;
+				padding: 1.5rem 0;
 			}
 
 				#header .content .inner {

@@ -1,26 +1,51 @@
 @media screen and (max-width: 600px) {
-
-			.bloglist ul{
+	.bloglist ul{
 				width: 10rem;
-			}
-
-		}
-
-@media screen and (max-width: 600px) {
-
-			.navigation{
+	}
+	.navigation{
 				width: 10rem;
 				background: transparent;
-			}
-
-		}
-
-@media screen and (max-width: 600px) {
-
-			.footer p{
+	}
+	.footer p{
 				line-height: 24px;
 				position: relative;
 				left: 105px;
+	}
+	.topnav {
+				height: 50px;
+				color: #000;
+				text-align: center;
+				background: rgba(255, 255, 255, 0.58);
+				position: fixed;
+				width: 100%;
+				top: 0;
+				z-index: 999;
+				box-shadow: #333 0px 2px 2px;
+				line-height: 1rem;
 			}
+	.dateview {
+		width: 19.05rem;
+		overflow: hidden;
+		clear: both;
+		margin: 10px 0 0 0;
+		display: inline-block;
+		background: #f6f6f6 url(../images/time.jpg) 15px center no-repeat;
+		line-height: 26px;
+		height: 26px;
+		color: #838383;
+		padding-left: 25px;
+	}
+	.jztop {
+		background: url(../images/mainendbgmobileend.png) no-repeat;
+		width: 1034px;
+		margin: auto;
+		height: 14px;
+	}
+	.jzend {
+		background: url(../images/mainendbgmobileend.png) no-repeat;
+		width: 1034px;
+		margin: auto;
+		height: 14px;
+	}
 
-		}
+}

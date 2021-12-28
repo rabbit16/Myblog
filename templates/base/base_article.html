@@ -175,11 +175,19 @@
     <footer>
     <div class="footer">
       <div class="f_l">
-        <p>All Rights Reserved 版权所有：<a href="{% url 'index:enter' %}">兔子的个人博客</a> 备案号：沪ICP备XXX号</p>
+        <p>
+            Copyright © www.rabbitj.top All Rights Reserved.
+{#            <a href="{% url 'index:enter' %}">#}
+{#                兔子的个人博客#}
+{#            </a>#}
+            <br>
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备2021037462号</a>
+        </p>
+{#          <p>备案号：沪ICP备2021037462号</p>#}
       </div>
-      <div class="f_r textr">
-        <p>XXX</p>
-      </div>
+{#      <div class="textr">#}
+{#        <p>备案号：沪ICP备2021037462号</p>#}
+{#      </div>#}
     </div>
   </footer>
 {% endblock %}
@@ -329,7 +337,16 @@
     function timeStudy() {
         var date1 = new Date();
         console.log(date1)
-        var date2 = new Date(2022,12,25);
+        console.log(date1.getMonth())
+        let year;
+        if(date1.getMonth()===11&&date1.getDate()>=26)
+        {
+            year = date1.getFullYear()+1;
+        }
+        else {
+            year = date1.getFullYear()
+        }
+        var date2 = new Date(year, 11, 25);
         console.log(date2)
         var lastTime = (date2 - date1 )/1000;
         console.log(date2 - date1)

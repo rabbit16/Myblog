@@ -35,6 +35,9 @@
 </div>
 {% endblock %}
 {% block wrapper %}
+    <nav id="mobileSlideBar">
+
+    </nav>
     <div id="wrapper">
     {% block header %}
     <header>
@@ -52,26 +55,9 @@
       </div>
       <div class="blank"></div>
     {% block nav %}
-        <nav>
-        <div  class="navigation">
+        <nav id="pcBar">
 
-          <ul class="menu">
-              {% block header_li %}
-                <li><a href="{% url 'index:enter' %}">网站首页</a></li>
-                <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
-                </li>
-                <li><a href="{% url 'notification:noti' %}">网站公告</a>
-                </li>
-                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
-                <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
-                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
-
-              {% endblock %}
-
-          </ul>
-        </div>
-
-      </nav>
+        </nav>
     {% endblock %}
 
 
@@ -339,6 +325,23 @@
     snow.start();
     </script>
 <script>
+    $("#pcBar").append(`<div  class="navigation">
+
+          <ul class="menu">
+              {% block header_li %}
+                <li><a href="{% url 'index:enter' %}">网站首页</a></li>
+                <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
+                </li>
+                <li><a href="{% url 'notification:noti' %}">网站公告</a>
+                </li>
+                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
+                <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
+
+              {% endblock %}
+
+          </ul>
+        </div>`)
     function timeStudy() {
         var date1 = new Date();
         console.log(date1)
@@ -430,11 +433,37 @@
     nowDay();
     nowMonth();
     nowWeek();
+    let flag = 0;
     $(function(){
       $(".ctrl-btn").on("click", function(){
         $(this).toggleClass("fa-reorder");
         $(this).toggleClass("fa-remove");
-        $(".navigation").toggleClass("slide");
+        if(flag===0)
+        {
+            {#$("#pcBar").html('')#}
+            $("#mobileSlideBar").append(`<div  class="navigation">
+          <ul class="menu">
+                <li><a href="{% url 'index:enter' %}">网站首页</a></li>
+                <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
+                </li>
+                <li><a href="{% url 'notification:noti' %}">网站公告</a>
+                </li>
+                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
+                <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
+                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
+          </ul>
+        </div>`)
+            $(".navigation").toggleClass("slide");
+            $("#pcBar").html('')
+            {#$("#mobileSlideBar").html('')#}
+            flag = 1
+        }
+        else {
+            $("#mobileSlideBar").html('')
+            flag = 0
+        }
+
+
       })
     })
 

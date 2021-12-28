@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.views.static import serve
-from untitled import settings
+from untitled import settings, pre_settings
 from django.conf.urls.static import static
 from django.conf.urls import url
 
@@ -29,6 +29,7 @@ urlpatterns = [
                       serve,
                       {
                           'document_root': settings.STATICFILES_DIRS[0]
+                          # 'document_root': pre_settings.STATIC_ROOT
                       },
                       name='static'
                       ),

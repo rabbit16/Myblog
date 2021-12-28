@@ -188,6 +188,8 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'   #你上传的文件和图片会默认存在/uploads/editor下
 
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # 用于存放静态文件
 ]

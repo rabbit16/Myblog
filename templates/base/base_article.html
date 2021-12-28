@@ -54,6 +54,7 @@
     {% block nav %}
         <nav>
         <div  class="navigation">
+
           <ul class="menu">
               {% block header_li %}
                 <li><a href="{% url 'index:enter' %}">网站首页</a></li>
@@ -69,6 +70,7 @@
 
           </ul>
         </div>
+
       </nav>
     {% endblock %}
 
@@ -90,6 +92,7 @@
 {#    <canvas width="100%" height="100%" class="flare"></canvas>#}
 {#	<canvas width="100%" height="100%" class="snow"></canvas>#}
 {#	<canvas width="100%" height="100%" class="flake"></canvas>#}
+    <div class="ctrl-btn fa fa-reorder"></div>
   <div class="jztop"></div>
 
         {% block container %}
@@ -427,6 +430,13 @@
     nowDay();
     nowMonth();
     nowWeek();
+    $(function(){
+      $(".ctrl-btn").on("click", function(){
+        $(this).toggleClass("fa-reorder");
+        $(this).toggleClass("fa-remove");
+        $(".navigation").toggleClass("slide");
+      })
+    })
 
 </script>
 <script class="mouse">

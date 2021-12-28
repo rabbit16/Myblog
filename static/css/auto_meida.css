@@ -11,7 +11,7 @@
 	.footer p{
 				line-height: 24px;
 				position: relative;
-				left: 105px;
+				left: 2.5rem;
 	}
 	.topnav {
 				height: 50px;
@@ -39,13 +39,13 @@
 	}
 	.jztop {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
-		width: 1034px;
+		width: 28rem;
 		margin: auto;
 		height: 14px;
 	}
 	.jzend {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
-		width: 1034px;
+		width: 28rem;
 		margin: auto;
 		height: 14px;
 	}
@@ -96,5 +96,13 @@
 	  content: "收起";
 	  font-size: 2rem;
 	}
+  /*.container {*/
+	/*	background: #e5e5e5;*/
+	/*	overflow: hidden;*/
+	/*	width: 26rem;*/
+	/*	margin: auto;*/
+	/*	border-left: #d2d2d2 1px solid;*/
+	/*	border-right: #d2d2d2 1px solid;*/
+	/*}*/
 
 }

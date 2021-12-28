@@ -17,7 +17,10 @@
         <link href="{% static 'css/index.css' %}" rel="stylesheet">
         <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
     {% endblock %}
-<link href="{% static 'css/auto_meida.css' %}" rel="stylesheet">
+{% block media_link %}
+    <link href="{% static 'css/auto_meida.css' %}" rel="stylesheet">
+{% endblock %}
+
     {% block script %}
         <!--[if lt IE 9]>
         <script src="{% static 'js/modernizr.js' %}"></script>

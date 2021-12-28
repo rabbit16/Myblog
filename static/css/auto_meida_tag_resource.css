@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 600px) {
+
+	.bloglist ul{
+				width: 10rem;
+	}
+	.navigation{
+		width: 10rem;
+		background: transparent;
+		float: left;
+	}
+	.footer p{
+				line-height: 24px;
+				position: relative;
+				left: 5.5rem;
+	}
+	.topnav {
+				height: 50px;
+				color: #000;
+				text-align: center;
+				background: rgba(255, 255, 255, 0.58);
+				position: fixed;
+				width: 100%;
+				top: 0;
+				z-index: 999;
+				box-shadow: #333 0px 2px 2px;
+				line-height: 1rem;
+			}
+	.dateview {
+		width: 19.05rem;
+		overflow: hidden;
+		clear: both;
+		margin: 10px 0 0 0;
+		display: inline-block;
+		background: #f6f6f6 url(../images/time.jpg) 15px center no-repeat;
+		line-height: 26px;
+		height: 26px;
+		color: #838383;
+		padding-left: 25px;
+	}
+	.navigation{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: #34495e;
+    color: #ecf0f1;
+    margin-left: -100px;
+    transition: 0.8s;
+  }
+  .slide{
+    margin-left: 0;
+  }
+  .navigation ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .navigation ul li{
+    list-style: none;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+  .navigation ul li span{
+    width: 100%;
+  }
+  .navigation ul li:hover{
+    background: #1abc9c;
+  }
+  .ctrl-btn{
+	  /*border: 3px red solid;*/
+    /*float: left;*/
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+	  content: "展开";
+	  font-size: 2rem;
+	}
+  .fa-navicon:before, .fa-remove:before, .fa-bars:before {
+	  content: "收起";
+	  font-size: 2rem;
+	}
+
+  /*.container {*/
+	/*	background: #e5e5e5;*/
+	/*	overflow: hidden;*/
+	/*	width: 26rem;*/
+	/*	margin: auto;*/
+	/*	border-left: #d2d2d2 1px solid;*/
+	/*	border-right: #d2d2d2 1px solid;*/
+	/*}*/
+
+}

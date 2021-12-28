@@ -137,7 +137,7 @@
 	color: #f00;
 	text-decoration: underline
 }
-/* ·??³ */
+
 .pagelist {
 	text-align: center;
 	color: #666;
@@ -146,6 +146,7 @@
 	margin: 10px 0;
 	display: block
 }
+
 .jump {
 	text-align: center;
 	color: #666;
@@ -443,4 +444,13 @@ textarea{
 div.wrap-area-w{
 	color:red;
 }
-
+@media screen and (max-width: 600px) {
+	.pagelist {
+		text-align: left;
+		color: #666;
+		width: 100%;
+		clear: both;
+		margin: 10px 0;
+		display: block;
+	}
+}

@@ -252,7 +252,9 @@ a.readmore {
 /* ?????¼?¬??±í*/
 .dtxw {
 	overflow: hidden;
-	margin: 30px auto
+	margin: 30px auto;
+	position: relative;
+	left: 130px;
 }
 .dttext {
 	width: 60%;
@@ -452,5 +454,15 @@ div.wrap-area-w{
 		clear: both;
 		margin: 10px 0;
 		display: block;
+	}
+	.dtxw {
+		overflow: hidden;
+		margin: 30px auto;
+		position: relative;
+		left: -2rem;
+	}
+	.dttext {
+		line-height: 24px;
+		width: 17rem;
 	}
 }

@@ -117,7 +117,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
     height: 200px;
 }
 @media screen and (max-width: 600px){
-    p {
+    .list-cont .cont .text .ct {
         line-height: 125%;
         overflow-y: auto;
         max-width: 900px;

@@ -122,9 +122,17 @@
         }
 	.con_content {
 		overflow: hidden;
-		width: 26rem;
+		width: 22rem;
 		margin: auto;
 		border: #CCC 1px solid;
 	}
-
+	.lispic li img {
+		display: block;
+		margin: auto;
+		height: 10rem;
+		width: auto;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+	}
 }

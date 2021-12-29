@@ -465,4 +465,10 @@ div.wrap-area-w{
 		line-height: 24px;
 		width: 17rem;
 	}
+	.shang_a {
+     	width: 19rem;
+		height: auto;
+		margin: auto;
+		text-align: center;
+	}
 }

@@ -61,7 +61,7 @@
     background: transparent;
     color: #ecf0f1;
     margin-left: -100px;
-    transition: 2s;
+    transition: 0.8s;
   }
   .slide{
     margin-left: 0;

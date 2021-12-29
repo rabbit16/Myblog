@@ -6,7 +6,7 @@
 	.footer p{
 				line-height: 24px;
 				position: relative;
-				left: 5.5rem;
+				left: 3.5rem;
 	}
 	.topnav {
 				height: 50px;
@@ -122,7 +122,7 @@
         }
 	.con_content {
 		overflow: hidden;
-		width: 22rem;
+		width: 20rem;
 		margin: auto;
 		border: #CCC 1px solid;
 	}

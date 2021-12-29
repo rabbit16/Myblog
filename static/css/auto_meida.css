@@ -4,9 +4,14 @@
 				width: 10rem;
 	}
 	.navigation{
-		width: 10rem;
-		background: transparent;
 		float: left;
+		width: 100px;
+		height: 100%;
+		background: transparent;
+		color: black;
+		margin-left: -100px;
+		transition: 0.8s;
+		margin-top: 4rem;
 	}
 	.footer p{
 				line-height: 24px;
@@ -53,7 +58,7 @@
     float: left;
     width: 100px;
     height: 100%;
-    background: #34495e;
+    background: transparent;
     color: #ecf0f1;
     margin-left: -100px;
     transition: 0.8s;
@@ -82,27 +87,47 @@
   .navigation ul li:hover{
     background: #1abc9c;
   }
-  .ctrl-btn{
-	  /*border: 3px red solid;*/
-    /*float: left;*/
-    font-size: 3rem;
-    cursor: pointer;
-  }
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-	  content: "展开";
-	  font-size: 2rem;
+	  /*content: "展开";*/
+	  /*font-size: 2rem;*/
 	}
   .fa-navicon:before, .fa-remove:before, .fa-bars:before {
-	  content: "收起";
-	  font-size: 2rem;
+	  /*content: "收起";*/
+	  /*font-size: 2rem;*/
 	}
-  /*.container {*/
-	/*	background: #e5e5e5;*/
-	/*	overflow: hidden;*/
-	/*	width: 26rem;*/
-	/*	margin: auto;*/
-	/*	border-left: #d2d2d2 1px solid;*/
-	/*	border-right: #d2d2d2 1px solid;*/
-	/*}*/
+  .menu li a{
+	  color: black;
+  }
+  .nav-mobile-button {
+		position: relative;
+		float: left;
+		padding: 9px 20px;
+		margin-top: -123px;
+		/* margin-right: 15px; */
+		/* margin-bottom: 8px; */
+		background-color: transparent;
+		/* background-image: none; */
+		border: 1px solid transparent;
+		border-radius: 4px;
+		/* background: #eee; */
+	}
+	.nav-mobile-button .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+	.nav-mobile-button .icon-bar {
+            display: block;
+            margin-top: 4px;
+            width: 22px;
+            height: 2px;
+            background: #f65d3f;
+            border-radius: 1px;
+        }
 
 }

@@ -1,0 +1,11 @@
+.pagelist {
+    position: relative;
+    left: 530px;
+}
+@media screen and (max-width: 600px) {
+    .pagelist{
+        position: relative;
+        left: 0rem;
+    }
+}
+

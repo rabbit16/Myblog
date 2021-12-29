@@ -4,11 +4,6 @@
 	.bloglist ul{
 				width: 10rem;
 	}
-	.navigation{
-		width: 10rem;
-		background: transparent;
-		float: left;
-	}
 	.footer p{
 				line-height: 24px;
 				position: relative;
@@ -39,14 +34,15 @@
 		padding-left: 25px;
 	}
 	.navigation{
-    float: left;
-    width: 100px;
-    height: 100%;
-    background: #34495e;
-    color: #ecf0f1;
-    margin-left: -100px;
-    transition: 0.8s;
-  }
+		float: left;
+		width: 100px;
+		height: 100%;
+		background: transparent;
+		color: black;
+		margin-left: -100px;
+		transition: 0.8s;
+		margin-top: 7rem;
+	}
   .slide{
     margin-left: 0;
   }
@@ -78,12 +74,10 @@
     cursor: pointer;
   }
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-	  content: "展开";
-	  font-size: 2rem;
+
 	}
   .fa-navicon:before, .fa-remove:before, .fa-bars:before {
-	  content: "收起";
-	  font-size: 2rem;
+
 	}
   .con_content {
     overflow: hidden;
@@ -100,6 +94,12 @@
 		margin: auto;
 		width: 32rem;
 		height: 400px;
+	}
+	.jztop{
+		display: none;
+	}
+	.jzend{
+		display: none;
 	}
   /*.container {*/
 	/*	background: #e5e5e5;*/

@@ -257,3 +257,15 @@ color:#000;
 #SOHUCS #SOHU_MAIN #SOHU-comment-main .section-page-w .page-wrap-w a{
 color:#000;
 }
+
+@media screen and (max-width: 600px) {
+	.tit {
+		line-height: 44px;
+		color: #fff;
+		font-size: 15px;
+		height: 44px;
+		background: url(../images/rtitbgM.png) no-repeat;
+		padding-left: 40px;
+		margin: 0 0 10px 0;
+	}
+}

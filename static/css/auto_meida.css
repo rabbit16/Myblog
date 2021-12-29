@@ -3,16 +3,6 @@
 	.bloglist ul{
 				width: 10rem;
 	}
-	.navigation{
-		float: left;
-		width: 100px;
-		height: 100%;
-		background: transparent;
-		color: black;
-		margin-left: -100px;
-		transition: 0.8s;
-		margin-top: 4rem;
-	}
 	.footer p{
 				line-height: 24px;
 				position: relative;
@@ -55,14 +45,15 @@
 		height: 14px;
 	}
 	.navigation{
-    float: left;
-    width: 100px;
-    height: 100%;
-    background: transparent;
-    color: #ecf0f1;
-    margin-left: -100px;
-    transition: 0.8s;
-  }
+		float: left;
+		width: 100px;
+		height: 100%;
+		background: transparent;
+		color: black;
+		margin-left: -100px;
+		transition: 0.8s;
+		margin-top: 4rem;
+	}
   .slide{
     margin-left: 0;
   }
@@ -129,5 +120,11 @@
             background: #f65d3f;
             border-radius: 1px;
         }
+	.con_content {
+		overflow: hidden;
+		width: 26rem;
+		margin: auto;
+		border: #CCC 1px solid;
+	}
 
 }

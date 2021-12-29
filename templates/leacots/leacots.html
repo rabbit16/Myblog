@@ -4,11 +4,13 @@
 {% block link %}
     <link rel="stylesheet" type="text/css" href="{% static 'res/layui/css/layui.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'res/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/leactos.css' %}">
     <link rel="shortcut icon" href="{% static 'images/logo.png' %}">
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/index.css' %}" rel="stylesheet">
         <link href="{% static 'css/article_next_button.css' %}" rel="stylesheet">
         <link href="{% static 'css/code.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/auto_meida.css' %}">
 {% endblock %}
 
 <!--加载meta IE兼容文件-->
@@ -69,7 +71,7 @@
 
 {% endblock %}
 {% block next_page %}
-    <div class="pagelist" style="position: relative;left: 530px;">页次：<span id="now">{{ page_now }}</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="{% url 'leactos:show' %}?page=1" id="first_page">首页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:-1 }}" target="_self" id="back_page">上一页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:1 }}" id="next_page">下一页</a>
+    <div class="pagelist">页次：<span id="now">{{ page_now }}</span>/{{ page_num }}页&nbsp <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a> 每页{{ every_page_show }}条 总数{{ all_num }}<a href="{% url 'leactos:show' %}?page=1" id="first_page">首页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:-1 }}" target="_self" id="back_page">上一页</a><a href="{% url 'leactos:show' %}?page={{ page_now|add:1 }}" id="next_page">下一页</a>
         <a href="{% url 'leactos:show'  %}?page={{ page_num }}" id="final_page">尾页</a></div>
 
 {% endblock %}

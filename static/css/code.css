@@ -116,3 +116,11 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
     width: 200px;
     height: 200px;
 }
+@media screen and (max-width: 600px){
+    p {
+        line-height: 125%;
+        overflow-y: auto;
+        max-width: 900px;
+        margin-left: 3rem;
+    }
+}

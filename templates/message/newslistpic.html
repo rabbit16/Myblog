@@ -5,7 +5,9 @@
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
 {% endblock %}
-
+{% block media_link %}
+    <link rel="stylesheet" href="{% static 'css/auto_meida_tag_resource.css' %}">
+{% endblock %}
 {% block script %}
     <script src="{% static 'js/modernizr.js' %}"></script>
     <![endif]-->

@@ -4,8 +4,13 @@
 {% block link %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/auto_meida_tag_resource.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
     <!--[if lt IE 9]>
+{% endblock %}
+
+{% block media_link %}
+    <link rel="stylesheet" href="{% static 'css/auto_meida_tag_resource.css' %}">
 {% endblock %}
 
 {% block script %}
@@ -15,55 +20,6 @@
     <script src="{% static 'js/shang.js' %}"></script>
 {% endblock %}
 
-{% block wrapper %}
-    <div id="wrapper">
-    {% block header %}
-    <header>
-    <div class="headtop"></div>
-    <div class="contenttop">
-      <div class="logo f_l">兔子🐰</div>
-      <div class="search f_r">
-        <form action="/search" method="post" name="searchform" id="searchform">
-          <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
-          <input name="show" value="title" type="hidden">
-          <input name="tempid" value="1" type="hidden">
-          <input name="tbname" value="news" type="hidden">
-          <input name="Submit" class="input_submit" value="搜索" type="submit">
-        </form>
-      </div>
-      <div class="blank"></div>
-      <nav>
-        <div  class="navigation">
-          <ul class="menu">
-              {% block header_li %}
-                <li><a href="{% url 'index:enter' %}">网站首页</a></li>
-                <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
-                </li>
-                <li><a href="{% url 'notification:noti' %}">网站公告</a>
-                </li>
-                  <li><a href="{% url 'blog:blog' %}">博客首页</a> </li>
-                <li><a href="{% url 'blog:articles' %}">技术文章</a> </li>
-                <li><a href="{% url 'leactos:show' %}">给我留言</a> </li>
-
-              {% endblock %}
-
-          </ul>
-        </div>
-      </nav>
-  <SCRIPT type=text/javascript>
-	// Navigation Menu
-	$(function() {
-		$(".menu ul").css({display: "none"}); // Opera Fix
-		$(".menu li").hover(function(){
-			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
-		},function(){
-			$(this).find('ul:first').css({visibility: "hidden"});
-		});
-	});
-</SCRIPT>
-    </div>
-  </header>
-    {% endblock %}
     {% block container %}
             <div class="container">
   <div class="con_content">
@@ -127,10 +83,6 @@
 
 </div>
     {% endblock %}
-    {% block comment %}
-        <div class="comment" style="position: relative; height: 180px;"></div>
-    {% endblock %}
 </div>
 <!--百度推送代码-->
-{% endblock %}
 

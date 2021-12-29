@@ -463,12 +463,23 @@ div.wrap-area-w{
 	}
 	.dttext {
 		line-height: 24px;
-		width: 17rem;
+		width: 16rem;
 	}
 	.shang_a {
      	width: 19rem;
 		height: auto;
 		margin: auto;
 		text-align: center;
+	}
+	.dtxw li:first-child::before {
+		content: "01";
+		position: absolute;
+		left: 40px;
+		top: 16px;
+		font-size: 40px;
+		color: #aeaeae
+	}
+	.dttext ul {
+		padding: 20px 20px 20px 68px;
 	}
 }

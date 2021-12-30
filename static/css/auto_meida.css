@@ -135,4 +135,9 @@
 		-moz-transition: all 0.5s;
 		-o-transition: all 0.5s;
 	}
+	.about_content p {
+		margin-bottom: 15px;
+		text-indent: 2em;
+		font-size: 1rem;
+	}
 }

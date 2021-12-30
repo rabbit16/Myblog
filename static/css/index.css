@@ -52,6 +52,7 @@ background-color:transparent;
 	color: #333;
 	font-size: 16px;
 	font-family: "Î¢ÈíÑÅºÚ";
+	max-width: 620px;
 }
 .bloglist figure {
 	float: left;

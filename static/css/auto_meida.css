@@ -34,13 +34,13 @@
 	}
 	.jztop {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
-		width: 28rem;
+		width: 21rem;
 		margin: auto;
 		height: 14px;
 	}
 	.jzend {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
-		width: 28rem;
+		width: 21rem;
 		margin: auto;
 		height: 14px;
 	}
@@ -139,5 +139,12 @@
 		margin-bottom: 15px;
 		text-indent: 2em;
 		font-size: 1rem;
+	}
+
+	.bloglist {
+		width: 38.3rem;
+		overflow: hidden;
+		margin-left: 20px;
+		margin-bottom: 20px;
 	}
 }

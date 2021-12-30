@@ -74,7 +74,7 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 }
 /*end-leacots*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 835px){
     .leacots-content .review-version .banner-img {
 		float: none;
 		/* width: 100%; */

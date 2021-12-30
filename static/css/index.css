@@ -258,7 +258,7 @@ color:#000;
 color:#000;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 835px) {
 	.tit {
 		line-height: 44px;
 		color: #fff;

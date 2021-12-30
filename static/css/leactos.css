@@ -2,7 +2,7 @@
     position: relative;
     left: 530px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 835px) {
     .pagelist{
         position: relative;
         left: 0rem;

@@ -446,7 +446,7 @@ textarea{
 div.wrap-area-w{
 	color:red;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 835px) {
 	.pagelist {
 		text-align: left;
 		color: #666;

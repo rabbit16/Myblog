@@ -39,10 +39,10 @@
 		height: 5px;
 	}
 	.jzend {
-		background: url(../images/mainendbgmobileend.png) no-repeat;
+		    background: url(../images/mainendbgmobileend.png) no-repeat;
 		width: 21rem;
-		margin: auto;
-		height: 14px;
+		margin-left: 1.5rem;
+		height: 5px;
 	}
 	.navigation{
 		float: left;
@@ -184,11 +184,11 @@
 	.container {
 		background: #e5e5e5;
 		overflow: hidden;
-		width: 18rem;
+		width: 21rem;
 		margin: auto;
-		margin-left: 2.6rem;
-		border-left: #d2d2d2 1px solid;
-		border-right: #d2d2d2 1px solid;
+		/* border-left: #d2d2d2 1px solid; */
+		/*border-right: #d2d2d2 1px solid;*/
+		margin-left: 1rem;
 	}
 	a.readmore {
 		background: #333;

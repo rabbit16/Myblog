@@ -35,8 +35,8 @@
 	.jztop {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
 		width: 21rem;
-		margin: auto;
-		height: 14px;
+		margin-left: 1.5rem;
+		height: 5px;
 	}
 	.jzend {
 		background: url(../images/mainendbgmobileend.png) no-repeat;
@@ -57,21 +57,23 @@
   .slide{
     margin-left: 0;
   }
-  .navigation ul{
-    position: relative;
-    margin: 0;
-    padding: 0;
-  }
-  .navigation ul li{
+  .navigation ul {
+		position: fixed;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+  .navigation ul li {
     list-style: none;
     display: block;
-    width: 100px;
+    /* width: 193px; */
     text-align: center;
     font-size: 30px;
-    padding: 10px 0;
+    padding: 10px 0px;
     cursor: pointer;
+    margin-right: 6rem;
     transition: 0.8s;
-  }
+}
   .navigation ul li span{
     width: 100%;
   }
@@ -142,9 +144,60 @@
 	}
 
 	.bloglist {
-		width: 38.3rem;
+		width: 19.3rem;
 		overflow: hidden;
-		margin-left: 20px;
+		margin-left: -1px;
 		margin-bottom: 20px;
+	}
+	.search {
+		width: 55rem;
+		margin: 55px 0 0 0;
+	}
+	.bloglist ul p{
+		max-width: 5rem;
+		margin-left: 5rem;
+	}
+	.bloglist h3 {
+		margin: 20px 0 10px 0;
+		color: #333;
+		font-size: 16px;
+		font-family: "Î¢ÈíÑÅºÚ";
+		max-width: 17rem;
+		margin-left: 0.3rem;
+	}
+	.bloglist ul {
+		float: left;
+		/*width: 70%;*/
+		margin: 10px 0px 0 22px;
+		line-height: 20px;
+		/*margin-left: 1.49rem;*/
+	}
+	.bloglist h3 a{
+		max-width: 5rem;
+		margin-left: 1rem;
+	}
+	.bloglist figure {
+		float: left;
+		margin-left: 1rem;
+		width: 25%;
+	}
+	.container {
+		background: #e5e5e5;
+		overflow: hidden;
+		width: 18rem;
+		margin: auto;
+		margin-left: 2.6rem;
+		border-left: #d2d2d2 1px solid;
+		border-right: #d2d2d2 1px solid;
+	}
+	a.readmore {
+		background: #333;
+		color: #fff;
+		padding: 5px 10px;
+		float: right;
+		margin: 40px 0 0 0;
+	}
+	.r_box{
+		display: none;
 	}
 }

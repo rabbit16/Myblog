@@ -1,0 +1,12 @@
+@media screen and (max-width: 835px) {
+    .pagelist {
+        text-align: left;
+        color: #666;
+        width: 100%;
+        clear: both;
+        margin: 10px 0;
+        display: block;
+        margin-left: 1.6rem;
+        max-width: 20rem;
+    }
+}

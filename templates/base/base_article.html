@@ -208,9 +208,25 @@
     <script class="snow" src="{% static 'js/really_snow.js' %}">
     </script>
 <script>
-    $("#pcBar").append(`<div  class="navigation">
+    function IsPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+};
+    $(document).ready(function(){
+    var isPC=IsPC();
+    if(isPC){
+        //这里执行的是PC端的代码；
+        $("#pcBar").append(`<div  class="navigation">
 
-          <ul class="menu">
+          <ul class="menu" id="menu_a">
               {% block header_li %}
                 <li><a href="{% url 'index:enter' %}">网站首页</a></li>
                 <li><a href="{% url 'resource:downloadP' %}">网站资源</a>
@@ -225,6 +241,9 @@
 
           </ul>
         </div>`)
+    }
+});
+
     function timeStudy() {
         var date1 = new Date();
         console.log(date1)
@@ -317,8 +336,13 @@
     nowMonth();
     nowWeek();
     let flag = 0;
+
     $(function(){
       $(".nav-mobile-button").on("click", function(){
+          $("#menu_a").css(
+              {display:'block'}
+          );
+          {#console.log($(".menu li a").css('display'))#}
         $(this).toggleClass("fa-reorder");
         $(this).toggleClass("fa-remove");
         if(flag===0)

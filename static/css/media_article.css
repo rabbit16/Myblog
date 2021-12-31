@@ -80,10 +80,11 @@
 
 	}
   .con_content {
-    overflow: hidden;
-    width: 32rem;
-    margin: auto;
-    border: #CCC 1px solid;
+		overflow: hidden;
+		width: 35rem;
+		margin: auto;
+		border: #CCC 1px solid;
+		margin-left: -2rem;
 	}
     b, strong {
     font-weight: bold;
@@ -101,13 +102,14 @@
 	.jzend{
 		display: none;
 	}
-  /*.container {*/
-	/*	background: #e5e5e5;*/
-	/*	overflow: hidden;*/
-	/*	width: 26rem;*/
-	/*	margin: auto;*/
-	/*	border-left: #d2d2d2 1px solid;*/
-	/*	border-right: #d2d2d2 1px solid;*/
-	/*}*/
+  .container {
+		background: #e5e5e5;
+		overflow: hidden;
+		width: 32rem;
+		margin: auto;
+		margin-left: 2.6rem;
+		border-left: #d2d2d2 1px solid;
+		border-right: #d2d2d2 1px solid;
+	}
 
 }

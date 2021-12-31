@@ -84,7 +84,7 @@
 		width: 35rem;
 		margin: auto;
 		border: #CCC 1px solid;
-		margin-left: -2rem;
+		margin-left: -3rem;
 	}
     b, strong {
     font-weight: bold;
@@ -107,9 +107,16 @@
 		overflow: hidden;
 		width: 32rem;
 		margin: auto;
-		margin-left: 2.6rem;
+		margin-left: 3rem;
 		border-left: #d2d2d2 1px solid;
 		border-right: #d2d2d2 1px solid;
+	}
+  .box_p {
+		border: #ccc 1px dashed;
+		text-align: center;
+		padding: 5px 0;
+		margin: 1px 30px 10px -1px;
+		color: #999;
 	}
 
 }

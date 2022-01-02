@@ -209,4 +209,20 @@
 		/* margin: auto; */
 		/* clear: both; */
 	}
+	.dttext span {
+		text-align: right;
+		float: right;
+		color: #999;
+		margin-right: 1rem;
+	}
+	.nh1 {
+		line-height: 31px;
+		height: 31px;
+		/* font-size: 12px; */
+		border-bottom: #333 2px solid;
+		color: #171717;
+	}
+	.nh1 b{
+		font-size: 12px;
+	}
 }

@@ -454,7 +454,7 @@ div.wrap-area-w{
 		clear: both;
 		margin: 10px 0;
 		display: block;
-		margin-left: -1rem;
+		margin-left: 0.32rem;
 	}
 	.dtxw {
 		overflow: hidden;

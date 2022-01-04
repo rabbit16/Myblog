@@ -123,7 +123,7 @@ $(function () {
     let sPassword = $("input[name=password]").val(); //指定name的属性选择器，这个是一个jq语法
     let sPasswordRepeat = $("input[name=password_repeat]").val();
     let sMobile = $mobile.val();  // 获取用户输入的手机号码字符串
-    let sSmsCode = $("input[name=sms_captcha]").val();
+    // let sSmsCode = $("input[name=sms_captcha]").val();
 
     // 判断用户名是否已注册
     if (fn_check_username() !== "success") {
@@ -156,10 +156,10 @@ $(function () {
 
 
     // 判断用户输入的短信验证码是否为6位数字
-    if (!(/^\d{6}$/).test(sSmsCode)) {
-      message.showError('短信验证码格式不正确，必须为6位数字！');
-      return
-    }
+    // if (!(/^\d{6}$/).test(sSmsCode)) {
+    //   message.showError('短信验证码格式不正确，必须为6位数字！');
+    //   return
+    // }
 
     // 发起注册请求
     // 1、创建请求参数
@@ -168,13 +168,13 @@ $(function () {
       "password": sPassword,
       "password_repeat": sPasswordRepeat,
       "mobile": sMobile,
-      "sms_code": sSmsCode
+      // "sms_code": sSmsCode
     };
 
     // 2、创建ajax请求
     $.ajax({
       // 请求地址
-      url: "  /register/",  // url尾部需要添加/
+      url: "/register/",  // url尾部需要添加/
       // 请求方式
       type: "POST",
       data: JSON.stringify(SdataParams),

@@ -24,6 +24,7 @@ from django.conf.urls import url
 urlpatterns = [
                   path('rabbit/', admin.site.urls),
                   path('', include('index.urls')),
+                    path('pics/', include('verification.urls')),
                   path(r'search/', include('haystack.urls')),
                   url(r'^static/(?P<path>.*)$',
                       serve,

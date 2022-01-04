@@ -3,6 +3,7 @@
 {% block link %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'register/register.css' %}">
+    <link rel="stylesheet" href="{% static 'css/auto_meida.css' %}">
 {% endblock %}
 
 {% block container %}
@@ -29,13 +30,13 @@
       <div class="form-item">
         <input type="text" placeholder="请输入图形验证码" id="input_captcha" name="captcha_graph" class="form-captcha">
         <a href="javascript:void(0);" class="captcha-graph-img">
-          <img src="" alt="验证码" title="点击刷新">
+          <img src="/pics/" alt="验证码" title="点击刷新">
         </a>
       </div>
-      <div class="form-item">
+{#      <div class="form-item">#}
 {#        <input type="text" placeholder="请输入短信验证码" name="sms_captcha" class="form-captcha" id="input_smscode" autocomplete="off">#}
 {#        <a href="javascript:void(0);" class="sms-captcha" title="发送验证码">获取短信验证码</a>#}
-      </div>
+{#      </div>#}
       <div class="form-item">
         <input type="submit" value="立即注册" class="register-btn">
       </div>

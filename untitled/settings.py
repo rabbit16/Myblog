@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'resourcesDownload',
     'notification',
     'taggit',
-    'leacots'
+    'leacots',
+    'verification'
 ]
 
 MIDDLEWARE = [

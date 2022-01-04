@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 import logging
+from utils.captcha.captcha import captcha
 
 # Create your views here.
 logger = logging.getLogger('django')
@@ -10,6 +11,7 @@ class Index(View):
 
 class Register(View):
     def get(self, request):
+        code, image = captcha.generate_captcha()
         return render(request, 'index/register.html')
 # class Intro(View):
 #     def get(self,request):

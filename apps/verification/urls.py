@@ -3,5 +3,6 @@ from verification import views
 
 app_name = 'verification'
 urlpatterns = [
-    path('', views.pics)
+    # path('pics/', views.pic_first, name='first_register'),
+    path('pics/<uuid:img_codes>/', views.pics, name='register')
 ]

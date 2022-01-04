@@ -8,7 +8,9 @@ class Index(View):
     def get(self,request):
         return render(request, 'index/index.html')
 
-
+class Register(View):
+    def get(self, request):
+        return render(request, 'index/register.html')
 # class Intro(View):
 #     def get(self,request):
 #         pic_t = ContextImage.objects.only('id','name','text','img_url').filter(is_delete=False)

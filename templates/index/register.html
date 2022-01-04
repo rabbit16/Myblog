@@ -1,19 +1,13 @@
-{% extends 'base/tanzhou/base.html' %}
-
-{% load static %}#自定义静态文件是要加这个的，而且是必须加。
-{% block title %}
-    注册页面
-{% endblock %}
-
-
+{% extends "base/base_article.html" %}
+{% load static %}
 {% block link %}
-<link rel="stylesheet" href="../../static/css/authPro/auth.css">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'register/register.css' %}">
 {% endblock %}
 
-
-{% block main %}
-<main id="container" >
-  <div class="register-contain" style="height: 500px;">
+{% block container %}
+    <main id="container">
+  <div class="register-contain">
     <div class="top-contain">
       <h4 class="please-register">请注册</h4>
       <a href="javascript:void(0);" class="login">立即登录 &gt;</a>
@@ -39,15 +33,17 @@
         </a>
       </div>
       <div class="form-item">
+{#        <input type="text" placeholder="请输入短信验证码" name="sms_captcha" class="form-captcha" id="input_smscode" autocomplete="off">#}
+{#        <a href="javascript:void(0);" class="sms-captcha" title="发送验证码">获取短信验证码</a>#}
+      </div>
+      <div class="form-item">
         <input type="submit" value="立即注册" class="register-btn">
       </div>
-        <div><a href="{% url 'user:enter' %}" style="color: cadetblue;font-size: 20px">返回</a></div>
     </form>
   </div>
 </main>
 {% endblock %}
 
+{% block comment %}
 
-{% block script %}
-    <script src="{% static 'css/js/users/auth.js' %}"></script>
 {% endblock %}

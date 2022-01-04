@@ -7,7 +7,7 @@ from django.contrib.auth.models import UserManager as _UserManager,AbstractUser
 
 class UserManager(_UserManager):
     def create_superuser(self, username, password, email=None, **extra_fields):
-        super().create_superuser(username=username,email=email,password=password,**extra_fields)
+        super().create_superuser(username=username, email=email, password=password, **extra_fields)
 
 
 class User(AbstractUser):

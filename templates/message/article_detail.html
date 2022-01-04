@@ -6,9 +6,10 @@
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
 {#    <link href="{% static 'css/catalog.css' %}" rel="stylesheet">#}
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
+
     <link rel="stylesheet" href="{% static "css/auto_meida.css" %}">
     <link rel="stylesheet" href="{% static "css/media_article.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/code.css' %}">
 
     <!--[if lt IE 9]>
 
@@ -59,4 +60,10 @@
 {% endblock %}
 {% block script_end %}
 {#    <script type="text/javascript" src="{% static 'js/catalog.js' %}"></script>#}
+    <script src="{% static 'js/highlight.min.js' %}"></script>
+    <script src="{% static 'js/highlightjs-line-numbers.min.js' %}"></script>
+    <script>
+        hljs.initHighlightingOnLoad(); // 初始化
+        hljs.initLineNumbersOnLoad();
+    </script>
 {% endblock %}

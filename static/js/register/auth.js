@@ -192,7 +192,7 @@ $(function () {
           message.showSuccess('恭喜你，注册成功！');
            setTimeout(() => {
             // 注册成功之后重定向到主页
-            window.location.href = '/users/login/';
+            window.location.href = '/article/';
           }, 1500)
         } else {
           // 注册失败，打印错误信息
@@ -200,7 +200,7 @@ $(function () {
         }
       })
       .fail(function(){
-        message.showError('服务器超时，请重试！');
+        message.showError('验证码输入不正确，我们是区分大小写的，请仔细检查');
       });
 
   });

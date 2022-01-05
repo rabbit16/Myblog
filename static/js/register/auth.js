@@ -4,7 +4,8 @@
 $(function () {
   let $username = $('#user_name');  // 选择id为user_name的网页元素，需要定义一个id为user_name
   let $img = $(".form-item .captcha-graph-img img");  // 获取图像标签
-  let sImageCodeId = "";  // 定义图像验证码ID值
+  sImageCodeId = "";  // 定义图像验证码ID值
+  picCodeNum = "";
   let $mobile = $('#mobile');  // 选择id为mobile的网页元素，需要定义一个id为mobile
   let $smsCodeBtn = $('.form-item .sms-captcha');  // 获取短信验证码按钮元素，需要定义一个id为input_smscode
   let $imgCodeText = $('#input_captcha');  // 获取用户输入的图片验证码元素，需要定义一个id为input_captcha
@@ -168,6 +169,8 @@ $(function () {
       "password": sPassword,
       "password_repeat": sPasswordRepeat,
       "mobile": sMobile,
+      "picCode": sImageCodeId,
+      "picNum": $("#input_captcha").val(),
       // "sms_code": sSmsCode
     };
 
@@ -206,6 +209,7 @@ $(function () {
   function generateImageCode() {
     // 1、生成一个图片验证码随机编号
     sImageCodeId = generateUUID();
+    // picCodeNumq = $("#input_captcha").val(); //input[name=password] captcha_graph
     // 2、拼接请求url /image_codes/<uuid:image_code_id>/
     let imageCodeUrl = "/pics/" + sImageCodeId + "/";  // + sImageCodeId + "/"
     // 3、修改验证码图片src地址

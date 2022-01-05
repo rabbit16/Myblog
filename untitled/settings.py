@@ -119,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/0", # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
+        "LOCATION": "redis://127.0.0.1:6379/0",  # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }

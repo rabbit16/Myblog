@@ -2,3 +2,11 @@
     position: relative;
     float: right;
 }
+
+@media screen and (max-width: 835px) {
+    .user_info {
+        position: relative;
+        float: left;
+        margin: 1rem;
+    }
+}

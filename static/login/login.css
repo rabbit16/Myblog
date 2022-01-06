@@ -147,3 +147,16 @@
   width: 100%;
 }
 /*============= captcha end ================*/
+@media screen and (max-width: 835px) {
+    .login-contain {
+      width: 20rem;
+       height: 306px;
+      box-sizing: border-box;
+      padding: 0 20px;
+       background: transparent;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      margin: auto;
+  }
+}

@@ -61,21 +61,22 @@
   }
   .navigation ul {
 		position: fixed;
-		margin: 0;
+		margin-left: -1rem;
 		padding: 0;
 		float: left;
 	}
   .navigation ul li {
-    list-style: none;
-    display: block;
-    /* width: 193px; */
-    text-align: center;
-    font-size: 30px;
-    padding: 10px 0px;
-    cursor: pointer;
-    margin-right: 6rem;
-    transition: 0.8s;
-}
+		list-style: none;
+		display: block;
+		width: 8rem;
+		text-align: center;
+		font-size: 30px;
+		padding: 10px 0px;
+		cursor: pointer;
+		margin-right: 6rem;
+		transition: 0.8s;
+		float: left;
+	}
   .navigation ul li span{
     width: 100%;
   }

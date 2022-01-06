@@ -30,8 +30,8 @@ urlpatterns = [
                   url(r'^static/(?P<path>.*)$',
                       serve,
                       {
-                          'document_root': settings.STATICFILES_DIRS[0]
-                          # 'document_root': pre_settings.STATIC_ROOT
+                          'document_root': pre_settings.STATICFILES_DIRS[0]
+                          # 'document_root': settings.STATIC_ROOT
                       },
                       name='static'
                       ),

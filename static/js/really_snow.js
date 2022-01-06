@@ -189,7 +189,7 @@ $(document).ready(function(){
         // console.log($(".footer").height()+$(".wrapper").height()+$('.comment').height()+$(".topnav").height())
         if($(document.body).height()>=13510)  /*避免在移动端溢出*/
         {
-            snowcanvas.height = $(document.body).height()-600;
+            snowcanvas.height = $(document.body).height()-1000;
             console.log('Pc', snowcanvas.height)
         }
         else {

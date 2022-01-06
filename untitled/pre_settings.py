@@ -28,26 +28,27 @@ SECRET_KEY = 'ml#yyar6v=o^(9)wd2)(bzd2z5*gd3@)p2!(fnb4+&688iwc%1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["rabbitj.top"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'mdeditor',
+    'haystack',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'haystack',
     'index',
     'blog',
     'resourcesDownload',
     'notification',
     'taggit',
-    'leacots'
+    'leacots',
+    'verification'
 ]
 
 MIDDLEWARE = [
@@ -118,12 +119,30 @@ AUTH_PASSWORD_VALIDATORS = [
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/0", # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
+        "LOCATION": "redis://127.0.0.1:6379/0",  # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    "verify_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",  # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "session": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/2",  # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        },
 }
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'  # 指定存储的引擎
+SESSION_CACHE_ALIAS = 'session'  # 指定别名
+
 LOGGING = {
     # 版本
     'version': 1,
@@ -185,10 +204,9 @@ USE_TZ = False # 这个必须为false，不然渲染上去的时间就不对了�
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = '/media/'   #你上传的文件和图片会默认存在/uploads/editor下
-
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # 用于存放静态文件

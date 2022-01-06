@@ -2,6 +2,8 @@
 {% load static %}
 {% block link %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+        <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'register/register.css' %}">
     <link rel="stylesheet" href="{% static 'css/auto_meida.css' %}">
 {% endblock %}
@@ -11,7 +13,7 @@
   <div class="register-contain">
     <div class="top-contain">
       <h4 class="please-register">请注册</h4>
-      <a href="javascript:void(0);" class="login">立即登录 &gt;</a>
+      <a href="{% url 'index:login' %}" class="login">立即登录 &gt;</a>
     </div>
     <form action="" method="post" class="form-contain">
         {% csrf_token %}
@@ -30,7 +32,7 @@
       <div class="form-item">
         <input type="text" placeholder="请输入图形验证码" id="input_captcha" name="captcha_graph" class="form-captcha">
         <a href="javascript:void(0);" class="captcha-graph-img">
-          <img src="/pics/" alt="验证码" title="点击刷新">
+          <img src="" alt="验证码" title="点击刷新">
         </a>
       </div>
 {#      <div class="form-item">#}
@@ -44,7 +46,9 @@
   </div>
 </main>
 {% endblock %}
+{% block script_register %}
+    <script src="{% static 'js/registerAndLogin/message.js' %}"></script>
+    <script src="{% static 'js/register/auth.js' %}">
 
-{% block comment %}
-
+    </script>
 {% endblock %}

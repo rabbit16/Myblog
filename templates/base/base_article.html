@@ -9,8 +9,8 @@
 <meta name="360-site-verification" content="a75dcb147688915b4cc7cfaa71e996a2" />
 {#<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">#}
 <link href="{% static 'css/country_to_nanjing.css' %}" rel="stylesheet">
-
 <link rel="Shortcut icon" href="{% static 'logo/jhl_logo.png' %}">
+    <link rel="stylesheet" href="{% static 'css/user_info.css' %}">
 {#    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">#}
     {% block link %}
 
@@ -39,6 +39,19 @@
 {% block top_nave %}
     <div class="topnav">
 <a href="{% url 'index:enter' %}" target="_self">兔子🐰</a>――本站文章部分来自网络<a href="{% url 'index:enter' %}" target="_self">如有涉嫌侵权，请与本站邮箱联系</a>
+
+            <i class="PyWhich py-user"></i>
+            {% if user.is_authenticated %}
+                <span class="user_info">
+                    <a href="#" class="login">欢迎！{{ user.username }}</a> <a href="{% url 'index:logout' %}">退出登录</a>
+                </span>
+                {% else %}
+                <span class="user_info">
+                    <a href="{% url 'index:login' %}" class="login">登录</a>/<a href="{% url 'index:register' %}" class="reg">注册</a>
+                </span>
+            {% endif %}
+
+
 </div>
 {% endblock %}
 {% block wrapper %}
@@ -161,7 +174,7 @@
 
     {% endblock %}
     {% block comment %}
-        <div class="comment" style="position: relative; height: 180px;">
+        <div class="comment" style="position: relative; height: 230px;">
     {% endblock %}
 {% block script_next %}
 
@@ -378,5 +391,8 @@
 <script class="mouse">
 
 </script>
+{% block script_register %}
+
+{% endblock %}
 </body>
 </html>

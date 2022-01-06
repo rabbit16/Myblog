@@ -1,21 +1,19 @@
-{% extends 'base/base.html' %}
+{% extends "base/base_article.html" %}
 {% load static %}
+{% block link %}
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+        <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'login/login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/auto_meida.css' %}">
+{% endblock %}
 
-    {% block title %}
-    登入页面
-    {% endblock %}
-
-    {% block link %}
-    <link rel="stylesheet" href="../../static/css/authPro/auth.css">
-    {% endblock %}
-
-
-{% block main %}
-<main id="container">
+{% block container %}
+    <main id="container">
   <div class="login-contain">
     <div class="top-contain">
       <h4 class="please-login">请登录</h4>
-      <a href="javascript:void(0);" class="register">立即注册 &gt;</a>
+      <a href="{% url 'index:register' %}" class="register">立即注册 &gt;</a>
     </div>
     <form action="" method="post" class="form-contain">
         {% csrf_token %}
@@ -39,9 +37,9 @@
   </div>
 </main>
 {% endblock %}
+{% block script_register %}
+    <script src="{% static 'js/registerAndLogin/message.js' %}"></script>
+    <script src="{% static 'js/login/login.js' %}">
 
-{% block script %}
-    <script src="{% static "/css/js/users/login.js" %}"></script>
+    </script>
 {% endblock %}
-
-

@@ -3,21 +3,13 @@
   flex: 1;
   margin: 30px auto 20px;
 }
-
-.login-contain {
-  width: 480px;
-  height: 380px;
-  box-sizing: border-box;
-  padding: 0 20px;
-  background: #ffffff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+#container .top-contain a.register, #container .top-contain a.login {
+    float: right;
+    color: skyblue;
 }
-
-.register-contain {
+.login-contain {
     width: 480px;
-     height: 506px;
+     height: 306px;
     box-sizing: border-box;
     padding: 0 20px;
      background: transparent;
@@ -47,7 +39,7 @@
 }
 
 #container .top-contain .please-login,
-#container .top-contain .please-register,
+#container .top-contain .please-login,
 #container .top-contain .forget-repeat {
   font-weight: normal;
   float: left;
@@ -56,7 +48,7 @@
   box-sizing: border-box;
 }
 
-#container .top-contain a.register,
+#container .top-contain a.login,
 #container .top-contain a.login {
   float: right;
   color: skyblue;
@@ -101,7 +93,7 @@
 }
 
 .form-contain .login-btn,
-.form-contain .register-btn,
+.form-contain .login-btn,
 .form-contain .done-btn {
   width: 100%;
   font-size: 20px;

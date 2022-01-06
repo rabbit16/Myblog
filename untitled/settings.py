@@ -131,7 +131,18 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    "session": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/2",  # 最后一个是数据库信息，有0-15个库，ip也是要改的，默认127.0.0.1，同时要配置端口转发
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        },
 }
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'  # 指定存储的引擎
+SESSION_CACHE_ALIAS = 'session'  # 指定别名
+
 LOGGING = {
     # 版本
     'version': 1,

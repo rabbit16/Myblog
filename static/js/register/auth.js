@@ -1,6 +1,3 @@
-/**
- * Created 蓝羽教学 on 2019/9/12.
- */
 $(function () {
   let $username = $('#user_name');  // 选择id为user_name的网页元素，需要定义一个id为user_name
   let $img = $(".form-item .captcha-graph-img img");  // 获取图像标签

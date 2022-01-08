@@ -87,9 +87,11 @@
 		margin-left: -3rem;
 	}
     b, strong {
-    font-weight: bold;
-    position: relative;
-    top: -9rem;
+		display: none;
+        font-weight: bold;
+		position: relative;
+		/* top: -5rem; */
+		left: 10rem;
 	}
 	.about_content p img {
 		margin: auto;

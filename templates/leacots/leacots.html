@@ -58,7 +58,7 @@
 {#                  </div>#}
                   <div class="text">
                     <p class="tit"><span class="name">{{ comment.name }}</span><span class="data">{{ comment.update_time}}</span></p>
-                    <p class="ct">{{ comment.content }}</p>
+                    <p class="ct">{{ comment.content | safe}}</p>
                   </div>
                 </div>
                   {% endfor %}

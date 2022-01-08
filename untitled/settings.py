@@ -93,6 +93,8 @@ DATABASES = {
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'OPTIONS': {
             'read_default_file': 'utils/dbs/my.cnf',
+            'init_command': 'SET default_storage_engine=INNODB;',
+            'charset': 'utf8mb4'
         }
     }
 }

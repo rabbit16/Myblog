@@ -239,7 +239,7 @@ $(function () {
     }
 
     if (!(/^\w{5,20}$/).test(sUsername)) {
-      message.showError('请输入5-20个字符的用户名');
+      message.showError('请输入5-20个英文字符的用户名');
       return
     }
 

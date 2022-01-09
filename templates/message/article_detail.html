@@ -62,8 +62,30 @@
     <script type="text/javascript" src="{% static 'js/catalog.js' %}"></script>
     <script src="{% static 'js/highlight.min.js' %}"></script>
     <script src="{% static 'js/highlightjs-line-numbers.min.js' %}"></script>
+    <script src="{% static 'js/clipboard.min.js' %}"></script>
     <script>
+        function copyUrl2(obj) {
+            {#var Url2 = document.getElementById("qipa250");#}
+            {#Url2.select(); // 选择对象#}
+            {#this.document.execCommand("Copy"); // 执行浏览器复制命令#}
+            $("#copy").removeAttr('id')
+            $(obj).parents("pre:first").attr('id', 'copy')
+            clipboard = new Clipboard('.button_copy');
+            {#$("#copy").select();#}
+            {#document.execCommand('Copy')#}
+            alert("已复制好，可贴粘。");
+            {#alert($(obj).parents("pre:first").text())#}
+
+        }
         hljs.initHighlightingOnLoad(); // 初始化
         hljs.initLineNumbersOnLoad();
+            $(".codehilite pre").prepend(` <button class="button_copy" onclick="copyUrl2(this)" data-clipboard-action="copy" data-clipboard-target="#copy">复制</> `)
+        $(".codehilite").mouseover(function () {
+            $('.button_copy').css('display', 'block')
+        })
+        $(".codehilite").mouseout(function () {
+            $('.button_copy').css('display', 'none')
+        })
+
     </script>
 {% endblock %}

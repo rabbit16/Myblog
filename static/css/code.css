@@ -124,3 +124,14 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
         margin-left: 3rem;
     }
 }
+.codehilite:hover
+{
+
+}
+
+.button_copy{
+    float: right;
+    display: none;
+    /*position: relative;*/
+    /*margin-top: -78px;*/
+}

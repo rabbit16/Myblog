@@ -4,7 +4,7 @@
 {% block link %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
-{#    <link href="{% static 'css/catalog.css' %}" rel="stylesheet">#}
+    <link href="{% static 'css/catalog.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 
     <link rel="stylesheet" href="{% static "css/auto_meida.css" %}">
@@ -26,7 +26,7 @@
     <div class="container">
     <div class="con_content">
       <div class="about_box">
-{#          <div class="blog-catalog" id="catalog"><span style="color: black;font-size: 20px">目录</span>{{ toc | safe }}</div>#}
+          <div class="blog-catalog" id="catalog"><span style="color: black;font-size: 20px">目录</span>{{ toc | safe }}</div>
         <h2 class="nh1"><span>您现在的位置是：<a href="/article/lists/" target="_self">文章展示</a>>><a href="#" target="_self">{{ article.title }}</a></span><b>{{ article.title }}</b></h2>
         <div class="f_box">
           <p class="a_title"></p>
@@ -59,7 +59,7 @@
   </div>
 {% endblock %}
 {% block script_end %}
-{#    <script type="text/javascript" src="{% static 'js/catalog.js' %}"></script>#}
+    <script type="text/javascript" src="{% static 'js/catalog.js' %}"></script>
     <script src="{% static 'js/highlight.min.js' %}"></script>
     <script src="{% static 'js/highlightjs-line-numbers.min.js' %}"></script>
     <script>

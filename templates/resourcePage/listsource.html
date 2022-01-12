@@ -27,7 +27,12 @@
         <ul>
             {% for resource in resources %}
 {#                <li><a href="javascript:void(0)" onclick="downloadFile('{{ resource.img_url }}', {{ resource.id }}, '{{ resource.title }}', '{{ resource.type }}')" id="{{ resource.id }}"><img src="{{ resource.source }}"><span>{{ resource.title }}</span></a></li>#}
-                <li><a href="{% url 'resource:download' %}?source_id={{ resource.id }}" id="{{ resource.id }}"><img src="{{ resource.source }}"><span>{{ resource.title }}</span></a></li>
+                <li>
+                    <a href="{% url 'resource:download' %}?source_id={{ resource.id }}" id="{{ resource.id }}">
+                        <img src="{{ resource.img_url }}">
+                        <span>{{ resource.title }}</span>
+                    </a>
+                </li>
             {% endfor %}
 
         {% block script_tag %}

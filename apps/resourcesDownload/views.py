@@ -8,6 +8,7 @@ from django.views import View
 from resourcesDownload.models import *
 from django.http import FileResponse, HttpResponse, JsonResponse, StreamingHttpResponse
 from django.core.paginator import Paginator
+from django.utils.http import urlquote
 
 logger = logging.getLogger('django')
 # Create your views here.
@@ -121,5 +122,5 @@ class FileDownload(View):
                 return HttpResponse("该文件不存在哦～")
         # response = FileResponse(downloadFile)
         response = StreamingHttpResponse(file_iterator())
-        response['Content-Disposition'] = 'attachment;filename="{}"'.format(os.path.basename(file))
+        response['Content-Disposition'] = 'attachment;filename="{}"'.format(os.path.basename(urlquote(file)))
         return response

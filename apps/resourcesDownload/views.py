@@ -96,7 +96,7 @@ class FileDownload(View):
     @csrf_exempt
     def get(self, request):
         data_id = request.GET.get("source_id")
-        file = Resource.objects.filter(id=data_id, is_delete=0)[0].title
+        file = Resource.objects.filter(id=data_id, is_delete=0)[0].downloadTitle
         file_path = "media/download/{}".format(file)
         # downloadFile = open(file_path, 'rb')
         if not os.path.isfile("media/download/{}".format(file)):  # 判断下载文件是否存在

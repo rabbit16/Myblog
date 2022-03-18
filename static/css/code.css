@@ -121,7 +121,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
         line-height: 125%;
         overflow-y: auto;
         max-width: 900px;
-        margin-left: 3rem;
+        /*margin-left: 3rem;*/
     }
 }
 .codehilite:hover

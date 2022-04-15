@@ -54,7 +54,10 @@ class ResourcePageShow(View):
 class SpecificResource(View):
 
     def get(self, request, tag_name):
-        resource = Resource.objects.filter(tags__name__in=[tag_name], is_delete=0)
+        # articles = models.Tag.objects.filter(tag_id=tag_id)[0].articles.filter(is_delete=0)[:page_show_num]
+        # resource = Resource.objects.filter(tags__name__in=[tag_name], is_delete=0)
+        resource = Tag.objects.filter(tag_name=tag_name)[0].r_id.filter(is_delete=0)
+        # resource = ResourceAndTag.objects.filter(resource_id__tag__tag_name=tag_name).all()
         page_obj_all = Paginator(resource, page_show_every_page)
         page_go = 0
         if request.GET.get('page_to'):

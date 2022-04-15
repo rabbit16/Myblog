@@ -19,7 +19,7 @@ class Article(ModelBase):
     update_time = models.DateTimeField(verbose_name="创建时间", help_text="创建时间", default=timezone.now)
     is_delete = models.BooleanField(verbose_name="软删除", help_text="软删除", default=0)
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', default="../../media/img/lgd.png", max_length=100)
-    # tag = models.ForeignKey('Tag',on_delete=models.SET_NULL,null=True)
+    # tag = models.ManyToManyField('Tag', default="")
     tags = TaggableManager(blank=True)
     class Meta:
         ordering = ['-update_time', '-id']
@@ -33,7 +33,8 @@ class Article(ModelBase):
 class Tag(models.Model):
     tag_name = models.CharField(verbose_name='标签', help_text='输入标签', max_length=64)
     tag_id = models.IntegerField(verbose_name='标签ID', help_text="标签ID", primary_key=True, auto_created=True)
-    a_id = models.ManyToManyField('Article', through='AuthorAndTag')
+    articles = models.ManyToManyField('Article', through='AuthorAndTag')
+    # articles = models.ManyToManyField('Article')
     img_url = models.CharField(verbose_name='图片路径', help_text='图片路径', max_length=100)
     class Meta:
         verbose_name = '标签'

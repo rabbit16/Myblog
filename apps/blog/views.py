@@ -90,10 +90,13 @@ class ArticleListByTag(View):
 class ArticleListDetailByTag(View):
     @csrf_exempt
     def get(self, request, tag_id):
-        tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name  # 根据标签id获取标签名
+        # tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name  # 根据标签id获取标签名
         # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
-        articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[:page_show_num]  # 从文章中匹配对应的标签文章
-        articles_count = models.Article.objects.filter(tags__name__in=[tag_name]).count()  # 数量
+
+        articles = models.Tag.objects.filter(tag_id=tag_id)[0].articles.filter(is_delete=0)[:page_show_num]
+        # articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[:page_show_num]  # 从文章中匹配对应的标签文章
+        # articles_count = models.Article.objects.filter(tags__name__in=[tag_name]).count()  # 数量
+        articles_count = models.Tag.objects.filter(tag_id=tag_id)[0].articles.count()  # 数量
         page_num = math.ceil(articles_count/page_show_num)  #
         # page_now = 1
         # page_tag_list = [page_now, tag_id]

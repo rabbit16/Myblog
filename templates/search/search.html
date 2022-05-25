@@ -1,6 +1,14 @@
 {% extends 'base/base_article.html' %}
 {% load static %}
 
+{% block link %}
+     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <link href="{% static 'css/article_next_button.css' %}" rel="stylesheet">
+    <link href="{% static 'css/pagelist_detail.css' %}" rel="stylesheet">
+{% endblock %}
+
 
             {% block show_content %}
                 {% for result in page.object_list %}
@@ -16,21 +24,46 @@
                 <p>本次查询结果为空</p>
             {% endfor %}
 
-            {% if page.has_previous or page.has_next %}
-                <div>
-                    {% if page.has_previous %}
-                        <a href="?q={{ query }}&page={{ page.previous_page_number }}">
-                    {% endif %}« Previous
-                    {% if page.has_previous %}
-                        </a>
-                    {% endif %}
-                    |
-                    {% if page.has_next %}
-                        <a href="?q={{ query }}&page={{ page.next_page_number }}">
-                    {% endif %}Next »
-                    {% if page.has_next %}
-                        </a>
-                    {% endif %}
-                </div>
-            {% endif %}
+
+
             {% endblock %}
+{% block next_page %}
+
+    <div class="pagelist">
+
+{#           {% if page.has_previous or page.has_next %}#}
+        <div class="pagelist">
+        页次: {{ page.number }}/{{ paginator.num_pages }}页
+            <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a>
+            每页{{ paginator.per_page }}条
+            总数{{ paginator.count }} <a href="?q={{ query }}&page={{ 1 }}">首页</a>
+            {% if page.has_previous %}
+
+                <a href="?q={{ query }}&page={{ page.previous_page_number }}">
+            {% endif %}上一页
+            {% if page.has_previous %}
+                </a>
+            {% endif %}
+            {% if page.has_next %}
+                <a href="?q={{ query }}&page={{ page.next_page_number }}">
+            {% endif %}下一页
+            {% if page.has_next %}
+                </a>
+            {% endif %}
+
+            <a href="?q={{ query }}&page={{ paginator.num_pages }}">尾页</a>
+        </div>
+{#           {% endif %}#}
+
+        </div>
+    <script type="text/javascript">
+        function goPage() {
+        // 向后端发送请求
+            {#let now_page = $("#now").text()#}
+            {#let final_page = $()#}
+            let to_page = document.getElementById("goToPage").value;
+                {#// "?q={{ query }}&page={{ page.previous_page_number }}"#}
+            $("#go").attr("href", "?q={{ query }}&page="+to_page)
+      }
+    </script>
+{% endblock %}

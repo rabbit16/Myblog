@@ -179,7 +179,8 @@ class MySeachView(SearchView):
     template = 'search/search.html'
     def extra_context(self):       #重载extra_context来添加额外的context内容
         context = super(MySeachView,self).extra_context()
-        side_list = models.Article.objects.filter(is_delete=0)
-        context['test'] = side_list
+        side_list = models.Article.objects.filter(is_delete=0).count()
+        context['number'] = side_list
+        # print(side_list)
         return context
 

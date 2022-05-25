@@ -121,7 +121,7 @@ class ArticleListDetailByTag(View):
         to_page_flag = 0
         tag_name = models.Tag.objects.filter(tag_id=tag_id)[0].tag_name
         # tag_name = [i for i in jieba.cut(tag_name, cut_all=True)][-1]
-        all_num = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0).count()
+        all_num = models.Article.objects.filter(tag__tag_name=tag_name, is_delete=0).count()
         page_all = math.ceil(all_num / page_show_num)
         page_num = json.loads(request.body)
         page_num = int(page_num['page_num']) + 1
@@ -141,9 +141,9 @@ class ArticleListDetailByTag(View):
         if final_page_flag:
             page_num = page_all
         try:
-            articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[(page_num - 1) * page_show_num: page_num * page_show_num]
+            articles = models.Article.objects.filter(tag__tag_name=tag_name, is_delete=0)[(page_num - 1) * page_show_num: page_num * page_show_num]
         except:
-            articles = models.Article.objects.filter(tags__name__in=[tag_name], is_delete=0)[(page_num - 1) * page_show_num:]
+            articles = models.Article.objects.filter(tag__tag_name=tag_name, is_delete=0)[(page_num - 1) * page_show_num:]
         articles = self.convert_to_dicts(articles)
         # json_data = serializers.serialize("json", MyModel.objects.all())
         articles_dict = {

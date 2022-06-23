@@ -9,7 +9,6 @@
     <link href="{% static 'css/pagelist_detail.css' %}" rel="stylesheet">
 {% endblock %}
 
-
             {% block show_content %}
                 {% for result in page.object_list %}
 {#                    {% highlight result.object.title with query html_tag "h3" css_class "results" %}#}
@@ -33,6 +32,7 @@
 
 {#           {% if page.has_previous or page.has_next %}#}
         <div class="pagelist">
+
         页次: {{ page.number }}/{{ paginator.num_pages }}页
             <input id="goToPage" class="jump" type="text"><a href="javascript:void(0)" onclick="goPage()" id="go" onkeydown="goPage()">点击跳转</a>
             每页{{ paginator.per_page }}条

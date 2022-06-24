@@ -1,0 +1,13 @@
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0002_D.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0001_W.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0046_5.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0003_V.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0059_G.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0003_E.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0066_6.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0003_F.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0003_9.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0050_R.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0047_J.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0035_E.jpg
+/Users/jianghaoliang/Desktop/jiangpersonal/yolo_capture/yolov5/VOCData/images/0033_A.jpg

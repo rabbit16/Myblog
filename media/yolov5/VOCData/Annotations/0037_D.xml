@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>0037_D.jpg</filename>
+	<path>/Users/jianghaoliang/Desktop/jiangpersonal/知识管理/yolo_capture/yolov5/VOCData/images/0037_D.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>208</width>
+		<height>318</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>D</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>4</ymin>
+			<xmax>208</xmax>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+</annotation>

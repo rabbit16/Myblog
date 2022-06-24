@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>0004_I.jpg</filename>
+	<path>/Users/jianghaoliang/Desktop/jiangpersonal/知识管理/yolo_capture/yolov5/VOCData/images/0004_I.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>112</width>
+		<height>152</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>I</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>112</xmax>
+			<ymax>152</ymax>
+		</bndbox>
+	</object>
+</annotation>

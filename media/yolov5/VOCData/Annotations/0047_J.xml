@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>0047_J.jpg</filename>
+	<path>/Users/jianghaoliang/Desktop/jiangpersonal/知识管理/yolo_capture/yolov5/VOCData/images/0047_J.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>90</width>
+		<height>162</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>J</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>84</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+</annotation>

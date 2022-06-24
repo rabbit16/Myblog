@@ -91,7 +91,7 @@ class SpecificResource(View):
                 "now_page": page_go,
                 'resources': page_obj_all.get_page(page_go),
                 "page_num": page_obj_all.num_pages,
-                "all_num": resource.count(),
+                "all_num": len(resource_list),
                 "page_every_show": page_show_every_page,
                 "tag_name": tag_name,
                 "now_location": tag_name

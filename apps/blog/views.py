@@ -1,20 +1,21 @@
 import json
 import math
 import logging
+import os
 
-import jieba
-from django.core import serializers
-from django.http import JsonResponse, HttpResponse
+from django.http import JsonResponse
 from django.core.paginator import Paginator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
 from haystack.views import SearchView
 from markdown.extensions.toc import TocExtension, slugify
-
+from utils.yolov5.detect import parse_opt, main
 from blog import models
 import markdown
-from django.views.decorators.csrf import csrf_protect
+import sys
+# sys.path.insert(0, '../yolo')
+from base64 import b64decode
 
 # Create your views here.
 page_show_num = 3
@@ -183,4 +184,33 @@ class MySeachView(SearchView):
         context['number'] = side_list
         # print(side_list)
         return context
+
+# @csrf_exempt
+# class DetectPic(View):
+#
+#     @csrf_exempt
+#     def post(self, request):
+#         content = request.POST
+#         a = 1
+#         pass
+
+
+@csrf_exempt
+def capture(request):
+    content = request.POST
+    content = dict(content)
+    name, contents = list(content.items())[0]
+    # a = 1
+    with open("media/data/images/{}".format(name), 'wb') as f:
+        f.write(b64decode(contents[0]))
+    # opt = parse_opt("media/data/images/{}".format(name))
+    # opt = parse_opt(img_path="media/data/images/{}".format(name))
+    # code = main(opt)
+    cmd = r"python media/yolov5/detect.py --source media/data/images/{}".format(name)
+    code = os.popen(cmd).readlines()[-1]
+    # print(text)
+    # pass
+    return JsonResponse({
+        "code": code.strip()
+    })
 

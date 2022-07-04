@@ -2,6 +2,8 @@ import json
 import math
 import logging
 import os
+import threading
+import time
 
 from django.http import JsonResponse
 from django.core.paginator import Paginator
@@ -10,18 +12,39 @@ from django.shortcuts import render
 from django.views import View
 from haystack.views import SearchView
 from markdown.extensions.toc import TocExtension, slugify
-from utils.yolov5.detect import parse_opt, main
+# from utils.yolov5.detect import parse_opt, main
 from blog import models
+from blog.models import threadMonitor, thread_yolo
 import markdown
+from PIL import Image
 import sys
 # sys.path.insert(0, '../yolo')
 from base64 import b64decode
 
 # Create your views here.
+from utils.res_code import to_json_data
+
 page_show_num = 3
 tag_show_num = 8
+cancle_queue = []
+capture_monitor = 0
+code_list = ["can_detect"] * thread_yolo.objects.first().thread_max
+
 
 logger = logging.getLogger('django')
+
+def code_list_reset():
+    global code_list
+    while True:
+        code_list = ["can_detect"] * thread_yolo.objects.first().thread_max
+        # print("我开始了")
+        time.sleep(10)
+
+t = threading.Thread(target=code_list_reset)
+t.setDaemon(True)
+t.start()
+
+
 class ContextShow(View):
     def get(self, request):
         articles = models.Article.objects.filter(is_delete=0)
@@ -194,23 +217,126 @@ class MySeachView(SearchView):
 #         a = 1
 #         pass
 
+@csrf_exempt
+def capture_wait(request):
+    global capture_monitor, code_list
+    if request.method == "POST":
+        thread_max = thread_yolo.objects.first().thread_max
+        thread_num = thread_yolo.objects.first().thread_num_now
+
+        if thread_num > thread_max:
+                return JsonResponse({
+                "status": "wait",
+                "thread_num": thread_num
+            })
+        else:
+            if len(code_list) > 0:
+                code = code_list.pop()
+            else:
+                code = "no"
+            return JsonResponse({
+                "status": "go",
+                "code": code
+            })
+
 
 @csrf_exempt
 def capture(request):
+    global capture_monitor
+    if request.method == "GET":
+        all_objects = threadMonitor.objects.all()
+        return render(request, "threadMonitor/tables.html", context={
+            "all_objects": all_objects
+        })
+    thread_obj = thread_yolo.objects.first()
+    thread = thread_yolo.objects.first().thread_num_now
+    # thread_max = thread_yolo.objects.first().thread_max
+    if thread < thread_obj.thread_max:
+        thread += 1
     content = request.POST
     content = dict(content)
     name, contents = list(content.items())[0]
+    thread_obj.thread_num_now = thread
+    thread_obj.save()
     # a = 1
     with open("media/data/images/{}".format(name), 'wb') as f:
         f.write(b64decode(contents[0]))
-    # opt = parse_opt("media/data/images/{}".format(name))
-    # opt = parse_opt(img_path="media/data/images/{}".format(name))
-    # code = main(opt)
     cmd = r"python media/yolov5/detect.py --source media/data/images/{}".format(name)
     code = os.popen(cmd).readlines()[-1]
-    # print(text)
-    # pass
+    thread -= 1
+    thread_obj.thread_num_now = thread
+    thread_obj.save()
+    if len(code_list) < thread_obj.thread_max:
+        code_list.append("can_detect")
+    # d = dict(thread_num_now=thread, thread_max=thread_max)
+    # thread_yolo.objects.update_or_create(**d)
+
     return JsonResponse({
         "code": code.strip()
     })
 
+@csrf_exempt
+def monitor_thread(request):
+    global cancle_queue
+    content = request.POST
+    client_IP = request.META['REMOTE_ADDR']  # 获取客户端的IP地址
+    is_exist = threadMonitor.objects.filter(ip_addr=client_IP).first()
+    content = dict(content)
+    name, thread_num = list(content.items())[0]
+    try:
+        if int(content[0]):
+            if client_IP in cancle_queue:
+                cancle_queue.remove(client_IP)
+                return JsonResponse({"code": "yes"})
+            else:
+                return JsonResponse({"code": "no"})
+    except:
+        pass
+    if not is_exist:
+        client = threadMonitor.objects.create(ip_addr=client_IP, thread_num=int(thread_num[0]))
+        client.save()
+    return to_json_data(data={
+        "code": 200
+    })
+
+@csrf_exempt
+def cancel_program(request):
+    global cancle_queue
+    if request.method == "POST":
+        content = json.loads(request.body)
+        IP = content["IP"]
+        threadMonitor.objects.filter(ip_addr=IP).first().delete()
+        cancle_queue.append(IP)
+        return to_json_data(errmsg="成功", errno="0")
+
+
+    if request.method == "GET":
+        IP = request.META["REMOTE_ADDR"]
+        if IP in cancle_queue:
+            return JsonResponse({
+                "code": "yes"
+            })
+        else:
+            return JsonResponse({
+                "code": "no"
+            })
+
+# @csrf_exempt
+# def capture(request):
+#     content = request.POST
+#     content = dict(content)
+#     name, contents = list(content.items())[0]
+#     # a = 1
+#     with open("media/data/images/{}".format(name), 'wb') as f:
+#         # f.write(contents[0].encode())
+#         f.write(contents[0].encode())
+#     # opt = parse_opt("media/data/images/{}".format(name))
+#     # opt = parse_opt(img_path="media/data/images/{}".format(name))
+#     # code = main(opt)
+#     cmd = r"python media/yolov5/detect.py --source media/data/images/{}".format(name)
+#     code = os.popen(cmd).readlines()[-1]
+#     # print(text)
+#     # pass
+#     return JsonResponse({
+#         "code": code.strip()
+#     })

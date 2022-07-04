@@ -80,6 +80,23 @@ class AuthorAndTag(models.Model):
 #         }
 #         return comment_dict
 
+class threadMonitor(models.Model):
+    ip_addr = models.GenericIPAddressField(help_text="IP地址", verbose_name="IP地址", primary_key=True, max_length=64)
+    thread_num = models.IntegerField(help_text="线程数量", verbose_name="线程数量")
+
+    class Meta:
+        db_table = "tb_thread_capt"
+        verbose_name = "客户端线程管理"  # 在admin站点中显示的名称
+        verbose_name_plural = verbose_name  # 显示的复数名称
+
+class thread_yolo(models.Model):
+    thread_num_now = models.IntegerField(verbose_name="正在运行的线程数", help_text="正在运行的线程数")
+    thread_max = models.IntegerField(verbose_name="最大运行个数", help_text="最大运行个数", primary_key=True)
+    class Meta:
+        verbose_name = "线程数"
+        db_table = "tb_thread_num"
+        verbose_name_plural = verbose_name+"s"
+
 
 
 
